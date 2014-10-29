@@ -4,6 +4,8 @@ Voyons d'abord comment faire depuis l'application web. Dans le menu, vous avez u
 
 Validez et le contenu de l'article est enregistré. 
 
+Par défaut, seul le texte est sauvegardé. Si vous souhaitez également conserver une copie des images sur votre serveur, il faut activer le paramètre `DOWNLOAD_PICTURES`. Lisez le chapitre [Les options cachées](http://doc.wallabag.org/fr/Les_options_cach%C3%A9es) pour en savoir plus.
+
 ## Depuis le bookmarklet
 
 [Définition Wikipedia](http://fr.wikipedia.org/wiki/Bookmarklet)
