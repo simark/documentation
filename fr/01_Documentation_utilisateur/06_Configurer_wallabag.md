@@ -1,6 +1,6 @@
 Depuis le menu **configuration**, vous avez la possibilité de changer quelques options de wallabag. 
 
-Certaines parties ne seront pas présentées ici car elles bénéficient d'un chapitre complet dans la documentation ([flux RSS](http://doc.wallabag.org/fr/Flux_RSS), [l'import depuis un service tiers](http://doc.wallabag.org/fr/Importer_:_Exporter), [l'export de vos données](http://doc.wallabag.org/fr/Importer_:_Exporter), [la conversion en ePub](http://doc.wallabag.org/fr/Convertir_en_ePub) et [le mode multi-utilisateurs](http://doc.wallabag.org/fr/Multi-utilisateurs)). 
+Certaines parties ne seront pas présentées ici car elles bénéficient d'un chapitre complet dans la documentation ([flux RSS](http://doc.wallabag.org/fr/Documentation_utilisateur/Flux_RSS), [l'import depuis un service tiers](http://doc.wallabag.org/fr/Documentation_utilisateur/Importer_:_Exporter), [l'export de vos données](http://doc.wallabag.org/fr/Documentation_utilisateur/Importer_:_Exporter), [la conversion en ePub](http://doc.wallabag.org/fr/Documentation_utilisateur/Convertir_en_ePub) et [le mode multi-utilisateurs](http://doc.wallabag.org/fr/Documentation_utilisateur/Multi-utilisateurs)). 
 ## Thème
 Des goûts et des couleurs, on ne discute pas. C'est pourquoi wallabag vous propose de changer son habillage pour plaire à chacun.  
 Sélectionnez le thème de votre choix dans la liste déroulante et validez en cliquant sur **Mettre à jour**.
