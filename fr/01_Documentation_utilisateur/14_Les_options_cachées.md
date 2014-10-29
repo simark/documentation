@@ -24,7 +24,7 @@ Listons maintenant les différents paramètres que vous pouvez changer :
 * `SHARE_MAIL` (par défaut, `TRUE`) : permet d'activer le partage par email. Valeurs attendues : `TRUE` ou `FALSE`.
 * `SHARE_SHAARLI` (par défaut, `FALSE`) : permet d'activer le partage vers votre installation de Shaarli (gestionnaire de favoris). Valeurs attendues : `TRUE` ou `FALSE`.
 * `SHAARLI_URL` (par défaut, `'http://myshaarliurl.com'`) : définit l'URL de votre installation de Shaarli. Valeur attendue : une URL. 
-* `FLATTR` (par défaut, `TRUE`) : permet d'activer la possibilité de flattrer un article (TODO lien vers Flattr). Si un article est flattrable, une icône s'affichera et vous permet d'envoyer un micro-don à l'auteur de l'article. Valeurs attendues : `TRUE` ou `FALSE`.
+* `FLATTR` (par défaut, `TRUE`) : permet d'activer la possibilité de flattrer un article ([Flattr est une plateforme de micro-dons](http://fr.wikipedia.org/wiki/Flattr)). Si un article est flattrable, une icône s'affichera et vous permet d'envoyer un micro-don à l'auteur de l'article. Valeurs attendues : `TRUE` ou `FALSE`.
 * `SHOW_PRINTLINK` (par défaut, `'1'`) : permet d'afficher le lien pour imprimer un article. Valeurs attendues : `'0'` pour désactiver ou `'1'` pour activer.
 * `SHOW_READPERCENT` (par défaut, `'1'`) : permet d'afficher (sur les thèmes `default`, `dark`, `dmagenta`, `solarized`, `solarized-dark`) le pourcentage de lecture de l'article. Valeurs attendues : `'0'` pour désactiver ou `'1'` pour activer.
 * `PAGINATION` (par défaut, `'12'`) : définit le nombre d'articles affichés sur une liste. Valeur attendue : un nombre. 

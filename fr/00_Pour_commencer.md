@@ -1,7 +1,6 @@
 **wallabag** est une application de lecture différée : elle permet simplement d'archiver une page web en ne conservant que le contenu. Les éléments superflus (menu, publicité, etc.) sont supprimés. 
 
 ## Fonctionnalités
-**TODO CORRIGER TOUS LES LIENS OMG**
 * tout le contenu est archivé : le texte et les photos
 * l'application web est entièrement responsive
 * vous pouvez [convertir vos articles au format ePub](http://doc.wallabag.org/fr/Documentation_utilisateur/Convertir_en_ePub) pour les charger sur votre liseuse
