@@ -11,7 +11,7 @@ Dans ce fichier sont définis des paramètres qui ne sont, aujourd'hui, pas enco
 
 Chaque paramètre est défini de cette façon : 
 
-    @define ('NOM_DU_PARAMETRE', 'Valeur du paramètre);
+    @define ('NOM_DU_PARAMETRE', 'Valeur du paramètre');
     
 Pour chaque ligne, vous ne pouvez modifier que la partie `Valeur du paramètre`. 
 
