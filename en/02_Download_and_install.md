@@ -1,7 +1,7 @@
-## I don't want to install Wallabag
+## I don't want to install wallabag
 If you can't or don't want to install Wallabag on your server, we suggest you create a free account on Framabag wich uses our software: read the complete documentation here (TODO write Create a framabag account).
 
-## I want to install Wallabag
+## I want to install wallabag
  
 [Download the latest wallabag version](http://www.wallabag.org/download) and unpack it. Copy the files on your web server.
 
