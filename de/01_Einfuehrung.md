@@ -1,18 +1,18 @@
-**wallabag** is a read-it-later application: it saves a web page by keeping content only. Elements like navigation or ads are deleted.
+**wallabag** ist eine Read-it-later Anwendung: sie speichert Webseiten, indem sie lediglich die Inhalte behält. Elemente wie Navigations-Links und Werbung werden entfernt.
 
-## Features
-* content of the web page is saved: text and pictures. 
-* the web application is responsive
-* you can export articles into ePub
-* you can read your articles offline thanks to smartphones applications
-* you can easily save a new link thanks to browser addons
-* many templates are available to change your wallabag as you wish
-* and many others great features ! 
+## Funktionen
+* Inhalte der Webseiten werden gespeichert: Texte und Bilder. 
+* die Webanwendung passt sich dem benutzten Anzeigegerät (Smartphone, PC, ... ) an
+* Artikel können als ePub exportiert werden
+* dank Smartphone-Apps können Artikel offline gelesen werden
+* dank Browser-Addons können neue Links schnell hinzugefügt werden
+* viele Templates sind zur individuellen Anpassung des Erscheinungsbild von wallabag verfügbar
+* und viele weitere großartige Funktionen! 
 
-This user documentation is here to learn to you what you can do with wallabag.
+Diese Anwenderdokumentation soll zeigen, wie man wallabag nutzen kann.
 
 ## Demonstration
-If you want to try all wallabag features, there is a demonstration website: [http://demo.wallabag.org](http://demo.wallabag.org)
+Wenn du alle wallabag-Funktionen ausprobieren möchtest, kannst du diese Demonstrations-Webseite nutzen:  [http://demo.wallabag.org](http://demo.wallabag.org)
 
-## Create an account
-Maybe you don't want to install and update wallabag by yourself, or you can't do it, it's possible to create a free account on [Framabag.org](https://www.framabag.org). Just your email is needed.
+## Ein Benutzerkonto erstellen
+Wenn du wallabag nicht selbst installieren möchtest oder kannst, kannst du stattdessen ein kostenloses Benutzerkonto auf [Framabag.org](https://www.framabag.org) ersetellen. Dazu brauchst du nur eine gültige E-Mail-Adresse.
