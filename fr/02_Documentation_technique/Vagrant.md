@@ -1,8 +1,10 @@
+Pour vous permettre de mettre en place rapidement la configuration requise pour wallabag, nous vous proposons un fichier Vagrantfile.
+
 [Définition Wikipedia](http://fr.wikipedia.org/wiki/Vagrant)
 
     Vagrant est un logiciel libre et open-source pour la création et la configuration des environnements de développement virtuel. Il peut être considéré comme un wrapper autour du logiciel de virtualisation comme VirtualBox.
     
-Pour vous permettre de mettre en place rapidement la configuration requise pour wallabag, nous vous proposons un fichier Vagrantfile.
+## Utiliser Vagrant pour wallabag
 
 Voici la procédure pour exécuter wallabag au sein d'un conteneur Vagrant : 
 
@@ -12,3 +14,11 @@ Voici la procédure pour exécuter wallabag au sein d'un conteneur Vagrant :
     vagrant up
 
 Accédez maintenant à `http://localhost:8003` et à vous de jouer !
+
+## Qu'a installé le Vagrantfile ?
+Le script installe un serveur LAMP, à savoir : 
+* Ubuntu 14.04
+* Un serveur web Apache2
+* PHP5
+* SQLite pour PHP
+* XDebug pour PHP
