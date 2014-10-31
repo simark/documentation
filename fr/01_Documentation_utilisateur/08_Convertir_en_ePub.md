@@ -1,8 +1,8 @@
-Pour que vous puissiez lire vos articles sauvegardés depuis votre liseuse, wallabag vous permet de les convertir au format ePub et ainsi vous créer un eBook pour vos soirées d'hiver.
+Pour que vous puissiez lire vos articles sauvegardés depuis votre liseuse, wallabag vous permet de les convertir au format ePub et ainsi vous créer un eBook pour vos longues soirées d'hiver.
 
 ## Mise en garde
-Attention, la génération de fichiers ePub peut être consommatrice de ressources pour wallabag. Cela dépend du nombre d'articles et de leur longueur.  
-Ne générez pas un eBook trop important si ça n'est pas nécessaire.
+Attention, la génération de fichiers ePub peut être très consommatrice de ressources pour le serveur sur lequel est installé wallabag. Cela dépend du nombre d'articles et de leur longueur.  
+Ne générez pas un eBook trop important si cela n'est pas nécessaire.
 
 ## Où convertir les articles
 
