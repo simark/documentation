@@ -10,3 +10,11 @@
 * et forcément plein d'autres fonctionnalités ! 
 
 Cette documentation est justement là pour faire découvrir toutes les possibilités de wallabag. C'est parti !
+
+## Licence 
+
+wallabag et tous ses projets connexes (dont cette documentation) sont sous licence MIT.
+
+*Copyright © 2013-2014 Nicolas Lœuillet nicolas@loeuillet.org
+This work is free. You can redistribute it and/or modify it under the terms of the MIT License.
+See the [COPYING file](https://github.com/wallabag/wallabag/blob/master/COPYING.md) for more details.*
