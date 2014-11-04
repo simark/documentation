@@ -20,5 +20,5 @@ Le script installe un serveur LAMP, à savoir :
 * Ubuntu 14.04
 * Un serveur web Apache2
 * PHP5
-* SQLite pour PHP
+* SQLite ou MySQL ou PostgreSQL pour PHP
 * XDebug pour PHP

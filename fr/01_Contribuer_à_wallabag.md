@@ -28,7 +28,7 @@ Deux possibilités :
 * lorsqu'un utilisateur de wallabag pose une nouvelle question [sur le site de support](http://support.wallabag.org), en tant qu'utilisateur avancé de wallabag, vous pouvez lui répondre. 
 * sur Github, des tickets correspondent sûrement à vos compétences. [Parcourez la liste des tickets](https://github.com/wallabag/wallabag/issues) et servez-vous. 
 
-Si vous souhaitez proposer une modification dans le code de wallabagn, vous êtes le bienvenu. [N'oubliez pas de lire les recommandations pour proposer vos modifications](https://github.com/wallabag/wallabag/blob/master/CONTRIBUTING.md).
+Si vous souhaitez proposer une modification dans le code de wallabag, vous êtes le bienvenu. [N'oubliez pas de lire les recommandations pour proposer vos modifications](https://github.com/wallabag/wallabag/blob/master/CONTRIBUTING.md).
 ## Communiquer
 Rien de compliqué ici, parlez de wallabag autour de vous. Utilisez le mot-clé #wallabag sur tous vos réseaux sociaux préférés : twitter, Facebook, Diaspora*, Google+, etc. 
 
