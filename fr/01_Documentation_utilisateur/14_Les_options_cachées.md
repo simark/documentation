@@ -3,7 +3,7 @@
 **Toute erreur lors d'une modification d'un fichier de wallabag pourra entrainer des dysfonctionnements**.
 
 Ce fichier est créé lorsque vous installez wallabag.  
-Installez donc d'abord wallabag, faites une copie du fichier et ouvrez-le avec votre éditeur de texte préféré.
+Installez donc d'abord wallabag, faites une copie du fichier et ouvrez-le avec ~~Sublime Text~~ votre éditeur de texte préféré.
 
 Dans ce fichier sont définis des paramètres qui ne sont, aujourd'hui, pas encore disponibles dans la page **Configuration** de wallabag. 
 
