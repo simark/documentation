@@ -32,7 +32,7 @@ Your web server needs a writing access in `assets`, `cache` and `db` directory. 
 ## Installation of wallabag. At last.
 Access to wallabag from your web browser. If your server is correctly configured, you reach the setup screen.  
 
-Fill your database type (`sqlite`, `mysql` ou `postgresql`) and finally the information for your user account.
+Fill your database type (`sqlite`, `mysql` or `postgresql`) and finally the information for your user account.
 
 wallabag is now installed. 
 
