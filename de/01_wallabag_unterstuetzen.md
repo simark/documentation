@@ -8,7 +8,7 @@ TODO
 ## Fehler beheben
 TODO
 ## Weitersagen
-Es ist garnicht schwer: sprich einfach üner wallabag! Benutze den #wallabag-Hashtag in sozialen Netzwerken: twitter, Facebook, Diaspora*, Google+, etc.
+Es ist gar nicht schwer: sprich einfach über wallabag! Benutze den #wallabag-Hashtag in sozialen Netzwerken: twitter, Facebook, Diaspora*, Google+, etc.
 
 wallabag in sozialen Netzwerken: 
 * [Diaspora*](https://framasphere.org/people/2335ff202f920132196e2a0000053625)
