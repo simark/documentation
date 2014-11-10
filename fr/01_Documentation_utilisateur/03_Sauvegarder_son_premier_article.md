@@ -4,7 +4,7 @@ Voyons d'abord comment faire depuis l'application web. Dans le menu, vous avez u
 
 Validez et le contenu de l'article est enregistré. 
 
-Par défaut, seul le texte est sauvegardé. Si vous souhaitez également conserver une copie des images sur votre serveur, il faut activer le paramètre `DOWNLOAD_PICTURES`. Lisez le chapitre [Les options cachées](http://doc.wallabag.org/fr/Documentation_utilisateur/Les_options_cach%C3%A9es) pour en savoir plus.
+Par défaut, seul le texte est sauvegardé. Si vous souhaitez également conserver une copie des images sur votre serveur, il faut activer le paramètre `DOWNLOAD_PICTURES`. Lisez le chapitre [Les options cachées](/fr/Documentation_utilisateur/Les_options_cach%C3%A9es) pour en savoir plus.
 
 ## Depuis le bookmarklet
 
@@ -22,7 +22,7 @@ Dorénavant, lorsque vous souhaitez sauvegarder un article sur lequel vous êtes
 
 ### Avant toute chose
 
-Pour pouvoir utiliser une application smartphone, vous devez activer les flux RSS depuis la partie **configuration** de wallabag. Certaines informations seront ainsi affichées, comme votre **token** (jeton de sécurité). Lisez le chapitre [Flux RSS](http://doc.wallabag.org/fr/Documentation_utilisateur/Flux_RSS) pour en savoir plus. 
+Pour pouvoir utiliser une application smartphone, vous devez activer les flux RSS depuis la partie **configuration** de wallabag. Certaines informations seront ainsi affichées, comme votre **token** (jeton de sécurité). Lisez le chapitre [Flux RSS](/fr/Documentation_utilisateur/Flux_RSS) pour en savoir plus. 
 
 ### Android
 

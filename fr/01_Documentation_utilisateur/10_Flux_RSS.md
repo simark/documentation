@@ -20,4 +20,4 @@ Attention, lorsque vous lirez un article depuis votre lecteur de flux, ça ne le
 Si vous souhaitez partager vos lectures avec quelqu'un, envoyez-lui par exemple le flux RSS de vos articles préférés. Ainsi, dès qu'un article sera mis en favori dans wallabag, cette personne pourra également le lire. 
 
 ## Activer les fonctionnalités pour smartphones
-Vous avez créé le jeton de flux RSS : il va vous être utile pour configurer votre application smartphone. Pour en savoir sur les applications smartphones, vous pouvez lire [Sauvegarder son premier article](http://doc.wallabag.org/fr/Documentation_utilisateur/Sauvegarder_son_premier_article). 
+Vous avez créé le jeton de flux RSS : il va vous être utile pour configurer votre application smartphone. Pour en savoir sur les applications smartphones, vous pouvez lire [Sauvegarder son premier article](/fr/Documentation_utilisateur/Sauvegarder_son_premier_article). 

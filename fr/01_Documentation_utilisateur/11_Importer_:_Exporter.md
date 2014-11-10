@@ -2,17 +2,28 @@
 Pour importer des données dans wallabag, vous devez vous rendre dans la page **Configuration**. 
 
 ### Mise en garde
-L'import de données peut être une **opération gourmande** pour votre serveur.
+L'import de données peut être une **opération gourmande** pour votre serveur. C'est pourquoi elle s'effectue en deux étapes : 
+* l'insertion des URL dans la base de données de wallabag
+* dans un second temps, la récupération, pour chaque article, du contenu complet
+
+Ces deux actions ne peuvent pas être effectuées simultanément, car nous vous donnons la possibilité d'importer des milliers de liens, mais aujourd'hui, wallabag n'a pas les possibilités techniques nécessaires pour effectuer tout ce travail automatiquement.
 
 ### Depuis Pocket
+#### Exporter ses données depuis Pocket
+Depuis votre compte Pocket, rendez-vous dans vos options. 
 TODO
-
+#### Importer ses données Pocket
+TODO
 ### Depuis Instapaper
+#### Exporter ses données depuis Instapaper
 TODO
-
+#### Importer ses données Instapaper
+TODO
 ### Depuis Readability
+#### Exporter ses données depuis Readability
 TODO
-
+#### Importer ses données Readability
+TODO
 ### Depuis wallabag
 Puisque vous pouvez exporter vos données de wallabag (lire ci-dessous), il est évidemment possible de les réimporter. 
 
