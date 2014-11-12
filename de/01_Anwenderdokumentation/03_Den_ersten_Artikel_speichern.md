@@ -1,6 +1,6 @@
 Einmal angemeldet, gibt es viele Möglichkeiten, Artikel zu speichern.
 ## In der Webanwendung
-
+Klicke in derMenüleiste auf den Eintrag "Speichere einen Link", gib in das erscheinende Popup-Fenster den Link ein und klicke auf "Link speichern!".
 ## Mit dem Bookmarklet
 
 [Aus Wikipedia](https://de.wikipedia.org/wiki/Bookmarklet)
