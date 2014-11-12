@@ -6,22 +6,22 @@ Einige Punkte der Konfigurationsseite werden hier nicht beschrieben, da für die
 
 ##Themes
 
-Über Geschmäck lässt sich nicht streiten. Deshalb lässt dir wallabag die Wahl zwischen verschiedenen Themes, um das Aussahen deinem Geschmack anzupassen.
+Über Geschmack lässt sich nicht streiten. Deshalb lässt dir wallabag die Wahl zwischen verschiedenen Themes, um das Aussahen deinem Geschmack anzupassen.
 
-Select the theme of your choice from the drop down list and confirm by clicking on **Update**.
+Wähle ein Theme aus der Auwahlliste und bestätige die Änderung durch einen Klick auf **Aktualisieren**.
 
-##Language
+##Sprache
 
-Select the language of your choice in the drop down list and confirm by clicking on **Update**
-.
-##Password
+Wähle die Sprache deiner Wahl in der Auswahlliste und bestätige die Änderung durch Klick auf **Aktualisieren**.
 
-Fill in your new password in the two dedicated fields and confirm by clicking on **Update**.
+##Passwort
 
-You will be disconnected and need to enter your new password to access your wallabag.
+Um dein Passwort zu ändern, gib es in die zwei vorgesehenen Felder ein und bestätige die Änderung durch Klick auf **Aktualisieren**.
 
-##Clear the cache
+Du wirst abgemeldet und musst für eine erneute Anmeldung dein neues Passwort nutzen.
 
-The cache allows wallabag perform certain functions faster.
+##Den Cache leeren
 
-After updating wallabag, it is advised to clear the cache. You only have to click to do so.
+Mit Hilfe des Caches kann wallabag einige Aufgaben schneller erledigen.
+
+Nach einem Update von wallabag sollte der Cache geleert werden. Klicke dazu auf den entsprechendenLink.
