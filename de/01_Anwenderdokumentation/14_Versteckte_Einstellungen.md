@@ -15,10 +15,7 @@ Es darf in jeder Zeile ausschließlich `Parameter-Wert` geändert werden.
 Ändere keine anderen in der Datei angegebenen Parameter!
 
 Änderbare Parameter: 
-<<<<<<< HEAD
 
-=======
->>>>>>> f45a408a60584e1d9cf17ed828c0384665e84491
 |PARAMETER_NAME|Standardwert|Beschreibung|erwarteter Wert|
 |---|---|---|:---:|
 `HTTP_PORT`         | `80`| entspricht dem HTTP-Port auf deinem Webserver. Nur ändern, wenn sich dein Web-Server hinter einem Proxy befindet. | ganze Zahl|
