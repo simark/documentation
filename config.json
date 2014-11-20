@@ -22,6 +22,6 @@
         "files": [".gitignore"],
         "folders": [".git"]
     },
-    "languages": { "en": "English", "fr": "Fran&ccedil;ais", "de": "Deutsch", "ru": "русский" },
+    "languages": { "en": "English", "fr": "Fran&ccedil;ais", "de": "Deutsch" },
     "timezone": "Europe/Paris"
 }
