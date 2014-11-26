@@ -8,7 +8,10 @@ Each translation is contained in a folder, with sub-folders. For example, for en
     | 01_User_documentation
     --| a file per feature
     --| ...
-    | 02_Technical_documentation
+    | 02_Administrator_documentation
+    --| a file per feature
+    --| ...
+    | 03_Developer_documentation
     --| a file per feature
     --| ...
     | 00_Getting_started.md: a presentation of wallabag
