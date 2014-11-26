@@ -10,7 +10,7 @@ Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de v
     unzip latest
     mv wallabag-version-number wallabag
 
-Copiez les fichiers sur votre serveur web. Dans le cas d'Apache2, il s'agit de /var/www/html/ :
+Copiez les fichiers sur votre serveur web. Dans le cas d'Ubuntu/Debian, il s'agit de /var/www/html/ :
 
     sudo mv wallabag /var/www/html/
 	
@@ -25,13 +25,13 @@ Copiez les fichiers sur votre serveur web. Dans le cas d'Apache2, il s'agit de /
 * [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 * [gettext](http://php.net/manual/en/book.gettext.php)
 
-Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez exécuter le fichier `wallabag_compatibility_test.php` qui se trouve dans le répertoire `install` de wallabag : dans votre navigateur, accédez à http://votreserveur.com/wallabag/install/wallabag_compatibility_test.php et installez les composants requis. Par exemple pour Tidy :
+Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez exécuter le fichier `wallabag_compatibility_test.php` qui se trouve dans le répertoire `install` de wallabag : dans votre navigateur, accédez à http://votreserveur.com/wallabag/install/wallabag_compatibility_test.php et installez les composants requis. Par exemple pour Tidy sur Ubuntu/Debian :
 
     sudo apt-get install php5-tidy
     sudo service apache2 reload
 
 ### Installation des dépendances
-Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Dans votre dossier wallabag, exécutez les deux commandes suivantes :
+Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Dans votre dossier wallabag, exécutez les deux commandes suivantes (toujours dans le cas d'Ubuntu/Debian) :
 
     cd /var/www/html/wallabag/
     curl -s http://getcomposer.org/installer | php
@@ -48,7 +48,7 @@ wallabag peut s'installer sur différents types de bases de données (`sqlite`, 
     mysql> exit
 
 ### Permissions
-Le serveur web doit avoir accès en écriture aux répertoires `assets`, `cache` et `db`. Sans cela, un message vous indiquera que l'installation est impossible. 
+Le serveur web doit avoir accès en écriture aux répertoires `assets`, `cache` et `db`. Sans cela, un message vous indiquera que l'installation est impossible :
 
     sudo chown -R www-data:www-data /var/www/html/wallabag
 
