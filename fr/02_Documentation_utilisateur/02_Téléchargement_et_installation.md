@@ -13,7 +13,6 @@ Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de v
 Copiez les fichiers sur votre serveur web. Dans le cas d'Apache2, il s'agit de /var/www/html/ :
 
     sudo mv wallabag /var/www/html/
-    sudo service apache2 reload
 	
 ### Pré-requis pour votre serveur web
 * [PHP 5.3.3 ou plus](http://php.net/manual/en/install.php)
@@ -34,14 +33,14 @@ Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez ex�
 ### Installation des dépendances
 Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Dans votre dossier wallabag, exécutez les deux commandes suivantes :
 
-    cd /var/www/wallabag/
+    cd /var/www/html/wallabag/
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
 Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier [vendor.zip](http://wllbg.org/vendor) à décompresser dans votre répertoire wallabag.
 
 ### Création de la base de données MySQL
-Wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
+wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
 
     mysql -p -u root
     mysql> CREATE DATABASE wallabag;
@@ -52,7 +51,6 @@ Wallabag peut s'installer sur différents types de bases de données (`sqlite`, 
 Le serveur web doit avoir accès en écriture aux répertoires `assets`, `cache` et `db`. Sans cela, un message vous indiquera que l'installation est impossible. 
 
     sudo chown -R www-data:www-data /var/www/html/wallabag
-    sudo service apache2 reload
 
 ### Installation de wallabag. Enfin.
 Accédez à wallabag depuis votre navigateur : http://votreserveur.com/wallabag. Si votre serveur est bien configuré, vous arrivez sur l'écran d'installation. 
