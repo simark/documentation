@@ -31,9 +31,8 @@ Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez ex�
     sudo service apache2 reload
 
 ### Installation des dépendances
-Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Dans votre dossier wallabag, exécutez les deux commandes suivantes (toujours dans le cas d'Ubuntu/Debian) :
+Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Placez-vous dans votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) et exécutez les commandes suivantes :
 
-    cd /var/www/html/wallabag/
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
