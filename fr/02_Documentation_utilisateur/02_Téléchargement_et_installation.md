@@ -36,7 +36,7 @@ Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer,
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
-Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier [vendor.zip](http://wllbg.org/vendor) à décompresser dans votre répertoire wallabag.
+Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier [vendor.zip](http://wllbg.org/vendor). Vous pouvez soit le télécharger puis le décompresser dans votre répertoire wallabag, soit laisser le script d'installation le faire pour vous. 
 
 ### Création de la base de données MySQL
 wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
