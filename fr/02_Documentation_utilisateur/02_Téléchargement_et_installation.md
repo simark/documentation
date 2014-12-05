@@ -31,13 +31,12 @@ Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez ex�
     sudo service apache2 reload
 
 ### Installation des dépendances
-Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Dans votre dossier wallabag, exécutez les deux commandes suivantes (toujours dans le cas d'Ubuntu/Debian) :
+Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser `composer`. Placez-vous dans votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) et exécutez les commandes suivantes :
 
-    cd /var/www/html/wallabag/
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
-Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier [vendor.zip](http://wllbg.org/vendor) à décompresser dans votre répertoire wallabag.
+Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier [vendor.zip](http://wllbg.org/vendor). Vous pouvez soit le télécharger puis le décompresser dans votre répertoire wallabag, soit laisser le script d'installation le faire pour vous. 
 
 ### Création de la base de données MySQL
 wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
