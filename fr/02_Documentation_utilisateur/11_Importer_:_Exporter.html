@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag documentation</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag documentation
+                <small class="hidden-xs hidden-sm">
+                    plop
+                </small>
+            </a>
+
+                            <a href="https://github.com/wallabag/documentation">
+                    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+                </a>
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                    <p class="text-muted">
+                                English
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Français
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Deutsch
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                русский
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        
+                    </nav>
+
+                
+                <section class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h2>Importer</h2>
+<p>Pour importer des données dans wallabag, vous devez vous rendre dans la page <strong>Configuration</strong>. </p>
+<h3>Mise en garde</h3>
+<p>L'import de données peut être une <strong>opération gourmande</strong> pour votre serveur. C'est pourquoi elle s'effectue en deux étapes : </p>
+<ul>
+<li>l'insertion des URL dans la base de données de wallabag</li>
+<li>dans un second temps, la récupération, pour chaque article, du contenu complet</li>
+</ul>
+<p>Ces deux actions ne peuvent pas être effectuées simultanément, car nous vous donnons la possibilité d'importer des milliers de liens, mais aujourd'hui, wallabag n'a pas les possibilités techniques nécessaires pour effectuer tout ce travail automatiquement.</p>
+<h3>Depuis Pocket</h3>
+<h4>Exporter ses données depuis Pocket</h4>
+<p>Depuis votre compte Pocket, rendez-vous dans vos options. 
+TODO</p>
+<h4>Importer ses données Pocket</h4>
+<p>TODO</p>
+<h3>Depuis Instapaper</h3>
+<h4>Exporter ses données depuis Instapaper</h4>
+<p>TODO</p>
+<h4>Importer ses données Instapaper</h4>
+<p>TODO</p>
+<h3>Depuis Readability</h3>
+<h4>Exporter ses données depuis Readability</h4>
+<p>TODO</p>
+<h4>Importer ses données Readability</h4>
+<p>TODO</p>
+<h3>Depuis wallabag</h3>
+<p>Puisque vous pouvez exporter vos données de wallabag (lire ci-dessous), il est évidemment possible de les réimporter. </p>
+<p>Dans le formulaire d'import, sélectionnez votre fichier d'export wallabag (au format JSON). Démarrez l'import et voila. </p>
+<p>Contrairement aux imports ci-dessus, le traitement est moins long car toutes les données (titre et contenu des articles) sont déjà présentes dans le fichier, il n'est pas nécessaire pour wallabag d'accéder à chacune des URL.<br />
+Par contre, le fichier d'import est forcément plus conséquent. </p>
+<h3>Depuis un fichier HTML ou JSON</h3>
+<p>TODO</p>
+<h2>Exporter</h2>
+<p>Il est possible d'exporter ses données depuis la page <strong>Configuration</strong> de wallabag. Plusieurs raisons possibles : </p>
+<ul>
+<li>réinstaller wallabag</li>
+<li>quitter le service Framabag pour installer soi-même wallabag</li>
+<li>un compte sur un wallabag multi-utilisateurs souhaite avoir sa propre installation de wallabag</li>
+<li>...</li>
+</ul>
+<p>Vous téléchargerez alors un fichier <a href="http://fr.wikipedia.org/wiki/JavaScript_Object_Notation">au format JSON</a>.<br />
+Comme nous l'avons vu ci-dessus, il est possible d'importer ce fichier dans wallabag. </p>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

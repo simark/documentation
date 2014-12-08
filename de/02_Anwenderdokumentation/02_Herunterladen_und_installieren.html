@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag documentation</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag documentation
+                <small class="hidden-xs hidden-sm">
+                    plop
+                </small>
+            </a>
+
+                            <a href="https://github.com/wallabag/documentation">
+                    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+                </a>
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                    <p class="text-muted">
+                                English
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Français
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Deutsch
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                русский
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        
+                    </nav>
+
+                
+                <section class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h2>Ich möchte wallabag nicht installieren</h2>
+<p>Wenn du wallabag nicht auf einem eigenen Server installieren kannst oder möchtest, solltest du ein kostenloses Benutzerkonto auf Framabag erstellen, wo wallabag genutzt wird.</p>
+<h2>Ich möchte wallabag installieren</h2>
+<p><a href="http://www.wallabag.org/download">Lade die neueste Version von wallabag herunter</a> und entpacke sie. Kopiere die entpackten Dateien und Verzeichnisse auf deinen Webserver.</p>
+<h2>Voraussetzungen für den Webserver</h2>
+<ul>
+<li><a href="http://php.net/manual/en/install.php">PHP 5.3.3 oder höher</a></li>
+<li><a href="http://php.net/manual/en/book.sqlite.php">SQLite</a> or <a href="http://php.net/manual/fr/book.mysql.php">MySQL</a> or <a href="http://php.net/manual/en/book.pgsql.php">PostgreSQL</a></li>
+<li><a href="http://php.net/xml">XML for PHP</a></li>
+<li><a href="http://php.net/pcre">PCRE</a></li>
+<li><a href="http://php.net/manual/book.filter.php">Data filtering</a></li>
+<li><a href="http://php.net/tidy">Tidy for PHP</a></li>
+<li><a href="http://php.net/curl">cURL</a></li>
+<li><a href="http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen">allow_url_fopen</a></li>
+<li><a href="http://php.net/manual/en/book.gettext.php">gettext</a></li>
+</ul>
+<p>Um zu überprüfen, ob dein Server die Voraussetzungen erfüllt, kannst du <code>wallabag_compatibility_test.php</code> ausführen. Diese Datei liegt im <code>install</code>-Verzeichnis von wallabag.</p>
+<h2>Installation der Abhängigkeiten</h2>
+<p>Damit wallabag ordnungsgemäß funktioniert, müssen einige Abhängigkeiten erfüllt werden. Um diese zu installieren, muss <code>composer</code> verwendet werden. Führe folgende Kommandos in deinem wallabag-Verzeichnis aus:</p>
+<pre><code>curl -s http://getcomposer.org/installer | php
+php composer.phar install</code></pre>
+<p>Falls du <code>composer</code> nicht installieren kannst, kannst du alternativ <a href="http://wllbg.org/vendor">vendor.zip</a> herunterladen und in deinem wallabag-Verzeichnis entpacken. </p>
+<h2>Berechtigungen</h2>
+<p>Dein Webserver braucht Schreibrechte in den Verzeichnissen <code>assets</code>, <code>cache</code>, und <code>db</code>. Bei fehlenden Schreibrechten kann die Installation nicht ausgeführt werden.</p>
+<h2>wallabag installieren. Endlich.</h2>
+<p>Rufe wallabag in deinem Browser auf. Wenn dein Server richtig konfiguriert ist, wird die Setup-Seite angezeigt.</p>
+<p>Gib dort deinen Datenbank-Typ an (<code>sqlite</code>, <code>mysql</code> oder <code>postgresql</code>) und die Angaben für dein Benutzerkonto</p>
+<p>wallabag ist jetzt fertig installiert.</p>
+<h2>Anmelden</h2>
+<p>Rufe wallabag in deinem Webbrowser auf und gib deinen Benutzernamen und dein Passwort ein, um dich anzumelden.</p>
+<p>Viel Spaß!</p>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

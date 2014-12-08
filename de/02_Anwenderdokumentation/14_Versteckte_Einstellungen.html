@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag documentation</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag documentation
+                <small class="hidden-xs hidden-sm">
+                    plop
+                </small>
+            </a>
+
+                            <a href="https://github.com/wallabag/documentation">
+                    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+                </a>
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                    <p class="text-muted">
+                                English
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Français
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                Deutsch
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                                                    <p class="text-muted">
+                                русский
+                            </p>
+
+                            <ul class="nav nav-pills nav-stacked">
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/00_Getting_started.html">
+                                            Getting started
+                                        </a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="http://wallabag.github.io/documentation/en/01_Help_wallabag.html">
+                                            Help wallabag
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        
+                    </nav>
+
+                
+                <section class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h2>Vorsicht!</h2>
+<p>Dieser Teil ist nur für fortgeschrittene Anwender. 
+<strong>Solltest du beim Bearbeiten einer der Dateien etwas falsch machen, kann es sein, dass wallabag nicht mehr funktioniert.</strong>
+Es muss eine wichtige Datei von wallabag bearbeitet werden, <code>inc/poche/config.inc.php</code>, deshalb mache unbedingt eine Sicherungskopie dieser Datei, bevor du etwas änderst!</p>
+<p>Die Datei wird während der Installation von wallabag erzeugt und mit Standardeinstellungen initialisiert. Durch Anpassen der Datei kann das Verhalten von wallabag in einigen Punkten angepasst werden, die nicht über die nicht über der Konfigurationsseite verfügbar sind.</p>
+<h2>Fortgeschrittene Einstellungen</h2>
+<p>Jeder der in <code>inc/poche/config.inc.php</code> definierten Parameter ist folgendermaßen angegeben:</p>
+<pre><code>@define ('PARAMETER_NAME', 'Parameter-Wert');</code></pre>
+<p>Es darf in jeder Zeile ausschließlich <code>Parameter-Wert</code> geändert werden. 
+Ändere keine anderen in der Datei angegebenen Parameter!</p>
+<p>Änderbare Parameter: </p>
+<table>
+<thead>
+<tr>
+<th>PARAMETER_NAME</th>
+<th>Standardwert</th>
+<th>Beschreibung</th>
+<th align="center">erwarteter Wert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HTTP_PORT</code></td>
+<td><code>80</code></td>
+<td>entspricht dem HTTP-Port auf deinem Webserver. Nur ändern, wenn sich dein Web-Server hinter einem Proxy befindet.</td>
+<td align="center">ganze Zahl</td>
+</tr>
+<tr>
+<td><code>SSL_PORT</code></td>
+<td><code>443</code></td>
+<td>entspricht dem SSL-Port auf deinem Webserver. Ändern, wenn du sslh verwendest.</td>
+<td align="center">ganze Zahl</td>
+</tr>
+<tr>
+<td><code>DEBUG_POCHE</code></td>
+<td><code>FALSE</code></td>
+<td>Wenn du Probleme mit wallabag hast, kann es bei der Fehlersuche helfen, den Debug-Modus zu aktivieren.</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>DOWNLOAD_PICTURES</code></td>
+<td><code>FALSE</code></td>
+<td>Damit kannst du Bilder aus Artikeln herunterladen (zusätzlich zum Artikeltext). Diese Einstellung ist standardmäßig deaktiviert, um eine Überlastung des Webservers zu vermeiden. Wir bevorzugen, dich diese Einstellung selbst aktivieren zu lassen.</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>SHARE_TWITTER</code></td>
+<td><code>TRUE</code></td>
+<td>ermöglicht die gemeinsame Nutzung mit Twitter</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>SHARE_MAIL</code></td>
+<td><code>TRUE</code></td>
+<td>ermöglicht den Austausch per E-Mail</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>SHARE_SHAARLI</code></td>
+<td><code>FALSE</code></td>
+<td>ermöglicht die gemeinsame Nutzung mit einer Shaarli-Installation (ein Lesezeichen-Manager)</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>SHAARLI_URL</code></td>
+<td><code>'http://myshaarliurl.com'</code></td>
+<td>Definiert die URL Ihrer Installation Shaarli.</td>
+<td align="center">URL</td>
+</tr>
+<tr>
+<td><code>FLATTR</code></td>
+<td><code>TRUE</code></td>
+<td>Aktiviert die Möglichkeit, einen Artikel zu flattrn ([Flattr ist eine Plattform für Mikrospenden] (<a href="http://de.wikipedia.org/wiki/Flattr">http://de.wikipedia.org/wiki/Flattr</a>)). Wenn ein Artikel flattrbar ist, wird ein Symbol angezeigt und ermöglicht es, eine Mikro-Spende an den Autor des Artikels zu senden.</td>
+<td align="center"><code>TRUE</code> / <code>FALSE</code></td>
+</tr>
+<tr>
+<td><code>SHOW_PRINTLINK</code></td>
+<td><code>'1'</code></td>
+<td>Zeigt eine Link, um einen Artikel zu drucken.</td>
+<td align="center"><code>'0'</code> (deaktiviert), <code>'1'</code> (aktiviert)</td>
+</tr>
+<tr>
+<td><code>SHOW_READPERCENT</code></td>
+<td><code>'1'</code></td>
+<td>Zeige den bereits gelesenen Anteil im Artikel (nur bei den Themes <code>default</code>, <code>dark</code>, <code>dmagenta</code>, <code>solarized</code>, <code>solarized-dark</code>).</td>
+<td align="center"><code>'0'</code> (deaktiviert), <code>'1'</code> (aktiviert)</td>
+</tr>
+<tr>
+<td><code>PAGINATION</code></td>
+<td><code>'12'</code></td>
+<td>Definiert die Anzahl der Einträge, die auf einer Seite dargestellt werden.</td>
+<td align="center">ganze Zahl</td>
+</tr>
+</tbody>
+</table>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
