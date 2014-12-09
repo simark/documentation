@@ -1,0 +1,152 @@
+template:
+    directory: website
+
+baseUrl: http://wallabag.github.io/documentation
+
+github:
+    user: wallabag
+    repo: documentation
+
+exclude:
+    - website
+
+title: wallabag
+subTitle: "user, admin and developer documentation"
+
+menu:
+    sections:
+        english:
+            name: English
+            items:
+                user:
+                    name: User documentation
+                    subItems:
+                        userHome:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        userHelp:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                        userHome1:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        userHelp1:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                developer:
+                    name: Developer documentation
+                    subItems:
+                        home1:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help1:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                admin:
+                    name: Admin documentation
+                    subItems:
+                        home:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+        french:
+            name: Français
+            items:
+                user:
+                    name: Documentation utilisateur
+                    subItems:
+                        userHome:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        userHelp:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                developer:
+                    name: Documentation développeur
+                    subItems:
+                        home1:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help1:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                admin:
+                    name: Documentation administrateur
+                    subItems:
+                        home:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+        german:
+            name: Deutsch
+            items:
+                user:
+                    name: User documentation
+                    subItems:
+                        userHome:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        userHelp:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                developer:
+                    name: Developer documentation
+                    subItems:
+                        home1:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help1:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                admin:
+                    name: Admin documentation
+                    subItems:
+                        home:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+        russian:
+            name: русский
+            items:
+                user:
+                    name: User documentation
+                    subItems:
+                        userHome:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        userHelp:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                developer:
+                    name: Developer documentation
+                    subItems:
+                        home1:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help1:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+                admin:
+                    name: Admin documentation
+                    subItems:
+                        home:
+                            text: Getting started
+                            relativeUrl: en/00_Getting_started.html
+                        help:
+                            text: Help wallabag
+                            relativeUrl: en/01_Help_wallabag.html
+        others:
+            name: Links
+            items:
+                github:
+                    text: github
+                    absoluteUrl: https://github.com/wallabag/wallabag
+                twitter:
+                    text: twitter
+                    absoluteUrl: https://twitter.com/wallabagapp
