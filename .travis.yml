@@ -6,7 +6,7 @@ php:
   - hhvm
 branches:
   only:
-  - master
+  - couscous
 env:
   global:
   - GIT_NAME: Nicolas Lœuillet
