@@ -1,13 +1,14 @@
 language: php
 branches:
   only:
-  - master
+    - master
 env:
   global:
-  - GIT_NAME: "'Nicolas Loeuillet'"
-  - GIT_EMAIL: nicolas@loeuillet.org
-  - GH_REF: github.com/wallabag/documentation
-  - secure: HCy9pq+lut83yH+I62AtWmM3qCfyjEoxbQR/O9GF8uRk/xBewhLpkK3f7ZD2l/kxdv/GGGDFLHH9BD14JTYF2dJtZj9EZarluAohIiXgusZ+16xom/79dJfl+hZpCwH7ZKmTkOcnQewCF/SbYqVuizkwJAitgBU/pexvi9WGnoY=
+    - GIT_NAME: "'Nicolas Loeuillet'"
+    - GIT_EMAIL: nicolas@loeuillet.org
+    - GH_REF: github.com/wallabag/documentation
+    - secure: HCy9pq+lut83yH+I62AtWmM3qCfyjEoxbQR/O9GF8uRk/xBewhLpkK3f7ZD2l/kxdv/GGGDFLHH9BD14JTYF2dJtZj9EZarluAohIiXgusZ+16xom/79dJfl+hZpCwH7ZKmTkOcnQewCF/SbYqVuizkwJAitgBU/pexvi9WGnoY=
+    - secure: IjA/fDpv6GAtQC30zmCXMbJHiqpY7Y8pFQD5HiAGAtTWV8acgefl6Q+6Hur2QLSPBU402J7zU3F8uLFefNCUMerEw0slwa1c3YomKDp5WJboiG75gbqFtPYmgmzlqLkje17IKIwmJiveZPoHQ9+mCW9Xlg4l79Vbw3YnnSkNpl8=
 before_script:
   - composer install --no-progress
   - npm install -g less
