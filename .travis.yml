@@ -17,6 +17,5 @@ before_script:
   - composer install --no-progress
   - npm install -g less
   - npm install -g less-plugin-clean-css
-after_success:
-  - bin/couscous travis-auto-deploy
- 
+script:
+  - ./vendor/bin/couscous travis-auto-deploy
