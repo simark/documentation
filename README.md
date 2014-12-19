@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # wallabag documentation
 This project is a part of wallabag. It contains all the user and technical documentation of wallabag.
 ## Structure
