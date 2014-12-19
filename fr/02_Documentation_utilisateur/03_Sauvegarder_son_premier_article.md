@@ -1,3 +1,8 @@
+---
+language: fr
+currentMenu: save_article
+---
+
 Une fois connecté sur wallabag, vous avez plusieurs moyens pour sauvegarder un article.
 ## Depuis l'application web
 Voyons d'abord comment faire depuis l'application web. Dans le menu, vous avez un lien **Sauvegarder un lien**. En cliquant dessus, un formulaire s'affiche : vous n'avez qu'à saisir l'adresse internet de l'article concerné. 
