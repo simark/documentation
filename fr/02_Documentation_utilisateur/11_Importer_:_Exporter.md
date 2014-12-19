@@ -13,7 +13,13 @@ Ces deux actions ne peuvent pas être effectuées simultanément, car nous vous 
 Depuis votre compte Pocket, rendez-vous dans vos options. 
 TODO
 #### Importer ses données Pocket
+Depuis la page de configuration de wallabag, partie **Import**, sélectionnez le fichier `ril_export.html` que Pocket a généré puis cliquez sur **Import**.  
+wallabag ne fait qu'insérer les liens dans sa base de données. Il faut maintenant lui faire récupérer le contenu de chaque article. 
+
+Pour cela, cliquez sur `Click to finish import` : wallabag récupèrera alors le contenu de 10 articles à la fois. 
 TODO
+TODO nouveau ticket : pourquoi quand on clique une fois, ça ne charge pas en boucle ? Il me semblait que ça faisait ça ping @mariroz
+
 ### Depuis Instapaper
 #### Exporter ses données depuis Instapaper
 TODO

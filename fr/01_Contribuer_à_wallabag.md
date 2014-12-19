@@ -1,3 +1,8 @@
+---
+language: fr
+currentMenu: help_us
+---
+
 ## Soumettre des bugs
 ### Demande de support
 Si vous avez un problème lors de l'installation ou de l'utilisation de wallabag (que ça soit l'application web ou les applications pour smartphone), utilisez le site de support [http://support.wallabag.org](http://support.wallabag.org).

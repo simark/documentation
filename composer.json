@@ -1,0 +1,9 @@
+{
+    "name": "wallabag/documentation",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "couscous/couscous": "dev-travis",
+        "beelab/bowerphp": "dev-master"
+    }
+}

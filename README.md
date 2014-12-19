@@ -1,8 +1,8 @@
 # wallabag documentation
-This project is a part of wallabag. It contains all the user and technical documentation of wallabag. 
+This project is a part of wallabag. It contains all the user and technical documentation of wallabag.
 ## Structure
 
-Each translation is contained in a folder, with sub-folders. For example, for english translation, we have: 
+Each translation is contained in a folder, with sub-folders. For example, for english translation, we have:
 
     - en
     | 01_User_documentation
@@ -17,7 +17,7 @@ Each translation is contained in a folder, with sub-folders. For example, for en
     | 00_Getting_started.md: a presentation of wallabag
     | 01_Help_wallabag.md: how you can contribute to the project
 
-If you want to translate the documentation in your language, please respect this structure. 
+If you want to translate the documentation in your language, please respect this structure.
 ## License
 
 This documentation is under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
