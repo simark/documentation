@@ -1,5 +1,5 @@
 template:
-    url: https://github.com/CouscousPHP/Template-Dark.git
+    directory: website
 
 baseUrl: http://wallabag.github.io/documentation/
 
