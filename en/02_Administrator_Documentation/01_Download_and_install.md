@@ -3,7 +3,7 @@ If you can't or don't want to install Wallabag on your server, we suggest you cr
 
 ## I want to install wallabag
  
-[Download the latest wallabag version](http://www.wallabag.org/download) and unpack it. Copy the files on your web server.
+[Download the latest wallabag version](http://wllbg.org/latest) and unpack it. Copy the files on your web server.
 
 ## Prerequisites for your web server
 * [PHP 5.3.3 or more](http://php.net/manual/en/install.php)
