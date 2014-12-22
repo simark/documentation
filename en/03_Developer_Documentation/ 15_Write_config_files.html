@@ -277,16 +277,21 @@
 
                 
                 <section class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
-                    <h2>Update an existing wallabag installation</h2>
-<p>In order to update your installation, download and unzip the archive into your installation folder. For example on Ubuntu/Debian:</p>
-<pre><code>wget http://wllbg.org/latest
-unzip latest
-rsync -ur wallabag-version-number/* /var/www/html/wallabag/</code></pre>
-<p>Delete the <code>install</code> folder and clear the cache:</p>
-<pre><code>cd /var/www/html/wallabag/
-rm -r cache/* install/</code></pre>
-<p>Clearing the cache is also possible in the configuration page, clicking on the link <code>Delete Cache</code>.</p>
-<p>Verify at the bottom of the configuration page that you're running the last version.</p>
+                    <p>wallabag can use specific site config files to parse website articles. These files are stored in the <a href="https://github.com/wallabag/wallabag/tree/master/inc/3rdparty/site_config/standard"><code>inc/3rdparty/site_config/standard</code></a> folder.</p>
+<p>The format used for these files is <a href="http://www.w3.org/TR/xpath20/">XPath</a>. Look at some examples in the folder.</p>
+<h1>Automatic config files generation</h1>
+<p>Fivefilters has created a <a href="http://siteconfig.fivefilters.org/">very useful tool</a> to create config files. You just type in the adress of the article to work on with, and you select the area containing the content you want.
+<img alt="siteconfig" src="https://lut.im/RNaO7gGe/l9vRnO1b" />
+You should confirm this area by trying with other articles.
+When you got the right area, just click on <em>Download Full-Text RSS site config</em> to download your file.</p>
+<h1>Manual config file generation</h1>
+<p>If Fivefilters tool doesn't work correctly, take a look at the source (Ctrl + U on Firefox and Chromium). Search for your content and get the <code>class</code> or the <code>id</code> attribute of the area containing what you want.</p>
+<p>Once you've got the id or class, you can write for example one or another of these lines :</p>
+<pre><code>body: //div[@class='myclass']
+body: //div[@id='myid']</code></pre>
+<p>Then, test you file. If you got the right content but you want to strip unnecessary parts, do :</p>
+<pre><code>strip: //div[@class='hidden']</code></pre>
+<p>You can look at other options for siteconfig files <a href="http://help.fivefilters.org/customer/portal/articles/223153-site-patterns">here</a>.</p>
                 </section>
 
             </div>
