@@ -13,4 +13,4 @@ before_script:
   - npm install -g less
   - npm install -g less-plugin-clean-css
 script:
-  - ./vendor/bin/couscous travis-auto-deploy
+  - ./vendor/bin/couscous travis-auto-deploy --php-version=5.5
