@@ -5,6 +5,7 @@ baseUrl: http://wallabag.github.io/documentation/
 
 exclude:
     - website
+    - vendor
 
 title: wallabag
 subTitle: "user, admin and developer documentation"
