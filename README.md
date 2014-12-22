@@ -1,5 +1,6 @@
 # wallabag documentation
 This project is a part of wallabag. It contains all the user, admin and developer documentation of wallabag.
+
 ## Structure
 
 Each translation is contained in a folder, with sub-folders. For example, for english translation, we have:
