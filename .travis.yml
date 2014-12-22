@@ -14,7 +14,7 @@ before_script:
   - composer install --no-progress
   - npm install -g less
   - npm install -g less-plugin-clean-css
-  - git config user.name "Nicolas Loeuillet"
-  - git config user.mail "nicolas@loeuillet.org"
+  - git config --global user.name "Nicolas Loeuillet"
+  - git config --global user.mail "nicolas@loeuillet.org"
 script:
   - ./vendor/bin/couscous travis-auto-deploy --php-version=5.5
