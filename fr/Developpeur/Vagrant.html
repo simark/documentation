@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag
+                <small class="hidden-xs hidden-sm">
+                    user, admin and developer documentation
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                                                                                                                                                                                                                                                            
+                    </nav>
+
+                
+                <section class="col-lg-10">
+                    <p>Pour vous permettre de mettre en place rapidement la configuration requise pour wallabag, nous vous proposons un fichier Vagrantfile.</p>
+<p><a href="http://fr.wikipedia.org/wiki/Vagrant">Définition Wikipedia</a></p>
+<pre><code>Vagrant est un logiciel libre et open-source pour la création et la configuration des environnements de développement virtuel. Il peut être considéré comme un wrapper autour du logiciel de virtualisation comme VirtualBox.</code></pre>
+<h2>Utiliser Vagrant pour wallabag</h2>
+<p>Voici la procédure pour exécuter wallabag au sein d'un conteneur Vagrant : </p>
+<pre><code>wget -O wallabag-dev.zip https://github.com/wallabag/wallabag/archive/dev.zip 
+unzip wallabag-dev.zip 
+cd wallabag-dev 
+vagrant up</code></pre>
+<p>Accédez maintenant à <code>http://localhost:8003</code> et à vous de jouer !</p>
+<h2>Qu'a installé le Vagrantfile ?</h2>
+<p>Le script installe un serveur LAMP, à savoir : </p>
+<ul>
+<li>Ubuntu 14.04</li>
+<li>Un serveur web Apache2</li>
+<li>PHP5</li>
+<li>SQLite ou MySQL ou PostgreSQL pour PHP</li>
+<li>XDebug pour PHP</li>
+</ul>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

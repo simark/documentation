@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag
+                <small class="hidden-xs hidden-sm">
+                    user, admin and developer documentation
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                                                                                                        <ul class="nav nav-pills nav-stacked">
+                                    
+                                    <h4 class="text-muted">
+                                        
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/index.html">
+                                                   Pour commencer
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/Contribuer_à_wallabag.html">
+                                                   Aidez-nous
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                    
+                                    <h4 class="text-muted">
+                                        Utilisateur
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Sauvegarder_son_premier_article.html">
+                                                   Sauvegarder son premier article
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Lire_un_article.html">
+                                                   Lire un article
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Classer_ses_articles.html">
+                                                   Classer ses articles
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Rechercher.html">
+                                                   Rechercher
+                                                </a>
+                                            </li>
+                                                                                    <li class="test active">
+                                                <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Convertir_en_ePub.html">
+                                                   Convertir en ePub
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+                                                                                                                                                                                                                
+                    </nav>
+
+                
+                <section class="col-lg-10">
+                    <p>Pour que vous puissiez lire vos articles sauvegardés depuis votre liseuse, wallabag vous permet de les convertir au format ePub et ainsi vous créer un eBook pour vos longues soirées d'hiver.</p>
+<h2>Mise en garde</h2>
+<p>Attention, la génération de fichiers ePub peut être très consommatrice de ressources pour le serveur sur lequel est installé wallabag. Cela dépend du nombre d'articles et de leur longueur.<br />
+Ne générez pas un eBook trop important si cela n'est pas nécessaire.</p>
+<h2>Où convertir les articles</h2>
+<p>Vous pouvez convertir vos articles depuis différents endroits de wallabag : </p>
+<ul>
+<li>sur la page de lecture d'un article : le lien ePub convertira ce seul article</li>
+<li>depuis une liste d'articles (articles non lus, favoris ou archivés, articles d'un tag) : un lien en bas de page vous permet de convertir tous les articles de cette catégorie</li>
+<li>depuis une recherche : le lien se trouve en bas de page</li>
+<li>depuis la page de configuration : vous allez pouvoir convertir tous vos articles, peu importe la catégorie dans laquelle ils se trouvent</li>
+</ul>
+<p>TODO parler de calibre</p>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

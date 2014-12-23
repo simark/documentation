@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag</title>
+
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
+                wallabag
+                <small class="hidden-xs hidden-sm">
+                    user, admin and developer documentation
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                                                                                                                                                                                                                                                            
+                    </nav>
+
+                
+                <section class="col-lg-10">
+                    <p>Si vous souhaitez contribuer au projet en proposant de nouvelles fonctionnalités ou en corrigeant des bugs, il faut suivre les recommandations que vous lirez ci-dessous concernant le dépôt Git disponible à cette adresse : <a href="https://github.com/wallabag/wallabag"><a href="https://github.com/wallabag/wallabag">https://github.com/wallabag/wallabag</a></a>.</p>
+<h2>État des lieux</h2>
+<p>Pour la gestion des différentes versions de wallabag, nous utilisons Git. </p>
+<p>Nous utilisons plusieurs branches pour le code source de l'application web de wallabag : </p>
+<ul>
+<li>la branche <code>master</code> : c'est la branche stable, celle qui est téléchargée pour tous ceux qui souhaitent installer wallabag pour leur utilisation.</li>
+<li>la branche <code>dev</code> : avant d'être sur la branche <code>master</code>, toutes les corrections de bugs et nouvelles fonctionnalités doivent passer par cette branche. Cette branche n'est pas conseillée pour une utilisation en production. </li>
+<li>la branche <code>v2-symfony</code> : c'est la branche de la refonte de wallabag. Un chapitre complet lui est consacré. </li>
+</ul>
+<h2>Workflow</h2>
+<p>Toutes les consignes concernant le dépôt Git se trouve dans <a href="https://github.com/wallabag/wallabag/blob/master/CONTRIBUTING.html">le fichier CONTRIBUTING.md de wallabag</a>. Merci de le lire attentivement avant toute modification.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
