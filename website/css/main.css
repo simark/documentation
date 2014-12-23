@@ -59,6 +59,10 @@ header.navbar {
     }
 }
 
+#sidebar {
+    font-size: 16px;
+}
+
 .page-header {
     margin-top: 0;
 }

@@ -1,3 +1,8 @@
+---
+language: Français
+currentMenu: sort_article
+---
+
 Pour pouvoir retrouver plus facilement vos articles, plusieurs méthodes existent. 
 
 ## Tags

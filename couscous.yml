@@ -52,7 +52,7 @@ menu:
             name: Français
             items:
                 general:
-                    name: ~
+                    name: 
                     subItems:
                         getting_started:
                             text: Pour commencer
@@ -65,10 +65,19 @@ menu:
                     subItems:
                         save_article:
                             text: Sauvegarder son premier article
-                            relativeUrl: fr/Utilisateur/03_Sauvegarder_son_premier_article.html
+                            relativeUrl: fr/Utilisateur/Sauvegarder_son_premier_article.html
                         read_article:
                             text: Lire un article
-                            relativeUrl: fr/Utilisateur/04_Lire_un_article.html
+                            relativeUrl: fr/Utilisateur/Lire_un_article.html
+                        sort_article:
+                            text: Classer ses articles
+                            relativeUrl: fr/Utilisateur/Classer_ses_articles.html
+                        search:
+                            text: Rechercher
+                            relativeUrl: fr/Utilisateur/Rechercher.html
+                        epub:
+                            text: Convertir en ePub
+                            relativeUrl: fr/Utilisateur/Convertir_en_ePub.html
                 # developer:
                 #     name: Documentation développeur
                 #     subItems:

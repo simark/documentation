@@ -1,3 +1,8 @@
+---
+language: Français
+currentMenu: search
+---
+
 Pour que vous puissiez retrouver un article au plus vite, nous avons mis en place un moteur de recherche complet. 
 
 Cliquez sur **Rechercher** dans le menu de wallabag. Là, saisissez un terme de recherche. 
