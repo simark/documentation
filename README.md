@@ -2,27 +2,11 @@
 layout: home
 ---
 
-# wallabag documentation
-This project is a part of wallabag. It contains all the user, admin and developer documentation of wallabag.
+**Welcome on wallabag documentation**. Thanks to this tool, we hope that you can easily use wallabag and work with it. 
 
-## Structure
+Today, we have three documentations: for **users**, for **developers** and for **administrators**. Just select your language and good reading!  
+Feel free to [contribute to this documentation](https://github.com/wallabag/documentation). It's your documentation. 
 
-Each translation is contained in a folder, with sub-folders. For example, for english translation, we have:
-
-    - en
-    | 01_User_documentation
-    --| a file per feature
-    --| ...
-    | 02_Administrator_documentation
-    --| a file per feature
-    --| ...
-    | 03_Developer_documentation
-    --| a file per feature
-    --| ...
-    | 00_Getting_started.md: a presentation of wallabag
-    | 01_Help_wallabag.md: how you can contribute to the project
-
-If you want to translate the documentation in your language, please respect this structure.
 ## License
 
 This documentation is under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).

@@ -52,23 +52,23 @@ menu:
             name: Français
             items:
                 general:
-                    name: Documentation générale
+                    name: ~
                     subItems:
                         getting_started:
                             text: Pour commencer
-                            relativeUrl: fr/00_Pour_commencer.html
+                            relativeUrl: fr/index.html
                         help_us:
                             text: Aidez-nous
-                            relativeUrl: fr/01_Contribuer_à_wallabag.html
+                            relativeUrl: fr/Contribuer_à_wallabag.html
                 user:
-                    name: Documentation utilisateur
+                    name: Utilisateur
                     subItems:
                         save_article:
                             text: Sauvegarder son premier article
-                            relativeUrl: fr/02_Documentation_utilisateur/03_Sauvegarder_son_premier_article.html
+                            relativeUrl: fr/Utilisateur/03_Sauvegarder_son_premier_article.html
                         read_article:
                             text: Lire un article
-                            relativeUrl: fr/02_Documentation_utilisateur/04_Lire_un_article.html
+                            relativeUrl: fr/Utilisateur/04_Lire_un_article.html
                 # developer:
                 #     name: Documentation développeur
                 #     subItems:

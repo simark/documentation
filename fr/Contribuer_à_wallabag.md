@@ -1,5 +1,5 @@
 ---
-language: fr
+language: Français
 currentMenu: help_us
 ---
 
