@@ -3,14 +3,16 @@ language: Français
 currentMenu: search
 ---
 
-Pour que vous puissiez retrouver un article au plus vite, nous avons mis en place un moteur de recherche complet. 
+Pour que vous puissiez retrouver un article au plus vite, nous avons mis en place un moteur de recherche complet.
 
-Cliquez sur **Rechercher** dans le menu de wallabag. Là, saisissez un terme de recherche. 
+Cliquez sur **Rechercher** dans le menu de wallabag. Là, saisissez un terme de recherche.
 
-wallabag ira parcourir tous vos articles et affichera ceux qui contiennent le terme de recherche dans leur titre ou dans le contenu de l'article. 
+wallabag ira parcourir tous vos articles et affichera ceux qui contiennent le terme de recherche dans leur titre ou dans le contenu de l'article.
 
 ## Convertir cette recherche au format ePub
-Vous pouvez convertir les articles retournés au format ePub, pour les lire sur une liseuse par exemple. Lisez [Convertir en ePub](/fr/Documentation_utilisateur/Convertir_en_ePub) pour en savoir plus.
+
+Vous pouvez convertir les articles retournés au format ePub, pour les lire sur une liseuse par exemple. Lisez [Convertir en ePub](/fr/Utilisateur/Convertir_en_ePub.html) pour en savoir plus.
 
 ## Assigner un tag aux résultats de cette recherche
+
 Vous pouvez créer un tag en fonction du critère de recherche. Lisez [Classer ses articles](/fr/Documentation_utilisateur/Classer_ses_articles) pour en savoir plus.
