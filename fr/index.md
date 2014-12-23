@@ -9,9 +9,9 @@ currentMenu: getting_started
 
 * tout le contenu est archivé : le texte et les photos
 * l'application web est entièrement responsive
-* vous pouvez [convertir vos articles au format ePub](/fr/Utilisateur/Convertir_en_ePub.html) pour les charger sur votre liseuse
-* des applications smartphones vous permettent de [lire vos articles tout en étant déconnecté](/fr/Utilisateur/Lire_un_article.html)
-* des extensions pour votre navigateur vous permettent d'[archiver rapidement un nouvel article](/fr/Utilisateur/Sauvegarder_son_premier_article.html)
+* vous pouvez [convertir vos articles au format ePub](fr/Utilisateur/Convertir_en_ePub.html) pour les charger sur votre liseuse
+* des applications smartphones vous permettent de [lire vos articles tout en étant déconnecté](fr/Utilisateur/Lire_un_article.html)
+* des extensions pour votre navigateur vous permettent d'[archiver rapidement un nouvel article](fr/Utilisateur/Sauvegarder_son_premier_article.html)
 * plusieurs thèmes graphiques vous permettent d'[habiller votre wallabag comme vous le souhaitez](/fr/Documentation_utilisateur/Configurer_wallabag)
 * et forcément plein d'autres fonctionnalités !
 

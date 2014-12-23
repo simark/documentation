@@ -48,7 +48,7 @@ Ouvre la fenêtre d'impression du navigateur.
 
 ### Convertir en ePub
 
-Convertit l'article au format ePub. [Un chapitre complet existe](/fr/Utilisateur/Convertir_en_ePub.html).
+Convertit l'article au format ePub. [Un chapitre complet existe](fr/Utilisateur/Convertir_en_ePub.html).
 
 ### Signaler que l'article s'affiche mal
 
