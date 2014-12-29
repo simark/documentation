@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>wallabag - Lire un article</title>
+        <title>wallabag - Flux RSS</title>
 
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
                 wallabag
                 <small class="hidden-xs hidden-sm">
-                    Lire un article
+                    Flux RSS
                 </small>
             </a>
 
@@ -60,7 +60,7 @@
                                                    Sauvegarder son premier article
                                                 </a>
                                             </li>
-                                                                                    <li class="test active">
+                                                                                    <li class="test ">
                                                 <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Lire_un_article.html">
                                                    Lire un article
                                                 </a>
@@ -90,7 +90,7 @@
                                                    Problème d'affichage d'un article
                                                 </a>
                                             </li>
-                                                                                    <li class="test ">
+                                                                                    <li class="test active">
                                                 <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Flux_RSS.html">
                                                    Flux RSS
                                                 </a>
@@ -112,33 +112,27 @@
 
                 
                 <section class="col-lg-10">
-                    <p>Lire un article n'est pas la chose la plus compliquée dans wallabag. Vous n'avez qu'à cliquer sur le titre d'un article pour l'afficher.</p>
-<h2>Revenir là où vous avez laissé votre article</h2>
-<p>Si vous quittez un article alors que vous n'êtes qu'à la moitié de celui-ci par exemple, lorsque vous reviendrez, wallabag vous renverra là où vous avez laissé l'article.</p>
-<p>Cette astuce ne fonctionne qu'avec l'application web et pas les applications smartphones.</p>
-<h2>Actions possibles depuis l'article</h2>
-<p>Ces actions sont possibles grâce aux icônes affichés en haut de la page. Nous partons du principe que vous utilisez le thème Baggy (<a href="/fr/Documentation_utilisateur/Configurer_wallabag">lire la documentation pour changer de thème</a>), les icônes dans les autres thèmes sont sensiblement les mêmes.<br />
-Voici donc ces actions, par ordre d'apparition des icônes.</p>
-<h3>Lire l'article original</h3>
-<p>Renvoie vers l'article original.</p>
-<h3>Marquer l'article comme lu</h3>
-<p>Archive l'article, qui se retrouvera dans la catégorie <strong>Archive</strong> du menu de wallabag.<br />
-Recliquer dessus permet de replacer cet article en état non lu.</p>
-<h3>Mettre l'article en favori</h3>
-<p>Marque l'article comme favori, qui se retrouvera dans la catégorie <strong>Favoris</strong> du menu de wallabag.<br />
-Recliquer dessus permet d'enlever le statut de favori.</p>
-<h3>Supprimer l'article</h3>
-<p>Supprime complètement l'article de wallabag. Il ne pourra être restauré. Attention, aucune confirmation n'est demandée.</p>
-<h3>Partager vers twitter</h3>
-<p>Partage le titre et le lien original de l'article sur twitter.</p>
-<h3>Partager par email</h3>
-<p>Partage le titre et le lien original de l'article par email.</p>
-<h3>Imprimer l'article</h3>
-<p>Ouvre la fenêtre d'impression du navigateur.</p>
-<h3>Convertir en ePub</h3>
-<p>Convertit l'article au format ePub. <a href="fr/Utilisateur/Convertir_en_ePub.html">Un chapitre complet existe</a>.</p>
-<h3>Signaler que l'article s'affiche mal</h3>
-<p>Permet de signaler qu'un article ne s'affiche pas comme attendu. <a href="/fr/Documentation_utilisateur/Un_article_est_mal_affich%C3%A9">Un chaptire complet existe</a>.</p>
+                    <p>Les flux RSS vous permettent :</p>
+<ul>
+<li>de lire vos articles depuis votre lecteur de flux RSS préféré</li>
+<li>d'activer les fonctionnalités de lecture pour les applications smartphones</li>
+</ul>
+<p>Tout d'abord, vous devez activer la fonctionnalité RSS en générant votre jeton de flux.<br />
+Rendez-vous dans <strong>configuration</strong> de wallabag et créez le jeton dans la partie <strong>Flux</strong>.
+À tout moment, vous pouvez générer un nouveau jeton.</p>
+<h2>Lire les articles</h2>
+<p>Une fois le jeton créé, vous avez accès à trois flux RSS :</p>
+<ul>
+<li>celui des articles non lus</li>
+<li>celui des articles favoris</li>
+<li>celui des articles archivés</li>
+</ul>
+<p>Ajoutez le flux de votre choix dans votre lecteur de flux RSS.<br />
+Attention, lorsque vous lirez un article depuis votre lecteur de flux, ça ne le marquera pas comme lu dans wallabag.</p>
+<h3>Partager vos lectures</h3>
+<p>Si vous souhaitez partager vos lectures avec quelqu'un, envoyez-lui par exemple le flux RSS de vos articles préférés. Ainsi, dès qu'un article sera mis en favori dans wallabag, cette personne pourra également le lire.</p>
+<h2>Activer les fonctionnalités pour smartphones</h2>
+<p>Vous avez créé le jeton de flux RSS : il va vous être utile pour configurer votre application smartphone. Pour en savoir sur les applications smartphones, vous pouvez lire <a href="/fr/Documentation_utilisateur/Sauvegarder_son_premier_article">Sauvegarder son premier article</a>.</p>
                 </section>
 
             </div>
