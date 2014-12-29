@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>wallabag - Mon article s&#039;affiche mal dans wallabag</title>
+        <title>wallabag - Mettre à jour wallabag</title>
 
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
                 wallabag
                 <small class="hidden-xs hidden-sm">
-                    Mon article s&#039;affiche mal dans wallabag
+                    Mettre à jour wallabag
                 </small>
             </a>
 
@@ -60,7 +60,7 @@
                                                    Téléchargement et installation
                                                 </a>
                                             </li>
-                                                                                    <li class="test ">
+                                                                                    <li class="test active">
                                                 <a href="http://wallabag.github.io/documentation/fr/Administrateur/MAJ_wallabag.html">
                                                    Mettre à jour wallabag
                                                 </a>
@@ -112,7 +112,7 @@
                                                    Convertir en ePub
                                                 </a>
                                             </li>
-                                                                                    <li class="test active">
+                                                                                    <li class="test ">
                                                 <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Un_article_est_mal_affiche.html">
                                                    Problème d'affichage d'un article
                                                 </a>
@@ -171,23 +171,16 @@
 
                 
                 <section class="col-lg-10">
-                    <p>Si vous pensez que wallabag récupère mal le contenu d'un article (texte absent ou incomplet), nous vous proposons plusieurs possibilités.</p>
-<h2>Demande d'aide</h2>
-<p>Que ça soit par mail ou via un ticket, n'oubliez pas de nous donner certaines informations qui sont importantes pour que nous puissions résoudre le problème au mieux :</p>
-<ul>
-<li>l'URL de l'article concerné</li>
-<li>ce que wallabag affiche</li>
-<li>ce à quoi vous vous attendiez</li>
-<li>la version de wallabag ou alors si vous utilisez Framabag</li>
-</ul>
-<h3>Ouvrir un ticket sur github</h3>
-<p>Pour ouvrir un nouveau ticket, il faut <a href="https://github.com/wallabag/wallabag/issues/new">aller sur github</a>. Un compte est nécessaire.<br />
-N'oubliez pas de nous envoyer les informations ci-dessus.</p>
-<h3>Nous envoyer un email</h3>
-<p>Envoyez-nous un lien avec comme sujet <code>Wrong display in wallabag</code> à l'adresse <a href="mailto:hello@wallabag.org">hello@wallabag.org</a>.<br />
-N'oubliez pas de nous envoyer les informations ci-dessus.</p>
-<h2>Résoudre ce problème d'affichage</h2>
-<p>TODO</p>
+                    <h2>Installer une nouvelle version de wallabag</h2>
+<p>Pour mettre à jour votre installation, téléchargez et décompressez l’archive dans votre installation (ici <code>/var/www/html/wallabag/</code>) :</p>
+<pre><code>wget http://wllbg.org/latest
+unzip latest
+rsync -ur wallabag-version-number/* /var/www/html/wallabag/</code></pre>
+<p>Supprimez le répertoire <code>install</code> et videz le cache :</p>
+<pre><code>cd /var/www/html/wallabag/
+rm -r cache/* install/</code></pre>
+<p>Pour vider le cache, il est également possible d'aller dans la page de configuration et de cliquer sur le lien pour supprimer le cache.</p>
+<p>Vérifiez dans le bas de la page de configuration que la dernière version est bien installée.</p>
                 </section>
 
             </div>

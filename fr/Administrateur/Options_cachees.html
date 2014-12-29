@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>wallabag - Mon article s&#039;affiche mal dans wallabag</title>
+        <title>wallabag - Options cachées</title>
 
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://wallabag.github.io/documentation/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="http://wallabag.github.io/documentation/">
                 wallabag
                 <small class="hidden-xs hidden-sm">
-                    Mon article s&#039;affiche mal dans wallabag
+                    Options cachées
                 </small>
             </a>
 
@@ -65,7 +65,7 @@
                                                    Mettre à jour wallabag
                                                 </a>
                                             </li>
-                                                                                    <li class="test ">
+                                                                                    <li class="test active">
                                                 <a href="http://wallabag.github.io/documentation/fr/Administrateur/Options_cachees.html">
                                                    Options cachées
                                                 </a>
@@ -112,7 +112,7 @@
                                                    Convertir en ePub
                                                 </a>
                                             </li>
-                                                                                    <li class="test active">
+                                                                                    <li class="test ">
                                                 <a href="http://wallabag.github.io/documentation/fr/Utilisateur/Un_article_est_mal_affiche.html">
                                                    Problème d'affichage d'un article
                                                 </a>
@@ -171,23 +171,31 @@
 
                 
                 <section class="col-lg-10">
-                    <p>Si vous pensez que wallabag récupère mal le contenu d'un article (texte absent ou incomplet), nous vous proposons plusieurs possibilités.</p>
-<h2>Demande d'aide</h2>
-<p>Que ça soit par mail ou via un ticket, n'oubliez pas de nous donner certaines informations qui sont importantes pour que nous puissions résoudre le problème au mieux :</p>
+                    <h2>Mise en garde</h2>
+<p><strong>Attention</strong>, cette partie concerne les utilisateurs avancés. Nous allons modifier un fichier important de wallabag, <code>inc/poche/config.inc.php</code>, il est donc conseillé de faire une sauvegarde de celui-ci avant toute modification.<br />
+<strong>Toute erreur lors d'une modification d'un fichier de wallabag pourra entrainer des dysfonctionnements</strong>.</p>
+<p>Ce fichier est créé lorsque vous installez wallabag.<br />
+Installez donc d'abord wallabag, faites une copie du fichier et ouvrez-le avec <del>Sublime Text</del> votre éditeur de texte préféré.</p>
+<p>Dans ce fichier sont définis des paramètres qui ne sont, aujourd'hui, pas encore disponibles dans la page <strong>Configuration</strong> de wallabag.</p>
+<h2>Modification des options avancées</h2>
+<p>Chaque paramètre est défini de cette façon :</p>
+<pre><code>@define ('NOM_DU_PARAMETRE', 'Valeur du paramètre');</code></pre>
+<p>Pour chaque ligne, vous ne pouvez modifier que la partie <code>Valeur du paramètre</code>.</p>
+<p>Listons maintenant les différents paramètres que vous pouvez changer :</p>
 <ul>
-<li>l'URL de l'article concerné</li>
-<li>ce que wallabag affiche</li>
-<li>ce à quoi vous vous attendiez</li>
-<li>la version de wallabag ou alors si vous utilisez Framabag</li>
+<li><code>HTTP_PORT</code> (par défaut, <code>80</code>) : correspond au port HTTP de votre serveur web. À changer si votre serveur web est derrière un proxy. Valeur attendue : un nombre.</li>
+<li><code>SSL_PORT</code> (par défaut, <code>443</code>) : correspond au port SSL de votre serveur web. À changer si votre serveur web utilises SSLH. Valeur attendue : un nombre.</li>
+<li><code>DEBUG_POCHE</code> (par défaut, <code>FALSE</code>) : si vous rencontrez des problèmes avec wallabag, nous vous demanderons peut-être d'activer le mode Debug. Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>DOWNLOAD_PICTURES</code> (par défaut, <code>FALSE</code>) : permet de télécharger sur votre serveur les images des articles. Ce paramètre est désactivé par défaut pour ne pas surcharger votre serveur web. Nous préférons vous laisser activer vous-même ce paramètre. Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>SHARE_TWITTER</code> (par défaut, <code>TRUE</code>) : permet d'activer le partage vers twitter. Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>SHARE_MAIL</code> (par défaut, <code>TRUE</code>) : permet d'activer le partage par email. Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>SHARE_SHAARLI</code> (par défaut, <code>FALSE</code>) : permet d'activer le partage vers votre installation de Shaarli (gestionnaire de favoris). Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>SHAARLI_URL</code> (par défaut, <code>'http://myshaarliurl.com'</code>) : définit l'URL de votre installation de Shaarli. Valeur attendue : une URL.</li>
+<li><code>FLATTR</code> (par défaut, <code>TRUE</code>) : permet d'activer la possibilité de flattrer un article (<a href="http://fr.wikipedia.org/wiki/Flattr">Flattr est une plateforme de micro-dons</a>). Si un article est flattrable, une icône s'affichera et vous permet d'envoyer un micro-don à l'auteur de l'article. Valeurs attendues : <code>TRUE</code> ou <code>FALSE</code>.</li>
+<li><code>SHOW_PRINTLINK</code> (par défaut, <code>'1'</code>) : permet d'afficher le lien pour imprimer un article. Valeurs attendues : <code>'0'</code> pour désactiver ou <code>'1'</code> pour activer.</li>
+<li><code>SHOW_READPERCENT</code> (par défaut, <code>'1'</code>) : permet d'afficher (sur les thèmes <code>default</code>, <code>dark</code>, <code>dmagenta</code>, <code>solarized</code>, <code>solarized-dark</code>) le pourcentage de lecture de l'article. Valeurs attendues : <code>'0'</code> pour désactiver ou <code>'1'</code> pour activer.</li>
+<li><code>PAGINATION</code> (par défaut, <code>'12'</code>) : définit le nombre d'articles affichés sur une liste. Valeur attendue : un nombre.</li>
 </ul>
-<h3>Ouvrir un ticket sur github</h3>
-<p>Pour ouvrir un nouveau ticket, il faut <a href="https://github.com/wallabag/wallabag/issues/new">aller sur github</a>. Un compte est nécessaire.<br />
-N'oubliez pas de nous envoyer les informations ci-dessus.</p>
-<h3>Nous envoyer un email</h3>
-<p>Envoyez-nous un lien avec comme sujet <code>Wrong display in wallabag</code> à l'adresse <a href="mailto:hello@wallabag.org">hello@wallabag.org</a>.<br />
-N'oubliez pas de nous envoyer les informations ci-dessus.</p>
-<h2>Résoudre ce problème d'affichage</h2>
-<p>TODO</p>
                 </section>
 
             </div>
