@@ -1,3 +1,7 @@
-###Convert to ePub
+---
+language: English
+currentMenu: epub
+subTitle: ePub conversion
+---
 
-To be translated from https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/08_Convertir_en_ePub.md
+To be translated from [Convertir en ePub](../../fr/Utilisateur/Convertir_en_ePub.md).

@@ -4,6 +4,7 @@ currentMenu: help_us
 subTitle: Contribuer au projet
 ---
 
+# Contribuer au projet
 ## Soumettre des bugs
 ### Demande de support
 

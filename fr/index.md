@@ -4,6 +4,8 @@ currentMenu: getting_started
 subTitle: Documentation en français
 ---
 
+# Documentation en français
+
 **wallabag** est une application de lecture différée : elle permet simplement d'archiver une page web en ne conservant que le contenu. Les éléments superflus (menu, publicité, etc.) sont supprimés.
 
 ## Fonctionnalités

@@ -1,4 +1,3 @@
-#Save your first article 
 
 Once connected on wallabag, you have many ways to save an article.
 

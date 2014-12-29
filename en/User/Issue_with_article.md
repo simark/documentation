@@ -1,3 +1,7 @@
-###If you have an issue reading an article
+---
+language: English
+currentMenu: issue
+subTitle: Issue with article
+---
 
-To be translated from: https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/09_Un_article_est_mal_affich%C3%A9.md
+To be translated from [Un article est mal affiché](../../fr/Utilisateur/Un_article_est_mal_affiche.md).

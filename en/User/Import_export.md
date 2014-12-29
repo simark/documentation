@@ -1,3 +1,7 @@
-#Import and export articles
+---
+language: English
+currentMenu: import
+subTitle: Import and export data
+---
 
-To be translated from: https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/11_Importer_:_Exporter.md
+To be translated from [Importer ou exporter ses données](../../fr/Utilisateur/Importer_exporter.md).
