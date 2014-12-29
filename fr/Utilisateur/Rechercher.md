@@ -12,8 +12,8 @@ wallabag ira parcourir tous vos articles et affichera ceux qui contiennent le te
 
 ## Convertir cette recherche au format ePub
 
-Vous pouvez convertir les articles retournés au format ePub, pour les lire sur une liseuse par exemple. Lisez [Convertir en ePub](Utilisateur/Convertir_en_ePub.md) pour en savoir plus.
+Vous pouvez convertir les articles retournés au format ePub, pour les lire sur une liseuse par exemple. Lisez [Convertir en ePub](Convertir_en_ePub.md) pour en savoir plus.
 
 ## Assigner un tag aux résultats de cette recherche
 
-Vous pouvez créer un tag en fonction du critère de recherche. Lisez [Classer ses articles](Utilisateur/Classer_ses_articles.md) pour en savoir plus.
+Vous pouvez créer un tag en fonction du critère de recherche. Lisez [Classer ses articles](Classer_ses_articles.md) pour en savoir plus.

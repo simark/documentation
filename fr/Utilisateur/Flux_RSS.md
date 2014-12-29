@@ -30,4 +30,4 @@ Si vous souhaitez partager vos lectures avec quelqu'un, envoyez-lui par exemple 
 
 ## Activer les fonctionnalités pour smartphones
 
-Vous avez créé le jeton de flux RSS : il va vous être utile pour configurer votre application smartphone. Pour en savoir sur les applications smartphones, vous pouvez lire [Sauvegarder son premier article](Utilisateur/Sauvegarder_son_premier_article.md).
+Vous avez créé le jeton de flux RSS : il va vous être utile pour configurer votre application smartphone. Pour en savoir sur les applications smartphones, vous pouvez lire [Sauvegarder son premier article](Sauvegarder_son_premier_article.md).
