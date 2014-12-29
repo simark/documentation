@@ -60,6 +60,21 @@ menu:
                         help_us:
                             text: Aidez-nous
                             relativeUrl: fr/Contribuer_au_projet.html
+                admin:
+                    name: Administrateur
+                    subItems:
+                        install:
+                            text: Téléchargement et installation
+                            relativeUrl: fr/Administrateur/Telechargement_et_installation.html
+                        upgrade:
+                            text: Mettre à jour wallabag
+                            relativeUrl: fr/Administrateur/MAJ_wallabag.html
+                        hidden:
+                            text: Options cachées
+                            relativeUrl: fr/Administrateur/Options_cachees.html
+                        multiusers:
+                            text: wallabag multi-utilisateurs
+                            relativeUrl: fr/Administrateur/Multi-utilisateurs.html
                 user:
                     name: Utilisateur
                     subItems:
@@ -93,25 +108,25 @@ menu:
                         framabag:
                             text: Se créer un compte sur Framabag
                             relativeUrl: fr/Utilisateur/Framabag.html
+                developer:
+                    name: Développeur
+                    subItems:
+                        theme:
+                            text: Créer un nouveau thème
+                            relativeUrl: fr/Developpeur/Creer_un_nouveau_theme.html
+                        repo:
+                            text: Dépôt git de wallabag
+                            relativeUrl: fr/Developpeur/Depot_git.html
+                        docker:
+                            text: Docker
+                            relativeUrl: fr/Developpeur/Docker.html
+                        vagrant:
+                            text: Vagrant
+                            relativeUrl: fr/Developpeur/Vagrant.html
+                        v2:
+                            text: wallabag v2 / symfony2
+                            relativeUrl: fr/Developpeur/v2.html
 
-                # developer:
-                #     name: Documentation développeur
-                #     subItems:
-                #         home1:
-                #             text: Getting started
-                #             relativeUrl: en/00_Getting_started.html
-                #         help1:
-                #             text: Help wallabag
-                #             relativeUrl: en/01_Help_wallabag.html
-                # admin:
-                #     name: Documentation administrateur
-                #     subItems:
-                #         home:
-                #             text: Getting started
-                #             relativeUrl: en/00_Getting_started.html
-                #         help:
-                #             text: Help wallabag
-                #             relativeUrl: en/01_Help_wallabag.html
         # de:
         #     name: Deutsch
         #     items:
