@@ -6,7 +6,7 @@ subTitle: Télécharger et installer wallabag
 
 ## Je ne souhaite pas installer wallabag
 
-Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de vous créer un compte gratuit : [lisez la documentation complète ici](/fr/Documentation_utilisateur/Se_cr%C3%A9er_un_compte_sur_Framabag).
+Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de vous créer un compte gratuit : [lisez la documentation complète ici](Utilisateur/Framabag.md).
 
 ## Je souhaite installer wallabag
 

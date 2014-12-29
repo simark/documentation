@@ -14,7 +14,7 @@ Cette astuce ne fonctionne qu'avec l'application web et pas les applications sma
 
 ## Actions possibles depuis l'article
 
-Ces actions sont possibles grâce aux icônes affichés en haut de la page. Nous partons du principe que vous utilisez le thème Baggy ([lire la documentation pour changer de thème](/fr/Documentation_utilisateur/Configurer_wallabag)), les icônes dans les autres thèmes sont sensiblement les mêmes.  
+Ces actions sont possibles grâce aux icônes affichés en haut de la page. Nous partons du principe que vous utilisez le thème Baggy ([lire la documentation pour changer de thème](Utilisateur/Configurer_wallabag.md)), les icônes dans les autres thèmes sont sensiblement les mêmes.  
 Voici donc ces actions, par ordre d'apparition des icônes.
 
 ### Lire l'article original
@@ -49,8 +49,8 @@ Ouvre la fenêtre d'impression du navigateur.
 
 ### Convertir en ePub
 
-Convertit l'article au format ePub. [Un chapitre complet existe](fr/Utilisateur/Convertir_en_ePub.html).
+Convertit l'article au format ePub. [Un chapitre complet existe](Utilisateur/Convertir_en_ePub.md).
 
 ### Signaler que l'article s'affiche mal
 
-Permet de signaler qu'un article ne s'affiche pas comme attendu. [Un chaptire complet existe](/fr/Documentation_utilisateur/Un_article_est_mal_affich%C3%A9).
+Permet de signaler qu'un article ne s'affiche pas comme attendu. [Un chaptire complet existe](Utilisateur/Un_article_est_mal_affiche.md).
