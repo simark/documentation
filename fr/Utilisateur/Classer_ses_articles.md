@@ -1,6 +1,7 @@
 ---
 language: Français
 currentMenu: sort_article
+subTitle: Classer ses articles
 ---
 
 Pour pouvoir retrouver plus facilement vos articles, plusieurs méthodes existent.

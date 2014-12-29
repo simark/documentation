@@ -1,6 +1,7 @@
 ---
 language: Français
 currentMenu: configure
+subTitle: Configurer wallabag
 ---
 
 Depuis le menu **configuration**, vous avez la possibilité de changer quelques options de wallabag.

@@ -1,6 +1,7 @@
 ---
 language: Français
 currentMenu: search
+subTitle: Rechercher du contenu dans wallabag
 ---
 
 Pour que vous puissiez retrouver un article au plus vite, nous avons mis en place un moteur de recherche complet.

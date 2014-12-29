@@ -81,6 +81,19 @@ menu:
                         epub:
                             text: Convertir en ePub
                             relativeUrl: fr/Utilisateur/Convertir_en_ePub.html
+                        issue:
+                            text: Problème d'affichage d'un article
+                            relativeUrl: fr/Utilisateur/Un_article_est_mal_affiche.html
+                        rss:
+                            text: Flux RSS
+                            relativeUrl: fr/Utilisateur/Flux_RSS.html
+                        import:
+                            text: Importer / Exporter
+                            relativeUrl: fr/Utilisateur/Importer_exporter.html
+                        framabag:
+                            text: Se créer un compte sur Framabag
+                            relativeUrl: fr/Utilisateur/Framabag.html
+
                 # developer:
                 #     name: Documentation développeur
                 #     subItems:

@@ -1,6 +1,7 @@
 ---
 language: Français
 currentMenu: help_us
+subTitle: Contribuer au projet
 ---
 
 ## Soumettre des bugs
