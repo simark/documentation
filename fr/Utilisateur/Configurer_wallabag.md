@@ -1,6 +1,11 @@
+---
+language: Français
+currentMenu: configure
+---
+
 Depuis le menu **configuration**, vous avez la possibilité de changer quelques options de wallabag.
 
-Certaines parties ne seront pas présentées ici car elles bénéficient d'un chapitre complet dans la documentation ([flux RSS](/fr/Documentation_utilisateur/Flux_RSS), [l'import depuis un service tiers](/fr/Documentation_utilisateur/Importer_:_Exporter), [l'export de vos données](/fr/Documentation_utilisateur/Importer_:_Exporter), [la conversion en ePub](fr/Utilisateur/Convertir_en_ePub.html) et [le mode multi-utilisateurs](/fr/Documentation_utilisateur/Multi-utilisateurs)).
+Certaines parties ne seront pas présentées ici car elles bénéficient d'un chapitre complet dans la documentation ([flux RSS](/fr/Documentation_utilisateur/Flux_RSS), [l'import depuis un service tiers](/fr/Documentation_utilisateur/Importer_:_Exporter), [l'export de vos données](/fr/Documentation_utilisateur/Importer_:_Exporter), [la conversion en ePub](/fr/Utilisateur/Convertir_en_ePub.html) et [le mode multi-utilisateurs](/fr/Documentation_utilisateur/Multi-utilisateurs)).
 
 ## Thème
 
