@@ -72,6 +72,9 @@ menu:
                         sort_article:
                             text: Classer ses articles
                             relativeUrl: fr/Utilisateur/Classer_ses_articles.html
+                        configure:
+                            text: Configurer wallabag
+                            relativeUrl: fr/Utilisateur/Configurer_wallabag.html
                         search:
                             text: Rechercher
                             relativeUrl: fr/Utilisateur/Rechercher.html
