@@ -80,10 +80,10 @@ menu:
                             relativeUrl: en/Developer/Write_config_files.html
                         theme:
                             text: Create a new theme
-                            relativeUrl: en/Developer/Creer_un_nouveau_theme.html
+                            relativeUrl: en/Developer/Create_new_theme.html
                         repo:
                             text: Git repository
-                            relativeUrl: en/Developer/Depot_git.html
+                            relativeUrl: en/Developer/git_repo.html
                         docker:
                             text: Docker
                             relativeUrl: en/Developer/Docker.html
@@ -156,6 +156,9 @@ menu:
                 developer:
                     name: Développeur
                     subItems:
+                        site_config:
+                            text: Écrire un fichier de configuration
+                            relativeUrl: fr/Developpeur/Ecrire_fichier_configuration.html
                         theme:
                             text: Créer un nouveau thème
                             relativeUrl: fr/Developpeur/Creer_un_nouveau_theme.html
