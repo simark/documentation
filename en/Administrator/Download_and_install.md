@@ -4,6 +4,7 @@ currentMenu: install
 subTitle: Download and install wallabag
 ---
 
+# Download and install wallabag
 ## I don't want to install wallabag
 
 If you can't or don't want to install Wallabag on your server, we suggest you create a free account on Framabag wich uses our software: read the complete documentation here (TODO write Create a framabag account).

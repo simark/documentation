@@ -1,1 +1,9 @@
-To be translated from: https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/07_Rechercher.md
+---
+language: English
+currentMenu: search
+subTitle: Search content
+---
+
+# Search content
+
+To be translated from [Rechercher du contenu dans wallabag](../../fr/Utilisateur/Rechercher.md).

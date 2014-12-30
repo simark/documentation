@@ -4,6 +4,8 @@ currentMenu: site_config
 subTitle: Write config files
 ---
 
+# Write config files
+
 wallabag can use specific site config files to parse website articles. These files are stored in the [`inc/3rdparty/site_config/standard`](https://github.com/wallabag/wallabag/tree/master/inc/3rdparty/site_config/standard) folder.
 
 The format used for these files is [XPath](http://www.w3.org/TR/xpath20/). Look at some examples in the folder.

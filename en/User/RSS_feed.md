@@ -1,1 +1,9 @@
-To be translated from https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/10_Flux_RSS.md
+---
+language: English
+currentMenu: rss
+subTitle: RSS feed
+---
+
+# RSS feed
+
+To be translated from [Flux RSS](../../fr/Utilisateur/Flux_RSS.md).

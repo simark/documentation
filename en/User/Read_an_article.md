@@ -1,1 +1,9 @@
-To be translated from French https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/04_Lire_un_article.md
+---
+language: English
+currentMenu: read_article
+subTitle: Read an article
+---
+
+# Read an article
+
+To be translated from [Lire un article](../../fr/Utilisateur/Lire_un_article.md).

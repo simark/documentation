@@ -1,1 +1,9 @@
-To be translated from: https://github.com/wallabag/documentation/blob/master/fr/02_Documentation_utilisateur/05_Classer_ses_articles.md
+---
+language: English
+currentMenu: sort_article
+subTitle: Organize articles
+---
+
+# Organize articles
+
+To be translated from [Classer ses articles](../../fr/Utilisateur/Classer_ses_articles.md).

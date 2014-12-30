@@ -4,6 +4,7 @@ currentMenu: upgrade
 subTitle: Update wallabag
 ---
 
+# Update wallabag
 ## Update an existing wallabag installation
 
  In order to update your installation, download and unzip the archive into your installation folder. For example on Ubuntu/Debian:

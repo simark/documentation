@@ -4,6 +4,7 @@ currentMenu: help_us
 subTitle: Help wallabag
 ---
 
+# Help wallabag
 ## Report bugs
 ### Contact wallabag support
 
