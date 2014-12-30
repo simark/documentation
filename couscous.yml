@@ -2,6 +2,7 @@ template:
     directory: website
 
 baseUrl: "http://wallabag.github.io/documentation/"
+github_url: https://github.com/wallabag/documentation
 
 exclude:
     - website
@@ -174,73 +175,165 @@ menu:
                         v2:
                             text: wallabag v2 / symfony2
                             relativeUrl: fr/Developpeur/v2.html
-
-        # de:
-        #     name: Deutsch
-        #     items:
-        #         user:
-        #             name: User documentation
-        #             subItems:
-        #                 userHome:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 userHelp:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        #         developer:
-        #             name: Developer documentation
-        #             subItems:
-        #                 home1:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 help1:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        #         admin:
-        #             name: Admin documentation
-        #             subItems:
-        #                 home:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 help:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        # ru:
-        #     name: русский
-        #     items:
-        #         user:
-        #             name: User documentation
-        #             subItems:
-        #                 userHome:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 userHelp:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        #         developer:
-        #             name: Developer documentation
-        #             subItems:
-        #                 home1:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 help1:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        #         admin:
-        #             name: Admin documentation
-        #             subItems:
-        #                 home:
-        #                     text: Getting started
-        #                     relativeUrl: en/00_Getting_started.html
-        #                 help:
-        #                     text: Help wallabag
-        #                     relativeUrl: en/01_Help_wallabag.html
-        # others:
-        #     name: Links
-        #     items:
-        #         github:
-        #             text: github
-        #             absoluteUrl: https://github.com/wallabag/wallabag
-        #         twitter:
-        #             text: twitter
-        #             absoluteUrl: https://twitter.com/wallabagapp
+        de:
+            name: Deutsch
+            items:
+                general:
+                    name: ~
+                    subItems:
+                        getting_started:
+                            text: Getting started
+                            relativeUrl: de/index.html
+                        help_us:
+                            text: wallabag unterstuetzen
+                            relativeUrl: de/wallabag_unterstuetzen.html
+                admin:
+                    name: Administrator
+                    subItems:
+                        install:
+                            text: Download and installation
+                            relativeUrl: de/Administrator/Download_and_install.html
+                        upgrade:
+                            text: Update wallabag
+                            relativeUrl: de/Administrator/Update.html
+                        hidden:
+                            text: Hidden options
+                            relativeUrl: de/Administrator/Hidden_options.html
+                        multiusers:
+                            text: Multi users
+                            relativeUrl: de/Administrator/Multiusers.html
+                user:
+                    name: User
+                    subItems:
+                        save_article:
+                            text: Save your first article
+                            relativeUrl: de/Anwender/Save_your_first_article.html
+                        read_article:
+                            text: Artikel lesen
+                            relativeUrl: de/Anwender/Artikel_lesen.html
+                        sort_article:
+                            text: Organize articles
+                            relativeUrl: de/Anwender/Organize_articles.html
+                        configure:
+                            text: Configure wallabag
+                            relativeUrl: de/Anwender/Configure_wallabag.html
+                        search:
+                            text: Search
+                            relativeUrl: de/Anwender/Search.html
+                        epub:
+                            text: ePub conversion
+                            relativeUrl: de/Anwender/epub_conversion.html
+                        issue:
+                            text: Issue with article
+                            relativeUrl: de/Anwender/Issue_with_article.html
+                        rss:
+                            text: RSS feed
+                            relativeUrl: de/Anwender/RSS_feed.html
+                        import:
+                            text: Import export
+                            relativeUrl: de/Anwender/Import_export.html
+                        framabag:
+                            text: Framabag account creation
+                            relativeUrl: de/Anwender/Framabag_account_creation.html
+                developer:
+                    name: Developer
+                    subItems:
+                        site_config:
+                            text: Write config files
+                            relativeUrl: de/Developer/Write_config_files.html
+                        theme:
+                            text: Create a new theme
+                            relativeUrl: de/Developer/Create_new_theme.html
+                        repo:
+                            text: Git repository
+                            relativeUrl: de/Developer/git_repo.html
+                        docker:
+                            text: Docker
+                            relativeUrl: de/Developer/Docker.html
+                        vagrant:
+                            text: Vagrant
+                            relativeUrl: de/Developer/Vagrant.html
+                        v2:
+                            text: wallabag v2 / symfony2
+                            relativeUrl: de/Developer/v2.html
+        ru:
+            name: русский
+            items:
+                general:
+                    name: ~
+                    subItems:
+                        getting_started:
+                            text: Getting started
+                            relativeUrl: ru/index.html
+                        help_us:
+                            text: Help us
+                            relativeUrl: ru/Help_wallabag.html
+                admin:
+                    name: Administrator
+                    subItems:
+                        install:
+                            text: Download and installation
+                            relativeUrl: ru/Administrator/Download_and_install.html
+                        upgrade:
+                            text: Update wallabag
+                            relativeUrl: ru/Administrator/Update.html
+                        hidden:
+                            text: Hidden options
+                            relativeUrl: ru/Administrator/Hidden_options.html
+                        multiusers:
+                            text: Multi users
+                            relativeUrl: ru/Administrator/Multiusers.html
+                user:
+                    name: пользователя
+                    subItems:
+                        save_article:
+                            text: Save your first article
+                            relativeUrl: ru/пользователя/Save_your_first_article.html
+                        read_article:
+                            text: Read an article
+                            relativeUrl: ru/пользователя/Read_an_article.html
+                        sort_article:
+                            text: Organize articles
+                            relativeUrl: ru/пользователя/Organize_articles.html
+                        configure:
+                            text: Настроите wallabag
+                            relativeUrl: ru/пользователя/Настроите_wallabag.html
+                        search:
+                            text: Search
+                            relativeUrl: ru/пользователя/Search.html
+                        epub:
+                            text: ePub conversion
+                            relativeUrl: ru/пользователя/epub_conversion.html
+                        issue:
+                            text: Issue with article
+                            relativeUrl: ru/пользователя/Issue_with_article.html
+                        rss:
+                            text: RSS feed
+                            relativeUrl: ru/пользователя/RSS_feed.html
+                        import:
+                            text: Import export
+                            relativeUrl: ru/пользователя/Import_export.html
+                        framabag:
+                            text: Framabag account creation
+                            relativeUrl: ru/пользователя/Framabag_account_creation.html
+                developer:
+                    name: Developer
+                    subItems:
+                        site_config:
+                            text: Write config files
+                            relativeUrl: ru/Developer/Write_config_files.html
+                        theme:
+                            text: Create a new theme
+                            relativeUrl: ru/Developer/Create_new_theme.html
+                        repo:
+                            text: Git repository
+                            relativeUrl: ru/Developer/git_repo.html
+                        docker:
+                            text: Docker
+                            relativeUrl: ru/Developer/Docker.html
+                        vagrant:
+                            text: Vagrant
+                            relativeUrl: ru/Developer/Vagrant.html
+                        v2:
+                            text: wallabag v2 / symfony2
+                            relativeUrl: ru/Developer/v2.html

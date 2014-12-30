@@ -1,6 +1,15 @@
+---
+language: Deutsch
+currentMenu: getting_started
+subTitle: Deutsch dokumentation
+---
+
+# Deutsch dokumentation
+
 **wallabag** ist eine Read-it-later-Anwendung: sie speichert Webseiten, indem sie lediglich die Inhalte behält. Elemente wie Navigations-Links und Werbung werden entfernt.
 
 ## Funktionen
+
 * Inhalte der Webseiten werden gespeichert: Texte und Bilder 
 * die Webanwendung passt sich dem benutzten Anzeigegerät (Smartphone, PC, ... ) an
 * Artikel können als ePub exportiert werden
@@ -10,9 +19,3 @@
 * ... und viele weitere Funktionen! 
 
 Diese Anwenderdokumentation soll zeigen, wie man wallabag nutzen kann.
-
-## Demonstration
-Wenn du alle wallabag-Funktionen ausprobieren möchtest, kannst du diese Demonstrations-Webseite nutzen:  [http://demo.wallabag.org](http://demo.wallabag.org)
-
-## Ein Benutzerkonto erstellen
-Wenn du wallabag nicht selbst installieren möchtest oder kannst, kannst du stattdessen ein kostenloses Benutzerkonto auf [Framabag.org](https://www.framabag.org) erstellen. Dazu brauchst du nur eine gültige E-Mail-Adresse.
