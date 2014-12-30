@@ -16,7 +16,7 @@ Das funktioniert nur in der Web-Anwendung.
 ## Mögliche Aktionen für Artikel
 
 Die hier beschriebenen Aktionen können mit Hilfe der am oberen Seitenrand angezeigten Symbole ausgeführt werden.
-Die Beschreibung hier orientiert sich am Theme "Baggy" ([Theme ändern](/de/Anwenderdokumentation/wallabag_konfigurieren)), die Symbole in den anderen Themes sind im Wesentlichen gleich.
+Die Beschreibung hier orientiert sich am Theme "Baggy" ([Theme ändern](wallabag_konfigurieren.md)), die Symbole in den anderen Themes sind im Wesentlichen gleich.
 Die Aktionen in Reihenfolge der Symbole sind:
 
 ### Den Originalartikel lesen

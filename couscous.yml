@@ -206,8 +206,8 @@ menu:
                     name: User
                     subItems:
                         save_article:
-                            text: Save your first article
-                            relativeUrl: de/Anwender/Save_your_first_article.html
+                            text: Den ersten Artikel speichern
+                            relativeUrl: de/Anwender/Den_ersten_Artikel_speichern.html
                         read_article:
                             text: Artikel lesen
                             relativeUrl: de/Anwender/Artikel_lesen.html
@@ -215,8 +215,8 @@ menu:
                             text: Organize articles
                             relativeUrl: de/Anwender/Organize_articles.html
                         configure:
-                            text: Configure wallabag
-                            relativeUrl: de/Anwender/Configure_wallabag.html
+                            text: wallabag konfigurieren
+                            relativeUrl: de/Anwender/wallabag_konfigurieren.html
                         search:
                             text: Search
                             relativeUrl: de/Anwender/Search.html
@@ -224,8 +224,8 @@ menu:
                             text: ePub conversion
                             relativeUrl: de/Anwender/epub_conversion.html
                         issue:
-                            text: Issue with article
-                            relativeUrl: de/Anwender/Issue_with_article.html
+                            text: Ein Artikel wird nicht korrekt angezeigt
+                            relativeUrl: de/Anwender/Ein_Artikel_wird_nicht_korrekt_angezeigt.html
                         rss:
                             text: RSS feed
                             relativeUrl: de/Anwender/RSS_feed.html
