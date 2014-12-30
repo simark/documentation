@@ -4,6 +4,8 @@ currentMenu: multiusers
 subTitle: wallabag multi-utilisateurs
 ---
 
+# wallabag multi-utilisateurs
+
 ## Créer un nouveau compte
 
 Si vous souhaitez utiliser wallabag pour plusieurs personnes, il est possible de créer de nouveaux comptes depuis la page de configuration.

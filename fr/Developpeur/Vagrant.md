@@ -4,6 +4,8 @@ currentMenu: vagrant
 subTitle: Vagrant
 ---
 
+# Vagrant
+
 Pour vous permettre de mettre en place rapidement la configuration requise pour wallabag, nous vous proposons un fichier Vagrantfile.
 
 [Définition Wikipedia](http://fr.wikipedia.org/wiki/Vagrant)

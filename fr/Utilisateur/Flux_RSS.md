@@ -4,6 +4,8 @@ currentMenu: rss
 subTitle: Flux RSS
 ---
 
+# Flux RSS
+
 Les flux RSS vous permettent :
 
 * de lire vos articles depuis votre lecteur de flux RSS préféré

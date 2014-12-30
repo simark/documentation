@@ -4,6 +4,8 @@ currentMenu: framabag
 subTitle: Se créer un compte sur Framabag
 ---
 
+# Se créer un compte sur Framabag
+
 Puisque vous ne souhaitez peut-être pas gérer l'installation et la mise à jour de wallabag, ou puisque vous n'avez peut-être pas les connaissances pour l'installer, il vous est possible de vous créer un compte gratuit sur [Framabag.org](https://www.framabag.org).
 
 ## Création du compte

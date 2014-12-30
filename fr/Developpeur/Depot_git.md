@@ -4,6 +4,8 @@ currentMenu: repo
 subTitle: Dépôt git de wallabag
 ---
 
+# Dépôt git de wallabag
+
 Si vous souhaitez contribuer au projet en proposant de nouvelles fonctionnalités ou en corrigeant des bugs, il faut suivre les recommandations que vous lirez ci-dessous concernant le dépôt Git disponible à cette adresse : [https://github.com/wallabag/wallabag](https://github.com/wallabag/wallabag).
 
 ## État des lieux

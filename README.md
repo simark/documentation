@@ -2,10 +2,12 @@
 layout: home
 ---
 
-**Welcome on wallabag documentation**. Thanks to this tool, we hope that you can easily use wallabag and work with it. 
+**Welcome on wallabag documentation**. Thanks to this tool, we hope that you can easily use wallabag and work with it.
 
 Today, we have three documentations: for **users**, for **developers** and for **administrators**. Just select your language and good reading!  
-Feel free to [contribute to this documentation](https://github.com/wallabag/documentation). It's your documentation. 
+Feel free to [contribute to this documentation](https://github.com/wallabag/documentation): it's your documentation.
+
+This documentation is generated thanks to [couscous.io](http://couscous.io/).
 
 ## License
 

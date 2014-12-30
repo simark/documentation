@@ -4,7 +4,7 @@ currentMenu: upgrade
 subTitle: Mettre à jour wallabag
 ---
 
-## Installer une nouvelle version de wallabag
+# Mettre à jour wallabag
 
  Pour mettre à jour votre installation, téléchargez et décompressez l’archive dans votre installation (ici `/var/www/html/wallabag/`) :
 

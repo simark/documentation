@@ -4,6 +4,7 @@ currentMenu: import
 subTitle: Importer ou exporter ses données
 ---
 
+# Importer ou exporter ses données
 ## Importer
 
 Pour importer des données dans wallabag, vous devez vous rendre dans la page **Configuration**.

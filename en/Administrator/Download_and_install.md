@@ -9,7 +9,7 @@ subTitle: Download and install wallabag
 If you can't or don't want to install Wallabag on your server, we suggest you create a free account on Framabag wich uses our software: read the complete documentation here (TODO write Create a framabag account).
 
 ## I want to install wallabag
- 
+
 [Download the latest wallabag version](http://wllbg.org/latest) and unpack it. Copy the files on your web server.
 
 ## Prerequisites for your web server
@@ -26,14 +26,14 @@ If you can't or don't want to install Wallabag on your server, we suggest you cr
 
 To ensure that your server has all the prerequisites, you can run the file `wallabag_compatibility_test.php` that is located in the `install` directory of wallabag.
 
-## Installation of the dependencies 
+## Installation of the dependencies
 
 In order to work properly, wallabag needs some dependencies. To install them, you have to use `composer`. In your wallabag folder, run the following commands:
 
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
-If you can't install `composer` (In order to work properly, Wallabag needs some dependencies), we provide you a [vendor.zip](http://wllbg.org/vendor) file to unpack in your wallabag directory. 
+If you can't install `composer` (In order to work properly, Wallabag needs some dependencies), we provide you a [vendor.zip](http://wllbg.org/vendor) file to unpack in your wallabag directory.
 
 ## Permissions
 
@@ -41,14 +41,14 @@ Your web server needs a writing access in `assets`, `cache` and `db` directory. 
 
 ## Installation of wallabag. At last.
 
-Access to wallabag from your web browser. If your server is correctly configured, you reach the setup screen.  
+Access to wallabag from your web browser. If your server is correctly configured, you reach the setup screen.
 
 Fill your database type (`sqlite`, `mysql` or `postgresql`) and finally the information for your user account.
 
-wallabag is now installed. 
+wallabag is now installed.
 
-## Login 
+## Login
 
-From your web browser, you reach the login screen : fill your username and your password to connect to your account.
+From your web browser, you reach the login screen: fill your username and your password to connect to your account.
 
 Enjoy!

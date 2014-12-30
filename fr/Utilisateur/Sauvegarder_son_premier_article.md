@@ -4,6 +4,8 @@ currentMenu: save_article
 subTitle: Sauvegarder son premier article
 ---
 
+# Sauvegarder son premier article
+
 Une fois connecté sur wallabag, vous avez plusieurs moyens pour sauvegarder un article.
 
 ## Depuis l'application web

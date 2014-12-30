@@ -4,10 +4,9 @@ currentMenu: configure
 subTitle: Configure wallabag
 ---
 
-From the configuration menu, you can change some wallabag's options. 
+From the configuration menu, you can change some wallabag's options.
 
-Some parts won't be presented here as they have a complete chapter in the documentation (RSS 
-feeds, import from a third party service, export your data, Epub conversion and multi-user mode).
+Some parts won't be presented here as they have a complete chapter in the documentation (RSS feeds, import from a third party service, export your data, Epub conversion and multi-user mode).
 
 ## Theme
 

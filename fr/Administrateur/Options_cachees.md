@@ -4,6 +4,8 @@ currentMenu: hidden
 subTitle: Options cachées
 ---
 
+# Options cachées
+
 ## Mise en garde
 
 **Attention**, cette partie concerne les utilisateurs avancés. Nous allons modifier un fichier important de wallabag, `inc/poche/config.inc.php`, il est donc conseillé de faire une sauvegarde de celui-ci avant toute modification.  

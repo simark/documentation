@@ -4,6 +4,8 @@ currentMenu: issue
 subTitle: Mon article s'affiche mal dans wallabag
 ---
 
+# Mon article s'affiche mal dans wallabag
+
 Si vous pensez que wallabag récupère mal le contenu d'un article (texte absent ou incomplet), nous vous proposons plusieurs possibilités.
 
 ## Demande d'aide

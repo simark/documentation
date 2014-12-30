@@ -4,6 +4,8 @@ currentMenu: configure
 subTitle: Configurer wallabag
 ---
 
+# Configurer wallabag
+
 Depuis le menu **configuration**, vous avez la possibilité de changer quelques options de wallabag.
 
 Certaines parties ne seront pas présentées ici car elles bénéficient d'un chapitre complet dans la documentation ([flux RSS](Flux_RSS.md), [l'import depuis un service tiers](Importer_exporter.md), [l'export de vos données](Importer_exporter.md), [la conversion en ePub](Convertir_en_ePub.md) et [le mode multi-utilisateurs](../Administrateur/Multi-utilisateurs.md)).

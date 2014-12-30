@@ -4,6 +4,8 @@ currentMenu: read_article
 subTitle: Lire un article
 ---
 
+# Lire un article
+
 Lire un article n'est pas la chose la plus compliquée dans wallabag. Vous n'avez qu'à cliquer sur le titre d'un article pour l'afficher.
 
 ## Revenir là où vous avez laissé votre article

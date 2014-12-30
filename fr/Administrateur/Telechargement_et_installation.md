@@ -4,6 +4,8 @@ currentMenu: install
 subTitle: Télécharger et installer wallabag
 ---
 
+# Télécharger et installer wallabag
+
 ## Je ne souhaite pas installer wallabag
 
 Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de vous créer un compte gratuit : [lisez la documentation complète ici](../Utilisateur/Framabag.md).
