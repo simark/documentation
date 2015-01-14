@@ -3,7 +3,6 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "couscous/couscous": "dev-master",
-        "beelab/bowerphp": "dev-master"
+        "couscous/couscous": "dev-master"
     }
 }
