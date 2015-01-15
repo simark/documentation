@@ -3,6 +3,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "couscous/couscous": "dev-master"
+        "couscous/couscous": "dev-master",
+        "mnapoli/php-di": "5.0.x-dev@dev"
     }
 }
