@@ -11,9 +11,26 @@ If you can't or don't want to install Wallabag on your server, we suggest you cr
 
 ## I want to install wallabag
 
+### I want to download wallabag via composer
+
+You need to install composer: 
+
+    curl -s http://getcomposer.org/installer | php
+    php composer.phar install
+
+Next, on your web server, run this command: 
+
+    composer create-project wallabag/wallabag wallabag
+
+All is downloaded into `wallabag` folder.
+
+Follow the instructions written in *Permissions* part.
+
+### I want to download wallabag manually
+
 [Download the latest wallabag version](http://wllbg.org/latest) and unpack it. Copy the files on your web server.
 
-## Prerequisites for your web server
+#### Prerequisites for your web server
 
 * [PHP 5.3.3 or more](http://php.net/manual/en/install.php)
 * [SQLite](http://php.net/manual/en/book.sqlite.php) or [MySQL](http://php.net/manual/fr/book.mysql.php) or [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
@@ -27,7 +44,7 @@ If you can't or don't want to install Wallabag on your server, we suggest you cr
 
 To ensure that your server has all the prerequisites, you can run the file `wallabag_compatibility_test.php` that is located in the `install` directory of wallabag.
 
-## Installation of the dependencies
+#### Installation of the dependencies
 
 In order to work properly, wallabag needs some dependencies. To install them, you have to use `composer`. In your wallabag folder, run the following commands:
 
@@ -36,11 +53,11 @@ In order to work properly, wallabag needs some dependencies. To install them, yo
 
 If you can't install `composer` (In order to work properly, Wallabag needs some dependencies), we provide you a [vendor.zip](http://wllbg.org/vendor) file to unpack in your wallabag directory.
 
-## Permissions
+### Permissions
 
 Your web server needs a writing access in `assets`, `cache` and `db` directory. Otherwise, a message will report that the installation is impossible.
 
-## Installation of wallabag. At last.
+### Installation of wallabag. At last.
 
 Access to wallabag from your web browser. If your server is correctly configured, you reach the setup screen.
 
