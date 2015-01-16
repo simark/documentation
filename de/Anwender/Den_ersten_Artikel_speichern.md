@@ -10,9 +10,9 @@ Einmal angemeldet, gibt es viele Möglichkeiten, Artikel zu speichern.
 
 ## In der Webanwendung
 
-Klicke in derMenüleiste auf den Eintrag "Speichere einen Link", gib in das erscheinende Popup-Fenster den Link ein und klicke auf "Link speichern!".
+Klicke in der Menüleiste auf den Eintrag "Speichere einen Link", gib in das erscheinende Popup-Fenster den Link ein und klicke auf "Link speichern!".
 
-Das Standardverhakten von wallabag ist, nur den Text des Artikels zu speichern. Wenn du möchtest, dass wallabag auch Kopien der im Artikel enthaltenen Bilder auf deinem Server speichert, musst du die Einstellung *DOWNLOAD_PICTURES* aktivieren. Lies dazu das Kapitel über die versteckten Einstellungen.
+Das Standardverhalten von wallabag ist, nur den Text des Artikels zu speichern. Wenn du möchtest, dass wallabag auch Kopien der im Artikel enthaltenen Bilder auf deinem Server speichert, musst du die Einstellung *DOWNLOAD_PICTURES* aktivieren. Lies dazu das Kapitel über die versteckten Einstellungen.
 
 ## Mit dem Bookmarklet
 
