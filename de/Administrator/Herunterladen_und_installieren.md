@@ -1,3 +1,10 @@
+---
+language: Deutsch
+currentMenu: install
+subTitle: wallabag herunterladen und installieren
+---
+
+# wallabag herunterladen und installieren
 ## Ich möchte wallabag nicht installieren
 Wenn du wallabag nicht auf einem eigenen Server installieren kannst oder möchtest, solltest du ein kostenloses Benutzerkonto auf Framabag erstellen, wo wallabag genutzt wird.
 
