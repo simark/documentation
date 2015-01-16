@@ -178,7 +178,21 @@
                 
                 <section class="col-lg-10">
                     <h1>Écrire un fichier de configuration</h1>
-<p>À traduire de <a href="../../en/Developpeur/Write_config_files.html">Write config files</a>.</p>
+<p>wallabag peut utiliser des fichiers de configuration spécifiques à un site pour lire les articles de ce site. Ces fichiers sont stockés dans le répertoire <a href="https://github.com/wallabag/wallabag/tree/master/inc/3rdparty/site_config/standard"><code>inc/3rdparty/site_config/standard</code></a>.</p>
+<p>Le format utilisé pour ces fichiers est <a href="http://www.w3.org/TR/xpath20/">XPath</a>. Inspirez-vous des exemples dans le répertoire pour en créer de nouveaux.</p>
+<h2>Génération automatique de fichiers de configuration</h2>
+<p>@FiveFilters a créé un <a href="http://siteconfig.fivefilters.org/">outil très utile</a> pour créer des fichiers de configuration. Vous devez taper l'adresse d'un article qui vous intéresse. puis vous sélectionnez le contenu que vous souhaitez.</p>
+<p><img src="https://lut.im/RNaO7gGe/l9vRnO1b" alt="siteconfig" /></p>
+<p>Vous devez confirmer cette zone en essayant avec d'autres articles.
+Quand vous avez trouvé la bonne zone, cliquez simplement sur <em>Download Full-Text RSS site config</em> (Téléchargez la configuration du site Full-Text RSS) pour télécharger le fichier à inclure dans le répertoire.</p>
+<h2>Génération manuelle de fichiers de configuration</h2>
+<p>Si l'outil de FiveFilters ne marche pas tel qu´attendu, regardez la source d'un article (Ctrl+U sur Firefox ou Chromium). Cherchez votre contenu parmi le code source et repérez l'attribut <code>class</code> ou <code>id</code> de la zone que vous souhaitez.</p>
+<p>Une fois que vous avez obtenu l'attribut <code>id</code> ou <code>class</code>, vous pouvez écrire par exemple l'une ou l'autre de ces lignes :</p>
+<pre><code>body: //div[@class='myclass']
+body: //div[@id='myid']</code></pre>
+<p>Ensuite, testez votre fichier de configuration avec d'autres articles du même site. Si vous avez trouvé le bon contenu mais que vous voulez enlever des parties inutiles, ajoutez la ligne suivante (avec l'attribut <code>class</code> correspondant à la la partie inutile) :</p>
+<pre><code>strip: //div[@class='hidden']</code></pre>
+<p>Vous pouvez regarder d'autres options pour les fichiers de configuration de sites <a href="http://help.fivefilters.org/customer/portal/articles/223153-site-patterns">sur l'aide du site fe FiveFilters</a>.</p>
                 </section>
 
             </div>
