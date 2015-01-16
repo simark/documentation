@@ -1,7 +1,7 @@
 ---
 language: Deutsch
 currentMenu: getting_started
-subTitle: Deutsch dokumentation
+subTitle: Dokumentation (deutsch)
 ---
 
 # Deutsch dokumentation
