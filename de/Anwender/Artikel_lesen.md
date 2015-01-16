@@ -42,7 +42,7 @@ Löscht den Artikel aus deiner wallabag. Diese Aktion kann nicht rückgängig ge
 
 ### Twitter
 
-Teile den Titel und Link zum Original-Artikel auf twitter.
+Teile den Titel und Link zum Original-Artikel auf Twitter.
 
 ### Per E-Mail
 
@@ -52,9 +52,9 @@ Teile den Titel und Link zum Original-Artikel per E-Mail.
 
 Öffnet den Druckdialog des Browsers zum Drucken des Artikels.
 
-### ePub erstellen
+### EPUB erstellen
 
-Wandelt den Artikel ins ePub-Format um. Eine genauere Beschreibung dazu gibt es im Kapitel ([ePub erstellen](/de/Anwenderdokumentation/ePub_erstellen)).
+Wandelt den Artikel ins EPUB-Format um. Eine genauere Beschreibung dazu gibt es im Kapitel ([ePub erstellen](/de/Anwenderdokumentation/ePub_erstellen)).
 
 ### Fehlerhafte Anzeige des Artikels melden
 

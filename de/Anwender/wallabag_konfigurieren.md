@@ -6,15 +6,15 @@ subTitle: wallabag konfigurieren
 
 # wallabag konfigurieren
 
-Auf Konfigurationsseite kannst du wallabags Einstellungen anpassen. 
+Auf Konfigurationsseite kannst du die Einstellungen von wallabag anpassen. 
 
-Einige Punkte der Konfigurationsseite werden hier nicht beschrieben, da für diese eigene Kapitel in der Dokumentation vorgesehen sind (RSS-Feeds, Import von einem Drittanbieter, Datenexport, epub-Konvertierung und Mehrbenutzermodus)
+Einige Punkte der Konfigurationsseite werden hier nicht beschrieben, da für diese eigene Kapitel in der Dokumentation vorgesehen sind (RSS-Feeds, Import von einem Drittanbieter, Datenexport, EPUB-Konvertierung und Mehrbenutzermodus)
 
 ## Themes
 
-Über Geschmack lässt sich nicht streiten. Deshalb lässt dir wallabag die Wahl zwischen verschiedenen Themes, um das Aussahen deinem Geschmack anzupassen.
+Über Geschmack lässt sich nicht streiten. Deshalb lässt dir wallabag die Wahl zwischen verschiedenen Themes, um das Aussehen deinem Geschmack anzupassen.
 
-Wähle ein Theme aus der Auwahlliste und bestätige die Änderung durch einen Klick auf **Aktualisieren**.
+Wähle ein Theme aus der Auswahlliste und bestätige die Änderung durch einen Klick auf **Aktualisieren**.
 
 ## Sprache
 
@@ -30,4 +30,4 @@ Du wirst abgemeldet und musst für eine erneute Anmeldung dein neues Passwort nu
 
 Mit Hilfe des Caches kann wallabag einige Aufgaben schneller erledigen.
 
-Nach einem Update von wallabag sollte der Cache geleert werden. Klicke dazu auf den entsprechendenLink.
+Nach einem Update von wallabag sollte der Cache geleert werden. Klicke dazu auf den entsprechenden Link.
