@@ -181,8 +181,17 @@
 <h2>I don't want to install wallabag</h2>
 <p>If you can't or don't want to install Wallabag on your server, we suggest you create a free account on Framabag wich uses our software: read the complete documentation here (TODO write Create a framabag account).</p>
 <h2>I want to install wallabag</h2>
+<h3>I want to download wallabag via composer</h3>
+<p>You need to install composer: </p>
+<pre><code>curl -s http://getcomposer.org/installer | php
+php composer.phar install</code></pre>
+<p>Next, on your web server, run this command: </p>
+<pre><code>composer create-project wallabag/wallabag wallabag</code></pre>
+<p>All is downloaded into <code>wallabag</code> folder.</p>
+<p>Follow the instructions written in <em>Permissions</em> part.</p>
+<h3>I want to download wallabag manually</h3>
 <p><a href="http://wllbg.org/latest">Download the latest wallabag version</a> and unpack it. Copy the files on your web server.</p>
-<h2>Prerequisites for your web server</h2>
+<h4>Prerequisites for your web server</h4>
 <ul>
 <li><a href="http://php.net/manual/en/install.php">PHP 5.3.3 or more</a></li>
 <li><a href="http://php.net/manual/en/book.sqlite.php">SQLite</a> or <a href="http://php.net/manual/fr/book.mysql.php">MySQL</a> or <a href="http://php.net/manual/en/book.pgsql.php">PostgreSQL</a></li>
@@ -195,14 +204,14 @@
 <li><a href="http://php.net/manual/en/book.gettext.php">gettext</a></li>
 </ul>
 <p>To ensure that your server has all the prerequisites, you can run the file <code>wallabag_compatibility_test.php</code> that is located in the <code>install</code> directory of wallabag.</p>
-<h2>Installation of the dependencies</h2>
+<h4>Installation of the dependencies</h4>
 <p>In order to work properly, wallabag needs some dependencies. To install them, you have to use <code>composer</code>. In your wallabag folder, run the following commands:</p>
 <pre><code>curl -s http://getcomposer.org/installer | php
 php composer.phar install</code></pre>
 <p>If you can't install <code>composer</code> (In order to work properly, Wallabag needs some dependencies), we provide you a <a href="http://wllbg.org/vendor">vendor.zip</a> file to unpack in your wallabag directory.</p>
-<h2>Permissions</h2>
+<h3>Permissions</h3>
 <p>Your web server needs a writing access in <code>assets</code>, <code>cache</code> and <code>db</code> directory. Otherwise, a message will report that the installation is impossible.</p>
-<h2>Installation of wallabag. At last.</h2>
+<h3>Installation of wallabag. At last.</h3>
 <p>Access to wallabag from your web browser. If your server is correctly configured, you reach the setup screen.</p>
 <p>Fill your database type (<code>sqlite</code>, <code>mysql</code> or <code>postgresql</code>) and finally the information for your user account.</p>
 <p>wallabag is now installed.</p>
