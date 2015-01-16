@@ -9,12 +9,12 @@ subTitle: wallabag herunterladen und installieren
 Wenn du wallabag nicht auf einem eigenen Server installieren kannst oder möchtest, solltest du ein kostenloses Benutzerkonto auf Framabag erstellen, wo wallabag genutzt wird.
 
 ## Ich möchte wallabag installieren
- 
+
 [Lade die neueste Version von wallabag herunter](http://www.wallabag.org/download) und entpacke sie. Kopiere die entpackten Dateien und Verzeichnisse auf deinen Webserver.
 
 ## Voraussetzungen für den Webserver
 * [PHP 5.3.3 oder höher](http://php.net/manual/en/install.php)
-* [SQLite](http://php.net/manual/en/book.sqlite.php) or [MySQL](http://php.net/manual/fr/book.mysql.php) or [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
+* [SQLite](http://php.net/manual/en/book.sqlite.php) oder [MySQL](http://php.net/manual/fr/book.mysql.php) oder [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
 * [XML for PHP](http://php.net/xml)
 * [PCRE](http://php.net/pcre)
 * [Data filtering](http://php.net/manual/book.filter.php)
@@ -43,7 +43,7 @@ Gib dort deinen Datenbank-Typ an (`sqlite`, `mysql` oder `postgresql`) und die A
 
 wallabag ist jetzt fertig installiert.
 
-## Anmelden 
+## Anmelden
 Rufe wallabag in deinem Webbrowser auf und gib deinen Benutzernamen und dein Passwort ein, um dich anzumelden.
 
 Viel Spaß!
