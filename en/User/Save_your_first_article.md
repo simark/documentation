@@ -61,11 +61,19 @@ To date, the synchronisation occurs in one direction (from wallabag to the appli
 
 #### Installation and configuration
 
-TODO
+You can download the iOS application from the [AppStore](https://itunes.apple.com/app/id828331015).
+
+Once installed, configure the app by filling following fields inside the settings: the **URL (complete address of your wallabag installation or your Framabag account)** and **User ID (in most cases, you'll have to put 1)** field. If you have created multiple accounts from wallabag, you will have to to fill the user account you want to connect to your application and your security **Token** (enter properly all the token's letters as seen in the settings part of wallabag).
 
 #### Usage
 
-TODO
+If the app is configured correctly, the app will automatically download the articles from your wallabag (use pull-to-refresh to trigger this update manually). Once an article is downloaded, it'll be available offline from your app.
+
+Unfortunately you can only locally mark an article as read (it will not synchronise to your online wallabag).
+
+### Saving articles
+
+If you're browsing a website and want to add the current article to your wallabag, simply tap the "Share"-button and select "Bag it!" (if you don't find the wallabag icon, have a look in the "more"-menu). If everything is set up correctly, your article will be saved (you may have to login from time to time).
 
 ###Windows Phone
 ####Installation and configuration
