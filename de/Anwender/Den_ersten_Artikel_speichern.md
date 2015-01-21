@@ -47,11 +47,19 @@ Momentan funktioniert die Synchronisation nur in eine Richtung (von wallabag zur
 ### iOS
 #### Installation und Konfiguration
 
-TODO
+Du kannst die wallabag App im [AppStore](https://itunes.apple.com/app/id828331015) herunterladen.
+
+Nach der Installation kannst du die App mit deiner wallabag verbinden, indem du folgende Daten konfigurierst: deine wallabag **URL (gesamte Adresse deiner wallabag-Installation oder deines Framabag-Kontos)** und deine **User ID (im Normalfall 1)** in die entsprechenden Felder eingeben. Wenn du mehrere Accounts angelegt hast, musst du den Account angeben, mit dem du die App verbinden willst, sowie das zugehörige Sicherheits-**Token** (achte darauf, alle Buchstaben und Ziffern des Tokens anzugeben, so wie es auf der Konfigurationsseite von wallabag angegeben ist).
 
 #### Anwendung
 
-TODO
+Nach erfolgreicher Konfiguration werden deine Artikel in die App geladen und in der Liste angezeigt (Ziehe diese Liste mit der pull-to-refresh Geste herunter, um ein manuelles Update zu starten). Alle geladenen Artikel stehen in der App nun auch offline zur Verfügung.
+
+Zurzeit können Artikel leider nur lokal als gelesen markiert werden (es wird nicht mit der wallabag synchronisiert).
+
+#### Artikel speichern
+
+Artikel können z.B. vom Safari-Browser aus in deine wallabag gespeichert werden. Wähle dazu einfach im **Teilen**-Menü den eintrag **Bag it!** aus (falls du das wallabag Icon nicht findest, aktiviere es unter **Mehr**). Wenn alles richtig eingestellt ist wird dein Artikel gespeichert.
 
 ### Windows Phone
 #### Installation und Konfiguration
