@@ -67,13 +67,13 @@ Once installed, configure the app by filling following fields inside the setting
 
 #### Usage
 
-If the app is configured correctly, the app will automatically download the articles from your wallabag (use pull-to-refresh to trigger this update manually). Once an article is downloaded, it'll be available offline from your app.
+If the app is configured correctly, the app will automatically download the articles from your wallabag (use **pull-to-refresh** to trigger this update manually). Once an article is downloaded, it'll be available offline from your app.
 
 Unfortunately you can only locally mark an article as read (it will not synchronise to your online wallabag).
 
 ### Saving articles
 
-If you're browsing a website and want to add the current article to your wallabag, simply tap the "Share"-button and select "Bag it!" (if you don't find the wallabag icon, have a look in the "more"-menu). If everything is set up correctly, your article will be saved (you may have to login from time to time).
+If you're browsing a website and want to add the current article to your wallabag, simply tap the **Share**-button and select **Bag it!** (if you don't find the wallabag icon, have a look in the **more**-menu). If everything is set up correctly, your article will be saved (you may have to login from time to time).
 
 ###Windows Phone
 ####Installation and configuration
