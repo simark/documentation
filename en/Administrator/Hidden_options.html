@@ -178,7 +178,31 @@
                 
                 <section class="col-lg-10">
                     <h1>Hidden options</h1>
-<p>To be translated from <a href="../../fr/Administrateur/Options_cachees.html">Les options cachées</a>.</p>
+<h2>Caution</h2>
+<p><strong>Be careful</strong>, this section is destined to advanced users. We are going to modify an important wallabag configuration file, <code>inc/poche/config.inc.php</code>. It is therefore advised to do a backup of this file before you proceed.
+<strong>Any error occuring during the modification of a wallabag file could lead to malfunctions</strong>.</p>
+<p>This file is created when you install wallabag.
+Install wallabag, do a backup copy of the file, then open it in your favorite text editor.</p>
+<p>In this file, there are some options that are not, as of now, available in the <strong>config</strong> page of wallabag.</p>
+<h2>Modification of advanced options</h2>
+<p>Each option is defined this way :</p>
+<pre><code>@define ('OPTION_NAME', 'Value');</code></pre>
+<p>For each line, you can only modify the <code>Value</code> field.</p>
+<p>Here is the list of each option you can change:</p>
+<ul>
+<li><code>HTTP_PORT</code> (default: <code>80</code>) : the HTTP port of your web server. You may need to change it if your server is behind a proxy. Accepted values: number</li>
+<li><code>SSL_PORT</code> (default: <code>443</code>) : the HTTP port of your web server. You may need to change it if your server use SSLH. Accepted values: number</li>
+<li><code>DEBUG_POCHE</code> (default: <code>FALSE</code>) : if you encounter some problems with wallabag, we may ask you to active Debug mode. Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>DOWNLOAD_PICTURES</code> (default: <code>FALSE</code>) : Allows wallabag to fetch images from the articles you save on your server, instead of fetching only the text. We prefer to let you activate this option yourself. Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>SHARE_TWITTER</code> (default: <code>TRUE</code>) : enables Twitter sharing. Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>SHARE_MAIL</code> (default: <code>TRUE</code>) : enables mail sharing. Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>SHARE_SHAARLI</code> (default: <code>FALSE</code>) : enables sharing via your Shaarli installation (Shaarli is an open-source bookmark manager). Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>SHAARLI_URL</code> (default: <code>'http://myshaarliurl.com'</code>) : defines your Shaarli installation URL. Accepted values: an URL.</li>
+<li><code>FLATTR</code> (default: <code>TRUE</code>) : enables the possibility to Flattr an article (<a href="http://en.wikipedia.org/wiki/Flattr">Flattr is a microdonation platform</a>). If an article is Flattr-able, an icon will be displayed, allowing you to send a microdonation to the author. Accepted values: <code>TRUE</code> or <code>FALSE</code>.</li>
+<li><code>SHOW_PRINTLINK</code> (default: <code>'1'</code>) : enables the Print button for articles. Accepted values: <code>'1'</code> to enable or <code>'0'</code> to disable.</li>
+<li><code>SHOW_READPERCENT</code> (default: <code>'1'</code>) : enables the reading progress on articles (working on the <code>default</code>, <code>dark</code>, <code>dmagenta</code>, <code>solarized</code>, <code>solarized-dark</code> themes). Accepted values: <code>'1'</code> to enable or <code>'0'</code> to disable.</li>
+<li><code>PAGINATION</code> (default: <code>'12'</code>) : defines the number of articles that are displayed on a list. Accepted values: number.</li>
+</ul>
                 </section>
 
             </div>
