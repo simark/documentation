@@ -36,4 +36,4 @@ Ensuite, testez votre fichier de configuration avec d'autres articles du même s
 strip: //div[@class='hidden']
 ```
 
-Vous pouvez regarder d'autres options pour les fichiers de configuration de sites [sur l'aide du site FiveFilters](http://help.fivefilters.org/customer/portal/articles/223153-site-patterns).
+Vous pouvez regarder d'autres options pour les fichiers de configuration de sites [sur l'aide du site de  FiveFilters](http://help.fivefilters.org/customer/portal/articles/223153-site-patterns).
