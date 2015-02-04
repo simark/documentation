@@ -17,13 +17,12 @@ Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de v
 Vous devez installer composer : 
 
     curl -s http://getcomposer.org/installer | php
-    php composer.phar install
 
 Ensuite, sur votre serveur web, exécutez cette commande : 
 
-    composer create-project wallabag/wallabag wallabag
+    composer create-project wallabag/wallabag . dev-master
 
-Tout est téléchargé dans le répertoire `wallabag`.
+Tout est téléchargé dans le répertoire courant.
 
 Continuez en lisant la partie ci-dessous, *Création de la base de données MySQL*.
 

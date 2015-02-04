@@ -16,11 +16,10 @@ If you can't or don't want to install Wallabag on your server, we suggest you cr
 You need to install composer: 
 
     curl -s http://getcomposer.org/installer | php
-    php composer.phar install
 
 Next, on your web server, run this command: 
 
-    composer create-project wallabag/wallabag wallabag
+    composer create-project wallabag/wallabag . dev-master
 
 All is downloaded into `wallabag` folder.
 
