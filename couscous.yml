@@ -141,13 +141,13 @@ menu:
                             relativeUrl: fr/Utilisateur/rechercher.html
                         epub:
                             text: Convertir en ePub
-                            relativeUrl: fr/Utilisateur/convertir_en_ePub.html
+                            relativeUrl: fr/Utilisateur/convertir_en_epub.html
                         issue:
                             text: Problème d'affichage d'un article
                             relativeUrl: fr/Utilisateur/un_article_est_mal_affiche.html
                         rss:
                             text: Flux RSS
-                            relativeUrl: fr/Utilisateur/flux_RSS.html
+                            relativeUrl: fr/Utilisateur/flux_rss.html
                         import:
                             text: Importer / Exporter
                             relativeUrl: fr/Utilisateur/importer_exporter.html
@@ -207,7 +207,7 @@ menu:
                     subItems:
                         save_article:
                             text: Den ersten Artikel speichern
-                            relativeUrl: de/Anwender/den_ersten_Artikel_speichern.html
+                            relativeUrl: de/Anwender/den_ersten_artikel_speichern.html
                         read_article:
                             text: Artikel lesen
                             relativeUrl: de/Anwender/artikel_lesen.html
@@ -225,7 +225,7 @@ menu:
                             relativeUrl: de/Anwender/epub_conversion.html
                         issue:
                             text: Ein Artikel wird nicht korrekt angezeigt
-                            relativeUrl: de/Anwender/ein_Artikel_wird_nicht_korrekt_angezeigt.html
+                            relativeUrl: de/Anwender/ein_artikel_wird_nicht_korrekt_angezeigt.html
                         rss:
                             text: RSS feed
                             relativeUrl: de/Anwender/rss_feed.html
