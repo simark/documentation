@@ -4,6 +4,31 @@ currentMenu: issue
 subTitle: Issue with article
 ---
 
-# Issue with article
 
-To be translated from [Un article est mal affiché](../../fr/Utilisateur/Un_article_est_mal_affiche.md).
+# My article is not displayed properly in wallabag
+
+If you think wallabag do not copy well the content of an article (empty or incomplete text), here are some suggestions.
+
+## Ask for help
+
+Via an email or a ticket, do not forget to give some information that are important for us to better solve the problem:
+
+* The URL of the article
+* What wallabag displays
+* What you were expecting
+* The wallabag version of if you use Framabag
+
+### Open a ticket on github
+
+To open a new ticket, you should [go to github](https://github.com/wallabag/wallabag/issues/new). An account is required.
+Do not forget to send us the information listed above.
+
+### Send us an email
+
+Send us the link in a email with `Wrong display in wallabag` as title
+to the address [hello@wallabag.org](mailto:hello@wallabag.org).  
+Do not forget to send us the information listed above.
+
+## Solve this display problem
+
+TODO
