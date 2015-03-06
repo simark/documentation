@@ -55,4 +55,4 @@ Convertit l'article au format ePub. [Un chapitre complet existe](Convertir_en_eP
 
 ### Signaler que l'article s'affiche mal
 
-Permet de signaler qu'un article ne s'affiche pas comme attendu. [Un chaptire complet existe](Un_article_est_mal_affiche.md).
+Permet de signaler qu'un article ne s'affiche pas comme attendu. [Un chapitre complet existe](Un_article_est_mal_affiche.md).
