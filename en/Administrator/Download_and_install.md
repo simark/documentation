@@ -67,19 +67,19 @@ If you get a green success message, it means wallabag is now installed.
 #### List of prerequisites for your web server
 
 * [PHP 5.3.3 or more](http://php.net/manual/en/install.php) **with [PDO](http://php.net/manual/en/book.pdo.php) support**
-* [SQLite](http://php.net/manual/en/book.sqlite.php) **or** [MySQL](http://php.net/manual/fr/book.mysql.php) **or** [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
-* [XML for PHP](http://php.net/xml)
-* [PCRE](http://php.net/pcre)
-* [ZLib](http://php.net/zlib)
-* [mbstring](http://php.net/mbstring) and/or [iconv](http://php.net/iconv)
+* [SQLite](http://php.net/manual/en/book.sqlite.php) **or** [MySQL](http://php.net/manual/en/book.mysql.php) **or** [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
+* [XML for PHP](http://php.net/en/xml)
+* [PCRE](http://php.net/en/pcre)
+* [ZLib](http://php.net/en/zlib)
+* [mbstring](http://php.net/en/mbstring) and/or [iconv](http://php.net/en/iconv)
 * The [DOM/XML](http://php.net/manual/en/book.dom.php) extension
 * [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 * [gettext](http://php.net/manual/en/book.gettext.php)
 
 Optionnal :
-* [cURL](http://php.net/curl) (with Parallel URL fetching) or [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
+* [cURL](http://php.net/en/curl) (with Parallel URL fetching) or [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 * [GD](http://php.net/manual/en/book.image.php)
-* [Data filtering](http://php.net/manual/book.filter.php)
+* [Data filtering](http://php.net/manual/en/book.filter.php)
 
 
 ## Login
