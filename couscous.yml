@@ -182,7 +182,7 @@ menu:
                     name: ~
                     subItems:
                         getting_started:
-                            text: Getting started
+                            text: erste Schritte
                             relativeUrl: de/index.html
                         help_us:
                             text: wallabag unterstuetzen
@@ -191,14 +191,8 @@ menu:
                     name: Administrator
                     subItems:
                         install:
-                            text: Download and installation
+                            text: herunterladen und installieren
                             relativeUrl: de/Administrator/herunterladen_und_installieren.html
-                        upgrade:
-                            text: Update wallabag
-                            relativeUrl: de/Administrator/update.html
-                        multiusers:
-                            text: Multi users
-                            relativeUrl: de/Administrator/multiusers.html
                 user:
                     name: User
                     subItems:
@@ -216,7 +210,7 @@ menu:
                             relativeUrl: de/Anwender/wallabag_konfigurieren.html
                         epub:
                             text: ePub conversion
-                            relativeUrl: de/Anwender/epub-konvertierung.md.html
+                            relativeUrl: de/Anwender/epub-konvertierung.html
                         issue:
                             text: Ein Artikel wird nicht korrekt angezeigt
                             relativeUrl: de/Anwender/ein_artikel_wird_nicht_korrekt_angezeigt.html
@@ -239,7 +233,7 @@ menu:
                             text: Сохраните свою первую статью
                             relativeUrl: ru/пользователя/03_Сохраните_свою_первую_статью.html
                         hidden:
-                            text: Скрытые настройки.html
+                            text: Скрытые настройки
                             relativeUrl: ru/пользователя/14_Скрытые_настройки.html
                         configure:
                             text: Настроите wallabag
