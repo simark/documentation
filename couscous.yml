@@ -239,7 +239,7 @@ menu:
                             text: Сохраните свою первую статью
                             relativeUrl: ru/пользователя/03_Сохраните_свою_первую_статью.html
                         hidden:
-                            text: Versteckte einstellungen
+                            text: Скрытые настройки.html
                             relativeUrl: ru/пользователя/14_Скрытые_настройки.html
                         configure:
                             text: Настроите wallabag
