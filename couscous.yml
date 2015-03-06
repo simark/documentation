@@ -192,13 +192,10 @@ menu:
                     subItems:
                         install:
                             text: Download and installation
-                            relativeUrl: de/Administrator/download_and_install.html
+                            relativeUrl: de/Administrator/herunterladen_und_installieren.html
                         upgrade:
                             text: Update wallabag
                             relativeUrl: de/Administrator/update.html
-                        hidden:
-                            text: Hidden options
-                            relativeUrl: de/Administrator/hidden_options.html
                         multiusers:
                             text: Multi users
                             relativeUrl: de/Administrator/multiusers.html
@@ -211,129 +208,39 @@ menu:
                         read_article:
                             text: Artikel lesen
                             relativeUrl: de/Anwender/artikel_lesen.html
-                        sort_article:
-                            text: Organize articles
-                            relativeUrl: de/Anwender/organize_articles.html
+                        hidden:
+                            text: Versteckte einstellungen
+                            relativeUrl: de/Anwender/versteckte_einstellungen.html
                         configure:
                             text: wallabag konfigurieren
                             relativeUrl: de/Anwender/wallabag_konfigurieren.html
-                        search:
-                            text: Search
-                            relativeUrl: de/Anwender/search.html
                         epub:
                             text: ePub conversion
-                            relativeUrl: de/Anwender/epub_conversion.html
+                            relativeUrl: de/Anwender/epub-konvertierung.md.html
                         issue:
                             text: Ein Artikel wird nicht korrekt angezeigt
                             relativeUrl: de/Anwender/ein_artikel_wird_nicht_korrekt_angezeigt.html
-                        rss:
-                            text: RSS feed
-                            relativeUrl: de/Anwender/rss_feed.html
-                        import:
-                            text: Import export
-                            relativeUrl: de/Anwender/import_export.html
                         framabag:
-                            text: Framabag account creation
-                            relativeUrl: de/Anwender/framabag_account_creation.html
-                developer:
-                    name: Developer
-                    subItems:
-                        site_config:
-                            text: Write config files
-                            relativeUrl: de/Developer/write_config_files.html
-                        theme:
-                            text: Create a new theme
-                            relativeUrl: de/Developer/create_new_theme.html
-                        repo:
-                            text: Git repository
-                            relativeUrl: de/Developer/git_repo.html
-                        docker:
-                            text: Docker
-                            relativeUrl: de/Developer/docker.html
-                        vagrant:
-                            text: Vagrant
-                            relativeUrl: de/Developer/vagrant.html
-                        v2:
-                            text: wallabag v2 / symfony2
-                            relativeUrl: de/Developer/v2.html
+                            text: Framabag Account erstellen
+                            relativeUrl: de/Anwender/framabag.html
         ru:
             name: русский
             items:
-                general:
-                    name: ~
-                    subItems:
-                        getting_started:
-                            text: Getting started
-                            relativeUrl: ru/index.html
-                        help_us:
-                            text: Help us
-                            relativeUrl: ru/Help_wallabag.html
                 admin:
                     name: Administrator
                     subItems:
                         install:
-                            text: Download and installation
-                            relativeUrl: ru/Administrator/download_and_install.html
-                        upgrade:
-                            text: Update wallabag
-                            relativeUrl: ru/Administrator/update.html
-                        hidden:
-                            text: Hidden options
-                            relativeUrl: ru/Administrator/hidden_options.html
-                        multiusers:
-                            text: Multi users
-                            relativeUrl: ru/Administrator/multiusers.html
+                            text: Скачать и установить
+                            relativeUrl: ru/пользователя/02_Скачать_и_установить.html
                 user:
                     name: пользователя
                     subItems:
                         save_article:
-                            text: Save your first article
-                            relativeUrl: ru/пользователя/save_your_first_article.html
-                        read_article:
-                            text: Read an article
-                            relativeUrl: ru/пользователя/read_an_article.html
-                        sort_article:
-                            text: Organize articles
-                            relativeUrl: ru/пользователя/organize_articles.html
+                            text: Сохраните свою первую статью
+                            relativeUrl: ru/пользователя/03_Сохраните_свою_первую_статью.html
+                        hidden:
+                            text: Versteckte einstellungen
+                            relativeUrl: ru/пользователя/14_Скрытые_настройки.html
                         configure:
                             text: Настроите wallabag
-                            relativeUrl: ru/пользователя/Настроите_wallabag.html
-                        search:
-                            text: Search
-                            relativeUrl: ru/пользователя/search.html
-                        epub:
-                            text: ePub conversion
-                            relativeUrl: ru/пользователя/epub_conversion.html
-                        issue:
-                            text: Issue with article
-                            relativeUrl: ru/пользователя/issue_with_article.html
-                        rss:
-                            text: RSS feed
-                            relativeUrl: ru/пользователя/rss_feed.html
-                        import:
-                            text: Import export
-                            relativeUrl: ru/пользователя/import_export.html
-                        framabag:
-                            text: Framabag account creation
-                            relativeUrl: ru/пользователя/framabag_account_creation.html
-                developer:
-                    name: Developer
-                    subItems:
-                        site_config:
-                            text: Write config files
-                            relativeUrl: ru/Developer/write_config_files.html
-                        theme:
-                            text: Create a new theme
-                            relativeUrl: ru/Developer/create_new_theme.html
-                        repo:
-                            text: Git repository
-                            relativeUrl: ru/Developer/git_repo.html
-                        docker:
-                            text: Docker
-                            relativeUrl: ru/Developer/docker.html
-                        vagrant:
-                            text: Vagrant
-                            relativeUrl: ru/Developer/vagrant.html
-                        v2:
-                            text: wallabag v2 / symfony2
-                            relativeUrl: ru/Developer/v2.html
+                            relativeUrl: ru/пользователя/06_Настройте_wallabag.html
