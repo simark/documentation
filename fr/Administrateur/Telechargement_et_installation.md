@@ -66,7 +66,7 @@ Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualis�
 
 ### Création de la base de données MySQL
 
-wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
+wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`), un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
 
     mysql -p -u root
     mysql> CREATE DATABASE wallabag;
