@@ -24,7 +24,7 @@ N'oubliez pas de nous envoyer les informations ci-dessus.
 
 ### Nous envoyer un email
 
-Envoyez-nous un lien avec comme sujet `Wrong display in wallabag` à l'adresse [hello@wallabag.org](mailto:hello@wallabag.org).  
+Envoyez-nous un lien à l'adresse [hello@wallabag.org](mailto:hello@wallabag.org?subject=Mauvais%20affichage%20dans%20wallabag).  
 N'oubliez pas de nous envoyer les informations ci-dessus.
 
 ## Résoudre ce problème d'affichage
