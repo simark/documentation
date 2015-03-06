@@ -23,14 +23,14 @@ When you got the right area, just click on *Download Full-Text RSS site config* 
 
 If Fivefilters tool doesn't work correctly, take a look at the source (Ctrl + U on Firefox and Chromium). Search for your content and get the `class` or the `id` attribute of the area containing what you want.
 
-Once you've got the id or class, you can write for example one or another of these lines :
+Once you've got the id or class, you can write for example one or another of these lines:
 
 ```
 body: //div[@class='myclass']
 body: //div[@id='myid']
 ```
 
-Then, test you file. If you got the right content but you want to strip unnecessary parts, do :
+Then, test you file. If you got the right content but you want to strip unnecessary parts, do:
 
 ```
 strip: //div[@class='hidden']

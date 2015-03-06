@@ -18,7 +18,7 @@ In this file, there are some options that are not, as of now, available in the *
 
 ## Modification of advanced options
 
-Each option is defined this way :
+Each option is defined this way:
 
 	@define ('OPTION_NAME', 'Value');
 

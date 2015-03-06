@@ -50,10 +50,10 @@ wallabag is build with Twig, a template library. You have to download it for wal
     ```
 
 #### Database connection
-You have to choose a database system between :
-* **SQLite** : The easiest system of all. No extra configuration needed.
-* **MySQL** : A well known database system, which is in most cases more efficient than SQLite
-* **Postgresql** : Some people found it better than MySQL.
+You have to choose a database system between:
+* **SQLite**: The easiest system of all. No extra configuration needed.
+* **MySQL**: A well known database system, which is in most cases more efficient than SQLite
+* **Postgresql**: Some people found it better than MySQL.
 
 *Note :* If you're using MySQL or Postgresql, you have to **fill all the fields**, otherwise the installation will not work and an error message will tell you what's wrong. You must create the database that you will use for wallabag manually with a tool like PHPMyAdmin or the console.
 
@@ -76,7 +76,7 @@ If you get a green success message, it means wallabag is now installed.
 * [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 * [gettext](http://php.net/manual/en/book.gettext.php)
 
-Optionnal :
+Optionnal:
 * [cURL](http://php.net/en/curl) (with Parallel URL fetching) or [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
 * [GD](http://php.net/manual/en/book.image.php)
 * [Data filtering](http://php.net/manual/en/book.filter.php)
