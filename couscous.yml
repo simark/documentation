@@ -30,7 +30,7 @@ menu:
                     subItems:
                         install:
                             text: Download and installation
-                            relativeUrl: en/Administrator/Download_and_install.html
+                            relativeUrl: en/Administrator/download_and_install.html
                         upgrade:
                             text: Update wallabag
                             relativeUrl: en/Administrator/Update.html
