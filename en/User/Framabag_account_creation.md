@@ -17,7 +17,7 @@ You have to input some information: your username, your password and your email 
 Once this form validated, you will receive an email with the confirmation link. Click on it to create your account.
 
 You will receive a last email with the address of your Framabag account, which will look like
-`https://www.framabag.org/u/votre-nom-d'utilisateur`.
+`https://www.framabag.org/u/Your-username`.
 
 ## Information storage
 
