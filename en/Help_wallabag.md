@@ -12,7 +12,7 @@ If you have a problem while installation or using wallabag (either with the web 
 
 We will look if we can do to help you promptly, or if it is an new bug that we will need to correct.
 
-It is better to use the suppor site than sending us an email: the followup is easier for us and the solution to your problem may help another user.
+It is better to use the support site than sending us an email: the followup is easier for us and the solution to your problem may help another user.
 
 ### Create a new issue
 
