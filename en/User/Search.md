@@ -10,7 +10,7 @@ To enable you to find an article quickly, we set up a full search engine.
 
 Click on **Search** in the wallabag menu. Then, enter your search terms.
 
-Wallabag will go through all your articles, and lists the ones containing the search terms in their title or in their content.
+Wallabag will go through all your articles, and lists the ones containing the search terms in their title, their content or their URL.
 
 ## Convert this search into ePub format
 
