@@ -18,7 +18,7 @@ Tout ajout de tag se fera donc sur un article déjà sauvegardé.
 
 Sur la page de lecture de l'article, se trouve une partie `tags` suivie d'un crayon. Cliquez sur ce crayon.
 
-Saisissez dans la case les tags que vous souhaitez assigner. Saisissez autant de tags que vous le voulez, vous pouvez les séparer par une virgule pour gagner du temps. L'auto-complétion existe ici : si vous tapez les premières lettres d'un tag déjà existant, inutile de taper le mot en entier, sélectionnez-le dans la liste déroulante. Une fois tous vos tags saisis, cliquez sur le bouton **Tag**.
+Saisissez dans la case les tags que vous souhaitez assigner. Saisissez autant de tags que vous le voulez. Ils doivent être séparés par des virgules et non par des espaces. L'auto-complétion existe ici : si vous tapez les premières lettres d'un tag déjà existant, inutile de taper le mot en entier, sélectionnez-le dans la liste déroulante. Une fois tous vos tags saisis, cliquez sur le bouton **Tag**.
 
 Vous pouvez ensuite retourner lire votre article.
 
