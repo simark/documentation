@@ -19,7 +19,7 @@ To tag an article when saving it, just click on the tag icon next to the URL fie
 
 To tag an already-saved article, go to the reading page of the article. There is a part `tags` followed with a pencil. Click on the pencil.
 
-Input in the box the tags you want to assign. Add as many tags as you want. You can separate them with a comma to save some time. Auto-completion is available here: when you type the first letters of an existing tag, it is not necessary to type the whole word. Select it in the drop-down list. Once all your tags are inputted, click  on the button **Tag**.
+Input in the box the tags you want to assign. Add as many tags as you want. They need to be separated by commas and not spaces. Auto-completion is available here: when you type the first letters of an existing tag, it is not necessary to type the whole word. Select it in the drop-down list. Once all your tags are inputted, click  on the button **Tag**.
 
 Then, you can go back to your article and read it.
 
