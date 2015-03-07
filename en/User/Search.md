@@ -14,7 +14,7 @@ Wallabag will go through all your articles, and lists the ones containing the se
 
 ## Convert this search into ePub format
 
-You can convert the listed articles to the format ePub, so that you can read them in your e-reader, for example. Look at [ePub conversion](epub_conversion.md) for more about this.
+You can convert the listed articles to the ePub format, so that you can read them in your e-reader, for example. Look at [ePub conversion](epub_conversion.md) for more about this.
 
 ## Assign a tag to your search results
 
