@@ -16,6 +16,6 @@ subTitle: English documentation
 * you can read your articles offline thanks to smartphones applications
 * you can easily save a new link thanks to browser addons
 * many templates are available to change your wallabag as you wish
-* and many others great features !
+* and many others great features!
 
 This user documentation is here to learn to you what you can do with wallabag.

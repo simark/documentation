@@ -25,8 +25,7 @@ Do not forget to send us the information listed above.
 
 ### Send us an email
 
-Send us the link in a email with `Wrong display in wallabag` as title
-to the address [hello@wallabag.org](mailto:hello@wallabag.org).  
+Send us the link in a email to the address [hello@wallabag.org](mailto:hello@wallabag.org?subject=Wrong%20display%20in%20wallabag).  
 Do not forget to send us the information listed above.
 
 ## Solve this display problem

@@ -75,5 +75,5 @@ It is possible to export your data from the page **Configuration** of wallabag. 
 * a user with an account on a multi-user wallabag want to have his/her own wallabag installation
 * ...
 
-This will lead you to download a file [at the JSON format](http://fr.wikipedia.org/wiki/JavaScript_Object_Notation).  
+This will lead you to download a file [at the JSON format](http://en.wikipedia.org/wiki/JavaScript_Object_Notation).  
 As detailed above, you can import this file in wallabag.

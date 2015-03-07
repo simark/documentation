@@ -30,7 +30,7 @@ body: //div[@class='myclass']
 body: //div[@id='myid']
 ```
 
-Ensuite, testez votre fichier de configuration avec d'autres articles du même site. Si vous avez trouvé le bon contenu mais que vous voulez enlever des parties inutiles, ajoutez la ligne suivante (avec l'attribut `class` correspondant à la la partie inutile) :
+Ensuite, testez votre fichier de configuration avec d'autres articles du même site. Si vous avez trouvé le bon contenu mais que vous voulez enlever des parties inutiles, ajoutez la ligne suivante (avec l'attribut `class` correspondant à la partie inutile) :
 
 ```
 strip: //div[@class='hidden']

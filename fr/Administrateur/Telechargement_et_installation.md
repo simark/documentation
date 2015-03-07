@@ -40,15 +40,15 @@ Copiez les fichiers sur votre serveur web. Dans le cas d'Ubuntu/Debian, il s'agi
 
 #### Pré-requis pour votre serveur web
 
-* [PHP 5.3.3 ou plus](http://php.net/manual/en/install.php)
-* [SQLite](http://php.net/manual/en/book.sqlite.php) ou [MySQL](http://php.net/manual/fr/book.mysql.php) ou [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
-* [XML pour PHP](http://php.net/xml)
-* [PCRE](http://php.net/pcre)
-* [Filtrage des données](http://php.net/manual/book.filter.php)
-* [Tidy pour PHP](http://php.net/tidy)
-* [cURL](http://php.net/curl)
-* [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
-* [gettext](http://php.net/manual/en/book.gettext.php)
+* [PHP 5.3.3 ou plus](http://php.net/manual/fr/install.php)
+* [SQLite](http://php.net/manual/fr/book.sqlite.php) ou [MySQL](http://php.net/manual/fr/book.mysql.php) ou [PostgreSQL](http://php.net/manual/fr/book.pgsql.php)
+* [XML pour PHP](http://php.net/fr/xml)
+* [PCRE](http://php.net/fr/pcre)
+* [Filtrage des données](http://php.net/manual/fr/book.filter.php)
+* [Tidy pour PHP](http://php.net/fr/tidy)
+* [cURL](http://php.net/fr/curl)
+* [allow_url_fopen](http://www.php.net/manual/fr/filesystem.configuration.php#ini.allow-url-fopen)
+* [gettext](http://php.net/manual/fr/book.gettext.php)
 
 Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez exécuter le fichier `wallabag_compatibility_test.php` qui se trouve dans le répertoire `install` de wallabag : dans votre navigateur, accédez à `http://votreserveur.com/wallabag/install/wallabag_compatibility_test.php` et installez les composants requis. Par exemple pour Tidy sur Ubuntu/Debian :
 
@@ -66,7 +66,7 @@ Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualis�
 
 ### Création de la base de données MySQL
 
-wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`) , un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
+wallabag peut s'installer sur différents types de bases de données (`sqlite`, `mysql` ou `postgresql`), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`), un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :
 
     mysql -p -u root
     mysql> CREATE DATABASE wallabag;
