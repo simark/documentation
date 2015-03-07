@@ -5,23 +5,23 @@ subTitle: Organize articles
 ---
 
 # Organize articles
-c
+
 To be able to find more easily your articles, several methods are available. 
 
 
 ## Tags
 ### Assign a tag
+#### When saving an article
+
+To tag an article when saving it, just click on the tag icon next to the URL field before hitting the Save button. At the moment, it is possible only to do this from the web interface, but it could come to some apps or extensions.
+
 #### From the article
 
-Currently, it is not yet possible to assign a tag while saving a new article.
-
-Hence, the add of tag is done on already-saved article.
-
-On the reading page of the article, there is a part `tags` followed with a pencil. Click on the pencil.
+To tag an already-saved article, go to the reading page of the article. There is a part `tags` followed with a pencil. Click on the pencil.
 
 Input in the box the tags you want to assign. Add as many tags as you want. You can separate them with a comma to save some time. Auto-completion is available here: when you type the first letters of an existing tag, it is not necessary to type the whole word. Select it in the drop-down list. Once all your tags are inputted, click  on the button **Tag**.
 
-The, you can go back to your article and read it.
+Then, you can go back to your article and read it.
 
 #### From the search
 
@@ -37,7 +37,7 @@ In the wallabag menu, click on **Tags**. Then, all the tags you have created are
 
 When you wish to set aside an article, you can mark it as preferred.
 
-### Set an article as favourite
+### Set an article as favorite
 
 From the reading page of an article, or from a list of articles (such as the list of unread articles), you can set an article as favorite simply by a click on the star which is displayed.
 Click again on the star will remove the **favorite** status of this article.
