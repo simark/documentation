@@ -33,11 +33,9 @@ The documentation you are reading is likely to miss some points, to be out-of-da
 
 The Github repository is here: [https://github.com/wallabag/documentation](https://github.com/wallabag/documentation).
 
-Trick: if while reading a documentation page you notice a mistake or an oversight, click on the link **Fix this page** which is next to the page title. Then, you will be redirected to this page on Github, and you will simply have to suggest improvements.
-
 ## Fix bugs
 
-Two options :
+Two options:
 
 * when a wallabag user asks a new question [on the support site](http://support.wallabag.org), you could answer him directly if you are a more advanced wallabag user.
 * on Github, some issues are likely to match your skills. [Go through the issue list](https://github.com/wallabag/wallabag/issues) and help yourself.
