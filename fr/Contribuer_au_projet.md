@@ -33,8 +33,6 @@ La documentation que vous êtes en train de lire n'est sûrement pas complète, 
 
 Le dépôt Github se trouve ici : [https://github.com/wallabag/documentation](https://github.com/wallabag/documentation).
 
-Astuce : si vous êtes en train de lire une page de la documentation et vous vous rendez compte d'une erreur ou d'un oubli, cliquez sur le lien **Fix this page** qui se trouve à côté du titre de la page. Vous serez alors redirigés vers la page sur Github, vous n'aurez plus qu'à proposer vos modifications.
-
 ## Corriger les bugs, résoudre les problèmes : faire du support
 
 Deux possibilités :
