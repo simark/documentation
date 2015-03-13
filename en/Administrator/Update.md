@@ -17,7 +17,7 @@ After that, just access wallabag in your browser and follow the instructions to 
 
 You can verify at the bottom of the configuration page that you're running the last version.
 
-**If it fails**, just delete the `install folder and clear the cache:
+**If it fails**, just delete the `install` folder and clear the cache:
 
     cd /var/www/html/wallabag/
     rm -r cache/* install/
