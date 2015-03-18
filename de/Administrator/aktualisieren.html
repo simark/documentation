@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag - Aktualisierung</title>
+
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://doc.wallabag.org/">
+                wallabag
+                <small class="hidden-xs hidden-sm">
+                    Aktualisierung
+                </small>
+            </a>
+            <a href="http://doc.wallabag.org/en">EN</a> - <a href="http://doc.wallabag.org/fr">FR</a> - <a href="http://doc.wallabag.org/de">DE</a> - <a href="http://doc.wallabag.org/ru">RU</a>
+
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                                                                                                                                                            <ul class="nav nav-pills nav-stacked">
+                                    
+                                    <h4 class="text-muted">
+                                        
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/index.html">
+                                                   erste Schritte
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/wallabag_unterstuetzen.html">
+                                                   wallabag unterstuetzen
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                    
+                                    <h4 class="text-muted">
+                                        Administrator
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Administrator/herunterladen_und_installieren.html">
+                                                   herunterladen und installieren
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                    
+                                    <h4 class="text-muted">
+                                        User
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/den_ersten_artikel_speichern.html">
+                                                   Den ersten Artikel speichern
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/artikel_lesen.html">
+                                                   Artikel lesen
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/versteckte_einstellungen.html">
+                                                   Versteckte einstellungen
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/wallabag_konfigurieren.html">
+                                                   wallabag konfigurieren
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/epub-konvertierung.html">
+                                                   ePub conversion
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/ein_artikel_wird_nicht_korrekt_angezeigt.html">
+                                                   Ein Artikel wird nicht korrekt angezeigt
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/framabag.html">
+                                                   Framabag Account erstellen
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+                                                                                                        
+                    </nav>
+
+                
+                <section class="col-lg-10">
+                    <h1 id="wallabag-aktualisieren">Wallabag aktualisieren</h1>
+<h2 id="eine-bestehende-version-aktualisieren">Eine bestehende Version aktualisieren</h2>
+<p>Um deine Installation zu aktualisieren führe folgende Schritte durch: </p>
+<ol>
+<li>Lade das Archiv mit der neusten Wallabag Version herunter, beispielsweise mit <code>wget</code>.</li>
+<li>Entpacke das ZIP-Archiv </li>
+<li>
+<p>Kopiere die neuen Dateien in das Installationverzeichnis deiner Wallabag-Installation und überschreibe damit die alten Dateien.</p>
+<p>Bei einer Debian oder Ubuntu kannst du folgende Befehle benutzen:</p>
+<p>wget <a href="http://wllbg.org/latest">http://wllbg.org/latest</a>
+unzip latest
+rsync -ur wallabag-version-number/* /var/www/html/wallabag/ # Der Pfad kann ein anderer sein, etwa /srv/html, /usr/share/nginx/html</p>
+</li>
+</ol>
+<p>Rufe anschließend die Weboberfläche deiner Wallabag-Installation auf und folge den angezeigten Anweisungen um die Aktualisierung abzuschließen.</p>
+<p>Am unteren Ende der Konfigurationsseite kannst du überprüfen ob du nun die aktuellste Version benutzt.</p>
+<h3 id="falls-die-aktualisierung-scheitert">Falls die Aktualisierung scheitert</h3>
+<p>Lösche den Ordner <code>install</code> und leere den Zwischenspeicher (Cache) mit folgenden Kommandos:</p>
+<pre><code>cd /var/www/html/wallabag/ # ggf. durch eigenen Installationspfad ersetzen
+rm -r cache/* install/</code></pre>
+<p>Den Cache kannst du auch auf der Konfigurationsseite leeren. Klicke dort auf den Link &quot;Delete Cache&quot;.</p>
+                </section>
+
+            </div>
+        </main>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
