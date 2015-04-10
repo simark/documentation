@@ -32,4 +32,4 @@ Then, a user will be able to enter his/her user name and password to create his/
 
 It is possible to remove your own account from the configuration page. You simply have to enter your password and to ask for the removal.
 
-Be careful: when there is only one account, it is - of course - impossible to remove it.
+Of course, when there is only one account, it is impossible to remove it.
