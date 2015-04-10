@@ -178,7 +178,21 @@
                 
                 <section class="col-lg-10">
                     <h1 id="multi-users">Multi users</h1>
-<p>To be translated from <a href="../../fr/Administrateur/multi-utilisateurs.html">Multi-utilisateurs</a>.</p>
+<h2 id="create-a-new-account">Create a new account</h2>
+<h2 id="administrator-mode">Administrator mode</h2>
+<p>If you want to use wallabag with several persons, you can create new accounts from the configuration page.</p>
+<p>At the bottom of this page there is a form where you should input a user name and a password.</p>
+<p>It is now possible to login to this account from the login page of wallabag.</p>
+<p>No information are shared among the accounts.</p>
+<h2 id="open-registration-mode">Open registration mode</h2>
+<p>Starting from version 1.9, the administrator can let users register by themselves. This is done by changing the following lines in the configuration file:</p>
+<pre><code>// registration
+@define ('ALLOW_REGISTER', FALSE);
+@define ('SEND_CONFIRMATION_EMAIL', FALSE);</code></pre>
+<p>Then, a user will be able to enter his/her user name and password to create his/her own account. Depending on the configuration, a confimation email can be sent to users who gave an email address.</p>
+<h2 id="remove-an-account">Remove an account</h2>
+<p>It is possible to remove your own account from the configuration page. You simply have to enter your password and to ask for the removal.</p>
+<p>Of course, when there is only one account, it is impossible to remove it.</p>
                 </section>
 
             </div>
