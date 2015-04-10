@@ -32,4 +32,4 @@ Ensuite, l'utilisateur rentrera lui-même son nom d'utilisateur et son mot de pa
 
 Il est possible de supprimer son propre compte, depuis la page de configuration. Il suffit de saisir son mot de passe et de demander la suppression.
 
-Attention, lorsqu'il ne reste plus qu'un compte, il est évidemment impossible de le supprimer.
+Bien évidemment, lorsqu'il ne reste plus qu'un seul compte, il est impossible de le supprimer.
