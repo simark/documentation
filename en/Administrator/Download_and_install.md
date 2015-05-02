@@ -82,6 +82,8 @@ Optionnal:
 * [Data filtering](http://php.net/manual/en/book.filter.php)
 
 
+Note : if you're using IIS as a webserver, you have to disable *Anonymous Authentication* and [enable *Basic Authentication*](https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx) in order to be able to login.
+
 ## Login
 
 From your web browser, you reach the login screen: fill your username and your password to connect to your account.
