@@ -64,7 +64,7 @@ Installez les composants manquants avant de poursuivre. Par exemple pour install
     sudo apt-get install php5-tidy
     sudo service apache2 reload
     
-Note : si voux utilisez IIS comme serveur web, vous devez interdire l'*Authentification Anonyme* et [permettre L'*Authentification de base*](https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx) pour autoriser la connexion.
+Note : si voux utilisez IIS comme serveur web, vous devez interdire l'*Authentification Anonyme* et [permettre L'*Authentification de base*](https://technet.microsoft.com/fr-fr/library/cc772009%28v=ws.10%29.aspx) pour autoriser la connexion.
 
 #### Twig installation
 
