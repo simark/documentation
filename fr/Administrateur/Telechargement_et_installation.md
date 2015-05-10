@@ -43,7 +43,7 @@ Tout est téléchargé dans le répertoire courant.
 Wallabag nécessite qu'un certain nombre de composants soient installées sur votre serveur web.
 Pour être sûr que votre serveur possède tous les pré-requis, ouvrez dans votre navigateur la page `http://monserveur.com/wallabag/install/index.php`.
 
-Les composants sont:   
+Les composants sont :   
  
 * [PHP 5.3.3 ou plus](http://php.net/manual/fr/install.php) **avec support [PDO](http://php.net/manual/en/book.pdo.php)**
 * [XML pour PHP](http://php.net/fr/xml)
@@ -66,14 +66,13 @@ Installez les composants manquants avant de poursuivre. Par exemple pour install
     
 Note : si voux utilisez IIS comme serveur web, vous devez interdire l'*Authentification Anonyme* et [permettre L'*Authentification de base*](https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx) pour autoriser la connexion.
 
-#### Installation des dépendances
+#### Twig installation
 
-Pour pouvoir fonctionner, wallabag a besoin de dépendances. 
-
+Pour pouvoir fonctionner, wallabag a besoin de `Twig`, une bibliothèque de modèles.
 Si vous ne pouvez pas installer `composer` (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier
-incluant toutes les dépendances. Ce fichier peut être télécharger depuis la page `http://monserveur.com/wallabag/install/index.php` (section INSTALLATION TWIG) ou directement ici [http://wllbg.org/vendor](http://wllbg.org/vendor). Décompressez-le dans votre répertoire wallabag.
+incluant `Twig`. Ce fichier peut être télécharger depuis la page `http://monserveur.com/wallabag/install/index.php` (section INSTALLATION TWIG) ou directement ici [http://wllbg.org/vendor](http://wllbg.org/vendor). Décompressez-le dans votre répertoire wallabag.
 
-Alternativement, vous pouvez installer ces dépendances en lançant `composer` depuis votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) en exécutant les commandes :
+Alternativement, vous pouvez installer `Twig` en lançant `composer` depuis votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) en exécutant les commandes :
 
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
@@ -82,9 +81,9 @@ Alternativement, vous pouvez installer ces dépendances en lançant `composer` d
 
 Wallabag peut s'installer sur différents types de bases de données :
 
-* [SQLite](http://php.net/manual/fr/book.sqlite.php) 
-* [MySQL](http://php.net/manual/fr/book.mysql.php)
-* [PostgreSQL](http://php.net/manual/fr/book.pgsql.php)
+* [SQLite](http://php.net/manual/fr/book.sqlite.php). Le plus simple de tous. Rien de particulier à configurer.
+* [MySQL](http://php.net/manual/fr/book.mysql.php). Un système de base de données bien connu, qui est dans la plupart des cas plus efficace que SQLite.
+* [PostgreSQL](http://php.net/manual/fr/book.pgsql.php). Certaines personnes l'ont trouvé mieux que MySQL.
 
 Nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple `wallabag`), un nouvel utilisateur (par exemple  `wallabag`) et un mot de passe (ici `VotreMotdePasse`). Vous pouvez pour cela utiliser `phpMyAdmin`, ou exécuter les commandes suivantes :
 
@@ -92,6 +91,8 @@ Nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessai
     mysql> CREATE DATABASE wallabag;
     mysql> GRANT ALL PRIVILEGES ON `wallabag`.* TO 'wallabag'@'localhost' IDENTIFIED BY 'VotreMotdePasse';
     mysql> exit
+    
+*Note :* Si vous utilisez MySQL ou Postgresql, vous devrez **remplir tous les champs**, sinon l'installation ne fonctionera pas et un message d'erreur vous dira ce qui ne va pas. Vous devez créer manuellement la base de données qui sera utilisée par wallabag avec un outil comme PHPMyAdmin ou en ligne de commande.
 
 ### Permissions
 
@@ -117,4 +118,4 @@ wallabag est maintenant installé.
 
 ### Connexion
 
-Vous arrivez sur l'écran d'identification : saisissez votre identifiant et votre mot de passe et vous voici connecté.
+Depuis votre navigateur, vous arrivez sur l'écran d'identification : saisissez votre identifiant et votre mot de passe et vous voici connecté.
