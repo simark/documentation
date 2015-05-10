@@ -5,15 +5,26 @@ subTitle: Download and install wallabag
 ---
 
 # Download and install wallabag
+
 ## I don't want to install wallabag
 
-If you can't or don't want to install Wallabag on your server, we suggest you create a free account on [Framabag](https://framabag.org/) wich uses our software: read the complete documentation here (TODO write Create a framabag account).
+If you can't or don't want to install Wallabag on your server, we suggest you create a free account on [Framabag](https://framabag.org/) which uses our software. [Read the full documentation](../User/Framabag_account_creation.md).
 
 ## I want to install wallabag
 
-### I want to download wallabag the easiest way possible
+### I want to download wallabag manually
 
-[Download the latest wallabag version](http://wllbg.org/latest) and unpack it. Copy the files on your web server. Jump off to next section.
+[Download the latest wallabag version](http://wllbg.org/latest) and unpack it:
+
+    wget http://wllbg.org/latest
+    unzip latest
+    mv wallabag-version-number wallabag
+
+Copy the files on your web server. For Ubuntu/Debian, it is the directory /var/www/html/ :
+
+    sudo mv wallabag /var/www/html/
+
+Then, jump off to next section.
 
 ### I want to download wallabag via composer
 
@@ -25,64 +36,85 @@ Next, on your web server, run this command:
 
     composer create-project wallabag/wallabag . dev-master
 
-All is downloaded into `wallabag` folder.
+All is downloaded into the current folder.
+
+#### Prerequisites for your web server
+
+Wallabag requires that several components to be installed on your web server.
+To make sure your server has all the prerequisites, open in your browser the page
+`http://monserveur.com/wallabag/install/index.php`.
+
+The components are:   
+ 
+* [PHP 5.3.3 or above](http://php.net/manual/fr/install.php) **with [PDO](http://php.net/manual/en/book.pdo.php) support**
+* [XML for PHP](http://php.net/fr/xml)
+* [PCRE](http://php.net/fr/pcre)
+* [ZLib](http://php.net/en/zlib) (otherwise, the processing of compressed pages will be affected)
+* [mbstring](http://php.net/en/mbstring) anb/or [iconv](http://php.net/en/iconv) (otherwise some pages will not be read - even in English)
+* The [DOM/XML](http://php.net/manual/en/book.dom.php) extension
+* [Data filtering](http://php.net/manual/fr/book.filter.php)
+* [GD](http://php.net/manual/en/book.image.php) (otherwise, pictures will not be saved)
+* [Tidy for PHP](http://php.net/fr/tidy) (otherwise, you may encounter problems with some pages)
+* [cURL](http://php.net/fr/curl) with `Parallel URL fetching` (optionnal)
+* [Parse ini file](http://uk.php.net/manual/en/function.parse-ini-file.php) 
+* [allow_url_fopen](http://www.php.net/manual/fr/filesystem.configuration.php#ini.allow-url-fopen) (optionnal if cURL is installed)
+* [gettext](http://php.net/manual/fr/book.gettext.php) (required for multi-language support)
+
+Install the missing components before to proceed. For example, to install Tidy on Ubuntu/Debian:
+
+    sudo apt-get install php5-tidy
+    sudo service apache2 reload
+
+Note : if you're using IIS as a webserver, you have to disable *Anonymous Authentication* and [enable *Basic Authentication*](https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx) in order to be able to login.
+
+#### Twig installation
+wallabag is build with Twig, a template library. You have to download it for wallabag to work. 
+If you cannot install `composer` (for example in the case of shared hosting), we offer you to download a file which includes `Twig`. This file can be downloaed from the page `http://myservur.com/wallabag/install/index.php` (section TWIG INSTALLATION) or directly at [http://wllbg.org/vendor](http://wllbg.org/vendor). Uncompress it in your wallabag directory.
+
+Otherwise, you can use Composer to install `Twig` by launching `composer` from your wallabag directory (in the case of Ubuntu/Debian too: <code>/var/www/html/wallabag/</code>) by following the commands written on screen:
+
+    curl -s http://getcomposer.org/installer | php
+    php composer.phar install
+
+#### Creation of the database.
+
+Wallabag can be installed on different types of databases:
+
+* [SQLite](http://php.net/manual/fr/book.sqlite.php). The easiest system of all. No extra configuration needed.
+* [MySQL](http://php.net/manual/fr/book.mysql.php). A well known database system, which is in most cases more efficient than SQLite.
+* [PostgreSQL](http://php.net/manual/fr/book.pgsql.php). Some people found it better than MySQL.
+
+We advice you to use MySQL because it is more efficient. In this case, you should create a new database (for example `wallabag`),  a new user (for example  `wallabag`) and a password (here `YourPassWord`). To do this, you can use `phpMyAdmin`, or launch the following commands:
+
+    mysql -p -u root
+    mysql> CREATE DATABASE wallabag;
+    mysql> GRANT ALL PRIVILEGES ON `wallabag`.* TO 'wallabag'@'localhost' IDENTIFIED BY 'VotreMotdePasse';
+    mysql> exit
+
+*Note:* If you're using MySQL or Postgresql, you have to **fill all the fields**, otherwise the installation will not work and an error message will tell you what's wrong. You must create the database that you will use for wallabag manually with a tool like PHPMyAdmin or the console.
 
 ### Permissions
 
-Your web server needs a writing access to the `assets`, `cache` and `db` directories. Otherwise, a message will report that the installation is impossible.
+Your web server needs a writing access to the `assets`, `cache` and `db` directories. Otherwise, a message will report that the installation is impossible:
+
+    sudo chown -R www-data:www-data /var/www/html/wallabag
 
 ### Installation of wallabag. At last.
 
-Access to wallabag from your web browser. If your server is correctly configured, you directly reach the setup screen. 
+Access to wallabag from your web browser: `http://votreserveur.com/wallabag`. If your server is correctly configured, you directly reach the setup screen. 
 
-#### Prerequisites
-The installer will tell you which prerequisites are missing. If there's any, jump off to the [corresponding session](#Prerequisites) to know how to deal with that problem.
+Select the type of database (`sqlite`, `mysql` or `postgresql`) and fill the information about your database. 
+In the case of the databse MySQL created before, the standard configuration will be:
 
-#### Twig installation
-wallabag is build with Twig, a template library. You have to download it for wallabag to work.
-* One option is to choose the automatic download of the package which will be automatically downloaded and installed.
-* If this option fails, you can choose the second option which is to manually download [the vendor package](http://wllbg.org/vendor), unzip it and copy the vendor directory in your wallabag directory
-* Finally, you can here also use Composer to install Twig by following the commands written on screen :
+    Database engine:    MySQL
+    Server:             localhost
+    Database: 	        wallabag
+    Username:	        wallabag
+    Password:	        YourPassWord
 
-    ```
-    curl -s http://getcomposer.org/installer | php
-    php composer.phar install
-    ```
+Finally, Create your first user and his/her password (different from the database user).
 
-#### Database connection
-You have to choose a database system between:
-* **SQLite**: The easiest system of all. No extra configuration needed.
-* **MySQL**: A well known database system, which is in most cases more efficient than SQLite
-* **Postgresql**: Some people found it better than MySQL.
-
-*Note :* If you're using MySQL or Postgresql, you have to **fill all the fields**, otherwise the installation will not work and an error message will tell you what's wrong. You must create the database that you will use for wallabag manually with a tool like PHPMyAdmin or the console.
-
-#### User Account
-Finally, you need to create an user account. As always, be sure to choose a strong password.
-An email field is present but it is not at all required.
-
-If you get a green success message, it means wallabag is now installed.
-
-### <a name="Prerequisites"></a>Prerequisites
-#### List of prerequisites for your web server
-
-* [PHP 5.3.3 or more](http://php.net/manual/en/install.php) **with [PDO](http://php.net/manual/en/book.pdo.php) support**
-* [SQLite](http://php.net/manual/en/book.sqlite.php) **or** [MySQL](http://php.net/manual/en/book.mysql.php) **or** [PostgreSQL](http://php.net/manual/en/book.pgsql.php)
-* [XML for PHP](http://php.net/en/xml)
-* [PCRE](http://php.net/en/pcre)
-* [ZLib](http://php.net/en/zlib)
-* [mbstring](http://php.net/en/mbstring) and/or [iconv](http://php.net/en/iconv)
-* The [DOM/XML](http://php.net/manual/en/book.dom.php) extension
-* [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
-* [gettext](http://php.net/manual/en/book.gettext.php)
-
-Optionnal:
-* [cURL](http://php.net/en/curl) (with Parallel URL fetching) or [allow_url_fopen](http://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen)
-* [GD](http://php.net/manual/en/book.image.php)
-* [Data filtering](http://php.net/manual/en/book.filter.php)
-
-
-Note : if you're using IIS as a webserver, you have to disable *Anonymous Authentication* and [enable *Basic Authentication*](https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx) in order to be able to login.
+Wallabag is now installed.
 
 ## Login
 
