@@ -179,44 +179,60 @@
                 <section class="col-lg-10">
                     <h1 id="tlcharger-et-installer-wallabag">Télécharger et installer wallabag</h1>
 <h2 id="je-ne-souhaite-pas-installer-wallabag">Je ne souhaite pas installer wallabag</h2>
-<p>Puisque vous ne voulez pas, puisque vous ne pouvez pas, nous vous proposons de vous créer un compte gratuit : <a href="../Utilisateur/framabag.html">lisez la documentation complète ici</a>.</p>
+<p>Puisque vous ne voulez pas ou ne pouvez pas installer wallabag, nous vous proposons de créer un compte gratuit sur <a href="https://framabag.org/">Framabag</a>, lequel utilise notre logiciel. <a href="../Utilisateur/framabag.html">Lisez la documentation complète</a>.</p>
 <h2 id="je-souhaite-installer-wallabag">Je souhaite installer wallabag</h2>
+<h3 id="je-souhaite-tlcharger-wallabag-manuellement">Je souhaite télécharger wallabag manuellement</h3>
+<p><a href="http://wllbg.org/latest">Télécharger la dernière version de wallabag</a> et décompresser-là :</p>
+<pre><code>wget http://wllbg.org/latest
+unzip latest
+mv wallabag-version-number wallabag</code></pre>
+<p>Copiez les fichiers sur votre serveur web. Dans le cas d'Ubuntu/Debian, il s'agit de /var/www/html/ :</p>
+<pre><code>sudo mv wallabag /var/www/html/</code></pre>
+<p>Puis sautez le paragraphe suivant.</p>
 <h3 id="je-souhaite-tlcharger-wallabag-via-composer">Je souhaite télécharger wallabag via composer</h3>
 <p>Vous devez installer composer : </p>
 <pre><code>curl -s http://getcomposer.org/installer | php</code></pre>
 <p>Ensuite, sur votre serveur web, exécutez cette commande : </p>
 <pre><code>composer create-project wallabag/wallabag . dev-master</code></pre>
 <p>Tout est téléchargé dans le répertoire courant.</p>
-<p>Continuez en lisant la partie ci-dessous, <em>Création de la base de données MySQL</em>.</p>
-<h3 id="je-souhaite-tlcharger-wallabag-manuellement">Je souhaite télécharger wallabag manuellement</h3>
-<p><a href="http://wllbg.org/latest">Téléchargez la dernière version de wallabag</a> et décompressez-la :</p>
-<pre><code>wget http://wllbg.org/latest
-unzip latest
-mv wallabag-version-number wallabag</code></pre>
-<p>Copiez les fichiers sur votre serveur web. Dans le cas d'Ubuntu/Debian, il s'agit de /var/www/html/ :</p>
-<pre><code>sudo mv wallabag /var/www/html/</code></pre>
 <h4 id="pr-requis-pour-votre-serveur-web">Pré-requis pour votre serveur web</h4>
+<p>Wallabag nécessite qu'un certain nombre de composants soient installées sur votre serveur web.
+Pour être sûr que votre serveur possède tous les pré-requis, ouvrez dans votre navigateur la page <code>http://monserveur.com/wallabag/install/index.php</code>.</p>
+<p>Les composants sont:   </p>
 <ul>
-<li><a href="http://php.net/manual/fr/install.php">PHP 5.3.3 ou plus</a></li>
-<li><a href="http://php.net/manual/fr/book.sqlite.php">SQLite</a> ou <a href="http://php.net/manual/fr/book.mysql.php">MySQL</a> ou <a href="http://php.net/manual/fr/book.pgsql.php">PostgreSQL</a></li>
+<li><a href="http://php.net/manual/fr/install.php">PHP 5.3.3 ou plus</a> <strong>avec support <a href="http://php.net/manual/en/book.pdo.php">PDO</a></strong></li>
 <li><a href="http://php.net/fr/xml">XML pour PHP</a></li>
 <li><a href="http://php.net/fr/pcre">PCRE</a></li>
+<li><a href="http://php.net/en/zlib">ZLib</a> (son absence affectera le traitement des pages compressées)</li>
+<li><a href="http://php.net/en/mbstring">mbstring</a> et/ou <a href="http://php.net/en/iconv">iconv</a> (sinon, certaines pages ne pourront pas être lues - même en anglais)</li>
+<li>L'extension <a href="http://php.net/manual/en/book.dom.php">DOM/XML</a></li>
 <li><a href="http://php.net/manual/fr/book.filter.php">Filtrage des données</a></li>
-<li><a href="http://php.net/fr/tidy">Tidy pour PHP</a></li>
-<li><a href="http://php.net/fr/curl">cURL</a></li>
-<li><a href="http://www.php.net/manual/fr/filesystem.configuration.php#ini.allow-url-fopen">allow_url_fopen</a></li>
-<li><a href="http://php.net/manual/fr/book.gettext.php">gettext</a></li>
+<li><a href="http://php.net/manual/en/book.image.php">GD</a> (son absence empèchera la sauvegarde des images)</li>
+<li><a href="http://php.net/fr/tidy">Tidy pour PHP</a> (son absence peut poser problème avec certaines pages)</li>
+<li><a href="http://php.net/fr/curl">cURL</a> avec <code>Parallel URL fetching</code> (optionel)</li>
+<li><a href="http://uk.php.net/manual/en/function.parse-ini-file.php">Parse ini file</a> </li>
+<li><a href="http://www.php.net/manual/fr/filesystem.configuration.php#ini.allow-url-fopen">allow_url_fopen</a> (optionel si cURL présent)</li>
+<li><a href="http://php.net/manual/fr/book.gettext.php">gettext</a> (nécessaire pour le support multilingues)</li>
 </ul>
-<p>Pour être sûr que votre serveur possède tous les pré-requis, vous pouvez exécuter le fichier <code>wallabag_compatibility_test.php</code> qui se trouve dans le répertoire <code>install</code> de wallabag : dans votre navigateur, accédez à <code>http://votreserveur.com/wallabag/install/wallabag_compatibility_test.php</code> et installez les composants requis. Par exemple pour Tidy sur Ubuntu/Debian :</p>
+<p>Installez les composants manquants avant de poursuivre. Par exemple pour installer Tidy sur Ubuntu/Debian :</p>
 <pre><code>sudo apt-get install php5-tidy
 sudo service apache2 reload</code></pre>
+<p>Note : si voux utilisez IIS comme serveur web, vous devez interdire l'<em>Authentification Anonyme</em> et <a href="https://technet.microsoft.com/en-us/library/cc772009%28v=ws.10%29.aspx">permettre L'<em>Authentification de base</em></a> pour autoriser la connexion.</p>
 <h4 id="installation-des-dpendances">Installation des dépendances</h4>
-<p>Pour pouvoir fonctionner, wallabag a besoin de dépendances. Pour les installer, vous devez utiliser <code>composer</code>. Placez-vous dans votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) et exécutez les commandes suivantes :</p>
+<p>Pour pouvoir fonctionner, wallabag a besoin de dépendances. </p>
+<p>Si vous ne pouvez pas installer <code>composer</code> (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier
+incluant toutes les dépendances. Ce fichier peut être télécharger depuis la page <code>http://monserveur.com/wallabag/install/index.php</code> (section INSTALLATION TWIG) ou directement ici <a href="http://wllbg.org/vendor"><a href="http://wllbg.org/vendor">http://wllbg.org/vendor</a></a>. Décompressez-le dans votre répertoire wallabag.</p>
+<p>Alternativement, vous pouvez installer ces dépendances en lançant <code>composer</code> depuis votre dossier wallabag (toujours dans le cas d'Ubuntu/Debian : <code>/var/www/html/wallabag/</code>) en exécutant les commandes :</p>
 <pre><code>curl -s http://getcomposer.org/installer | php
 php composer.phar install</code></pre>
-<p>Si vous ne pouvez pas installer <code>composer</code> (dans le cas d'hébergement mutualisé par exemple), nous vous proposons un fichier <a href="http://wllbg.org/vendor">vendor.zip</a>. Vous pouvez soit le télécharger puis le décompresser dans votre répertoire wallabag, soit laisser le script d'installation le faire pour vous.</p>
-<h3 id="cration-de-la-base-de-donnes-mysql">Création de la base de données MySQL</h3>
-<p>wallabag peut s'installer sur différents types de bases de données (<code>sqlite</code>, <code>mysql</code> ou <code>postgresql</code>), mais nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple <code>wallabag</code>), un nouvel utilisateur (par exemple  <code>wallabag</code>) et un mot de passe (ici <code>VotreMotdePasse</code>). Vous pouvez pour cela utiliser 'phpMyAdmin', ou exécuter les commandes suivantes :</p>
+<h3 id="cration-de-la-base-de-donnes">Création de la base de données</h3>
+<p>Wallabag peut s'installer sur différents types de bases de données :</p>
+<ul>
+<li><a href="http://php.net/manual/fr/book.sqlite.php">SQLite</a> </li>
+<li><a href="http://php.net/manual/fr/book.mysql.php">MySQL</a></li>
+<li><a href="http://php.net/manual/fr/book.pgsql.php">PostgreSQL</a></li>
+</ul>
+<p>Nous vous conseillons d'utiliser MySQL, plus performante. Il est alors nécessaire de créer une nouvelle base (par exemple <code>wallabag</code>), un nouvel utilisateur (par exemple  <code>wallabag</code>) et un mot de passe (ici <code>VotreMotdePasse</code>). Vous pouvez pour cela utiliser <code>phpMyAdmin</code>, ou exécuter les commandes suivantes :</p>
 <pre><code>mysql -p -u root
 mysql&gt; CREATE DATABASE wallabag;
 mysql&gt; GRANT ALL PRIVILEGES ON `wallabag`.* TO 'wallabag'@'localhost' IDENTIFIED BY 'VotreMotdePasse';
@@ -234,7 +250,7 @@ Username:           wallabag
 Password:           VotreMotdePasse</code></pre>
 <p>Créez enfin votre premier utilisateur et son mot de passe (différents de l'utilisateur de la base de données).</p>
 <p>wallabag est maintenant installé.</p>
-<h2 id="connexion">Connexion</h2>
+<h3 id="connexion">Connexion</h3>
 <p>Vous arrivez sur l'écran d'identification : saisissez votre identifiant et votre mot de passe et vous voici connecté.</p>
                 </section>
 
