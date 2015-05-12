@@ -86,13 +86,18 @@ If you have created multiple accounts from wallabag, you will have to to fill th
 
 ## From your web browser
 
-### Firefox
+### Firefox Classic Add-on
 
-Download the Firefox add-on on [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/wallabag/) and install it like any other Firefox add-on.
+Download the Firefox add-on at [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/wallabag/) and install it like any other Firefox add-on.
 
 In the add-on's settings, fill the complete URL of your installation of wallabag or your Framabag account.
 
 Personalize the Firefox toolbar to add wallabag (**W** icon). When you find an article you want to save, click on this icon: a new window will open to add the article and will close itself automatically.
+
+### Firefox Social API Service
+
+With Firefox 29+ versions, your browser comes with an integrated interface to share things to multiple social services directly from your browser. In the Firefox interface, it is shown a paper plane-like icon that you will use to share a page, which means here, save an article. 
+You can add the service by going into the Config page of wallabag, then click on Mozilla Services Social API Extension. You must also accept to use Firefox Services.
 
 ### Chrome
 
