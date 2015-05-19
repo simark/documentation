@@ -71,13 +71,20 @@ Si vous avez créé plusieurs comptes depuis wallabag, il faudra saisir l'identi
 Enfin, sauvegardez les paramètres entrés.
 
 ## Depuis son navigateur
-### Firefox
+### Extension Firefox classique
 
 Téléchargez l'extension Firefox [sur le site addons.mozilla.org](https://addons.mozilla.org/firefox/addon/wallabag/) et installez-la comme toute autre extension Firefox.
 
 Dans les préférences de l'extension, renseignez l'URL complète de votre installation de wallabag ou de votre compte Framabag.
 
 Personnalisez la barre d'outils de Firefox pour ajouter wallabag (icône `w`). Lorsque vous vous trouvez sur un article que vous souhaitez sauvegarder, cliquez sur cette icône : une nouvelle fenêtre s'ouvrira pour ajouter l'article et elle se refermera automatiquement.
+
+### Extension Mozilla Services (Social API)
+
+*Disponible uniquement à compter de wallabag 1.9.1*
+
+Avec les versions 29 et supérieures de Firefox, votre navigateur possède une interface intégrée permettant le partage direct vers de multiples réseaux sociaux. Dans l'interface de Firefox, elle est symbolisée par un icône en forme d'avion en papier que vous pourrez utiliser pour partager une page, ce qui signifie ici enregistrer un article dans wallabag.
+Vous pouvez ajouter ce service depuis la page de configuration de wallabag en cliquant sur Extension Mozilla Services (Social API). Vous devez aussi accepter l'utilisation des Services Firefox.
 
 ### Chrome
 
