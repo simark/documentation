@@ -61,6 +61,7 @@ header.navbar {
 
 #sidebar {
     font-size: 16px;
+    z-index: 2;
 }
 
 .page-header {
