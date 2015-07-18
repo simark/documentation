@@ -10,7 +10,7 @@ Pour que vous puissiez retrouver un article au plus vite, nous avons mis en plac
 
 Cliquez sur **Rechercher** dans le menu de wallabag. Là, saisissez un terme de recherche.
 
-wallabag ira parcourir tous vos articles et affichera ceux qui contiennent le terme de recherche dans leur titre ou dans le contenu de l'article.
+wallabag ira parcourir tous vos articles et affichera ceux qui contiennent le terme de recherche dans son titre, son contenu ou son URL.
 
 ## Convertir cette recherche au format ePub
 
