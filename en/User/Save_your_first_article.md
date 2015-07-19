@@ -108,3 +108,9 @@ Download the Chrome add-on [on the dedicated website](https://chrome.google.com/
 In the add-on's settings, fill the complete URL of your installation of wallabag or your Framabag account.
 
 During the addon's installation, a new icon appear in Chrome toolbar (a **W** icon). When you find an article you want to save, click on this icon: a popup will appear to confirm that your article has been saved.
+
+### Opera
+
+The recent versions of Opera (15+) allow to install add-ons compatible with Chrome.
+
+First, install the add-on named [Download Chrome Extensions](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) which will allow you to install add-ons from the Chrome Web Store. Then, go [to to Google site](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) and get the Chrome add-on by clicking on *Add to Opera*. A message will invite you to confirm this action because this add-on is not coming from a certified source. The behavior will be the same as for Chrome (see above).
