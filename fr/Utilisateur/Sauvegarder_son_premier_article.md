@@ -93,3 +93,9 @@ Téléchargez l'extension Chrome [sur le site dédié](https://chrome.google.com
 Dans les options de l'extension, renseignez l'URL complète de votre installation de wallabag ou de votre compte Framabag.
 
 Lors de l'installation de l'extension, une nouvelle icône est apparue dans la barre d'outils de Chrome, une icône `w`. Lorsque vous vous trouvez sur un article que vous souhaitez sauvegarder, cliquez sur cette icône : une popup s'ouvrira et vous confirmera que l'article a bien été sauvegardé.
+
+### Opera
+
+Les dernières versions d'Opera (15+) permettent d'installer des extensions compatibles avec Chrome.
+
+Il faut tout d'abord installer l'extension [Download Chrome Extensions](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) pour installer des extensions à partir du Chrome Web Store. Ensuite, on peut se rendre [sur le site de Google](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) et récupérer l'extension Chrome en cliquant sur *Add to Opera*. Vous obtiendrez un message qui vous invitera à confirmer l'action car l'extension ne provient pas d'une source approuvée. Le comportement sera ensuite le même que pour Chrome (ci-dessus).
