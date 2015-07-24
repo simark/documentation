@@ -8,7 +8,7 @@ subTitle: Configure wallabag
 
 From the configuration menu, you can change some of wallabag's options.
 
-Some parts won't be detailed, here as they have a complete chapter in the documentation ([RSS feeds](rss_feed.html), [import from a third party service](import_export.html), [export your data](import_export.html), [Epub conversion](epub_conversion.html) and [multi-user mode](../Administrator/multiusers.html)).
+Some parts won't be detailed here, as they have a dedicated chapter in the documentation ([RSS feeds](rss_feed.html), [import from a third party service](import_export.html), [export your data](import_export.html), [Epub conversion](epub_conversion.html) and [multi-user mode](../Administrator/multiusers.html)).
 
 ## Saving articles
 
