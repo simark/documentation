@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>wallabag - user, admin and developer documentation</title>
+        <title>wallabag - Versteckte Einstellungen</title>
 
         <link rel="stylesheet" href="http://doc.wallabag.org/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://doc.wallabag.org/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="http://doc.wallabag.org/">
                 wallabag
                 <small class="hidden-xs hidden-sm">
-                    user, admin and developer documentation
+                    Versteckte Einstellungen
                 </small>
             </a>
             <a href="http://doc.wallabag.org/en">EN</a> - <a href="http://doc.wallabag.org/fr">FR</a> - <a href="http://doc.wallabag.org/de">DE</a> - <a href="http://doc.wallabag.org/ru">RU</a>
@@ -32,12 +32,86 @@
                 
                     <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
 
-                                                                                                                                                                                                                                        
+                                                                                                                                                                                            <ul class="nav nav-pills nav-stacked">
+                                    
+                                    <h4 class="text-muted">
+                                        
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/index.html">
+                                                   erste Schritte
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/wallabag_unterstuetzen.html">
+                                                   wallabag unterstuetzen
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                    
+                                    <h4 class="text-muted">
+                                        Administrator
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Administrator/herunterladen_und_installieren.html">
+                                                   herunterladen und installieren
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                    
+                                    <h4 class="text-muted">
+                                        User
+                                    </h4>
+
+                                        <ul class="nav nav-pills nav-stacked">
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/den_ersten_artikel_speichern.html">
+                                                   Den ersten Artikel speichern
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/artikel_lesen.html">
+                                                   Artikel lesen
+                                                </a>
+                                            </li>
+                                                                                    <li class="test active">
+                                                <a href="http://doc.wallabag.org/de/Anwender/versteckte_einstellungen.html">
+                                                   Versteckte einstellungen
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/wallabag_konfigurieren.html">
+                                                   wallabag konfigurieren
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/epub-konvertierung.html">
+                                                   ePub conversion
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/ein_artikel_wird_nicht_korrekt_angezeigt.html">
+                                                   Ein Artikel wird nicht korrekt angezeigt
+                                                </a>
+                                            </li>
+                                                                                    <li class="test ">
+                                                <a href="http://doc.wallabag.org/de/Anwender/framabag.html">
+                                                   Framabag Account erstellen
+                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+                                                                                                        
                     </nav>
 
                 
                 <section class="col-lg-10">
-                    <h2 id="vorsicht">Vorsicht!</h2>
+                    <h1 id="versteckte-einstellungen">Versteckte Einstellungen</h1>
+<h2 id="vorsicht">Vorsicht!</h2>
 <p>Dieser Teil ist nur für fortgeschrittene Anwender.
 <strong>Solltest du beim Bearbeiten einer der Dateien etwas falsch machen, kann es sein, dass wallabag nicht mehr funktioniert.</strong>
 Es muss eine wichtige Datei von wallabag bearbeitet werden, <code>inc/poche/config.inc.php</code>, deshalb mache unbedingt eine Sicherungskopie dieser Datei, bevor du etwas änderst!</p>
@@ -47,7 +121,7 @@ Es muss eine wichtige Datei von wallabag bearbeitet werden, <code>inc/poche/conf
 <pre><code>@define ('PARAMETER_NAME', 'Parameter-Wert');</code></pre>
 <p>Es darf in jeder Zeile ausschließlich <code>Parameter-Wert</code> geändert werden.
 Ändere keine anderen in der Datei angegebenen Parameter!</p>
-<p>Änderbare Parameter: </p>
+<p>Änderbare Parameter:</p>
 <table>
 <thead>
 <tr>
