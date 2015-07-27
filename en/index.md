@@ -10,7 +10,7 @@ subTitle: English documentation
 
 ## Features
 
-* content of the web page is saved: text and pictures.
+* content of the web page is saved: text and pictures ([only if enabled](Administrator/Hidden_options.md)).
 * the web application is responsive
 * you can export articles into ePub
 * you can read your articles offline thanks to smartphones applications

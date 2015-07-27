@@ -10,7 +10,7 @@ subTitle: Documentation en français
 
 ## Fonctionnalités
 
-* tout le contenu est archivé : le texte et les photos
+* tout le contenu est archivé : le texte et les photos ([uniquemement si vous l'activez](Administrateur/Options_cachees.md))
 * l'application web est entièrement responsive
 * vous pouvez [convertir vos articles au format ePub](Utilisateur/Convertir_en_ePub.md) pour les charger sur votre liseuse
 * des applications smartphones vous permettent de [lire vos articles tout en étant déconnecté](Utilisateur/Lire_un_article.md)

@@ -33,7 +33,7 @@ From now on, when you want to save the article you are browsing, you just have t
 
 ### Above all else
 
-To use a smartphone application, you have to enable RSS feeds from the settings panel of wallabag. Then some information will be displayed, like your security tokken. Read the chapter on RSS feeds for more information.
+To use a smartphone application, you have to enable RSS feeds from the settings panel of wallabag. Then some information will be displayed, like your security token. Read the chapter on RSS feeds for more information.
 
 ### Android
 
@@ -98,7 +98,7 @@ Personalize the Firefox toolbar to add wallabag (**W** icon). When you find an a
 
 *Available from wallabag v1.9.1 only*
 
-With Firefox 29+ versions, your browser comes with an integrated interface to share things to multiple social services directly from your browser. In the Firefox interface, it is shown a paper plane-like icon that you will use to share a page, which means here, save an article. 
+With Firefox 29+ versions, your browser comes with an integrated interface to share things to multiple social services directly from your browser. In the Firefox interface, it is shown a paper plane-like icon that you will use to share a page, which means here, save an article.
 You can add the service by going into the Config page of wallabag, then click on Mozilla Services Social API Extension. You must also accept to use Firefox Services.
 
 ### Chrome
