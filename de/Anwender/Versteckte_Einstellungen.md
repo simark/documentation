@@ -1,5 +1,13 @@
+---
+language: Deutsch
+currentMenu: hidden
+subTitle: Versteckte Einstellungen
+---
+
+# Versteckte Einstellungen
+
 ## Vorsicht!
-Dieser Teil ist nur für fortgeschrittene Anwender. 
+Dieser Teil ist nur für fortgeschrittene Anwender.
 **Solltest du beim Bearbeiten einer der Dateien etwas falsch machen, kann es sein, dass wallabag nicht mehr funktioniert.**
 Es muss eine wichtige Datei von wallabag bearbeitet werden, `inc/poche/config.inc.php`, deshalb mache unbedingt eine Sicherungskopie dieser Datei, bevor du etwas änderst!
 
@@ -10,11 +18,11 @@ Die Datei wird während der Installation von wallabag erzeugt und mit Standardei
 Jeder der in `inc/poche/config.inc.php` definierten Parameter ist folgendermaßen angegeben:
 
     @define ('PARAMETER_NAME', 'Parameter-Wert');
-    
-Es darf in jeder Zeile ausschließlich `Parameter-Wert` geändert werden. 
+
+Es darf in jeder Zeile ausschließlich `Parameter-Wert` geändert werden.
 Ändere keine anderen in der Datei angegebenen Parameter!
 
-Änderbare Parameter: 
+Änderbare Parameter:
 
 |PARAMETER_NAME|Standardwert|Beschreibung|erwarteter Wert|
 |---|---|---|:---:|
