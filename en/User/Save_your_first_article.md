@@ -98,6 +98,8 @@ Personalize the Firefox toolbar to add wallabag (**W** icon). When you find an a
 
 *Available from wallabag v1.9.1 only*
 
+*You will need an https connection to use this. It's a Firefox [requirement](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Social_API/Manifest#Manifest_Contents), sorry*
+
 With Firefox 29+ versions, your browser comes with an integrated interface to share things to multiple social services directly from your browser. In the Firefox interface, it is shown a paper plane-like icon that you will use to share a page, which means here, save an article.
 You can add the service by going into the Config page of wallabag, then click on Mozilla Services Social API Extension. You must also accept to use Firefox Services.
 
