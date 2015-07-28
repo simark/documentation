@@ -78,7 +78,7 @@ If you're browsing a website and want to add the current article to your wallaba
 ###Windows Phone
 ####Installation and configuration
 
-You can download the Windows Phone application from the [Windows Store](http://www.windowsphone.com/fr-fr/store/app/wallabag/ff890514-348c-4d0b-9b43-153fff3f7450) or directly from your smartphone's Store.
+You can download the Windows Phone application from the [Windows Store](https://www.microsoft.com/fr-fr/store/apps/wallabag/9nblggh11646) or directly from your smartphone's Store.
 
 Once installed, the application will show you a notification on the first launch, asking the configuration of your wallabag server. Go to the **Settings** part of the application by pressing the three dots menu at the bottom of the screen, then fill in the **URL (complete address of your wallabag installation or your Framabag account)** and **User ID (in most cases, you'll have to put 1)** fields.
 
