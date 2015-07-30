@@ -1,4 +1,4 @@
-If you end up disconnected even while checking the *Stay signed in checkbox* :
+If you end up disconnected even while checking the *Stay signed in checkbox*, please run the following commands as root (or with sudo) :
 
 ```
 mkdir /var/lib/wallabag-sessions
