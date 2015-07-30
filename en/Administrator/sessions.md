@@ -10,7 +10,7 @@ chown www-data:www-data /var/lib/wallabag-sessions
 Then, using apache add: `php_admin_value session.save_path /var/lib/wallabag-sessions` to your apache vhost, for instance `wallabag-apache.conf`
 Finally, restart apache, for instance like this : ```/etc/init.d/apache2 restart``` 
 
-If you're using nginx, php_admin_value[session.save_path] = /var/lib/wallabag-sessions in your nginx configuration file.
+If you're using nginx, add `php_admin_value[session.save_path] = /var/lib/wallabag-sessions` in your nginx configuration file.
 Then, restart nginx : ```/etc/init.d/nginx restart```
 
 *NOTE : If you're using systemd, you should do `systemctl restart apache2` (or nginx).*
