@@ -1,3 +1,9 @@
+---
+language: Français
+currentMenu: sessions
+subTitle: Problème de sessions
+---
+
 Si vous vous retrouvez à être déconnecté même après avoir valider le *Stay signed in checkbox*,
 lancez les commandes suivantes comme administrateur (ou avec sudo) :
 
