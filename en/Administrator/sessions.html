@@ -43,7 +43,7 @@ chown www-data:www-data /var/lib/wallabag-sessions</code></pre>
 <p><em>NOTE : The www-data user and group may not exist, you may use <code>chown http:http /var/lib/wallabag-sessions</code> instead</em></p>
 <p>Then, using apache add: <code>php_admin_value session.save_path /var/lib/wallabag-sessions</code> to your apache vhost, for instance <code>wallabag-apache.conf</code>
 Finally, restart apache, for instance like this : <code>/etc/init.d/apache2 restart</code> </p>
-<p>If you're using nginx, php_admin_value[session.save_path] = /var/lib/wallabag-sessions in your nginx configuration file.
+<p>If you're using nginx, add <code>php_admin_value[session.save_path] = /var/lib/wallabag-sessions</code> in your nginx configuration file.
 Then, restart nginx : <code>/etc/init.d/nginx restart</code></p>
 <p><em>NOTE : If you're using systemd, you should do <code>systemctl restart apache2</code> (or nginx).</em></p>
                 </section>
