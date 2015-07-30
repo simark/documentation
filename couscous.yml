@@ -40,6 +40,9 @@ menu:
                         multiusers:
                             text: Multi users
                             relativeUrl: en/Administrator/multiusers.html
+                        sessions: 
+                            text: Sessions issues
+                            relativeUrl: en/Administrator/sessions.html
                 user:
                     name: User
                     subItems:
@@ -121,6 +124,9 @@ menu:
                         multiusers:
                             text: wallabag multi-utilisateurs
                             relativeUrl: fr/Administrateur/multi-utilisateurs.html
+                        sessions: 
+                            text: Problème de sessions
+                            relativeUrl: fr/Administrateur/sessions.html
                 user:
                     name: Utilisateur
                     subItems:
