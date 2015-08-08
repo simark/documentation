@@ -10,7 +10,7 @@ Wenn du wallabag nicht auf einem eigenen Server installieren kannst oder möchte
 
 ## Ich möchte wallabag installieren
 
-[Lade die neueste Version von wallabag herunter](http://www.wallabag.org/download) und entpacke sie. Kopiere die entpackten Dateien und Verzeichnisse auf deinen Webserver.
+[Lade die neueste Version von wallabag herunter](https://www.wallabag.org/pages/download-wallabag.html) und entpacke sie. Kopiere die entpackten Dateien und Verzeichnisse auf deinen Webserver.
 
 ## Voraussetzungen für den Webserver
 * [PHP 5.3.3 oder höher](http://php.net/manual/de/install.php)
