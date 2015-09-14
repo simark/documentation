@@ -19,6 +19,9 @@
                 {{ title|default('The title') }}
                 <small class="hidden-xs hidden-sm">
                     {{ subTitle|default('This is the default subtitle!') }}
+                    <a href="https://github.com/wallabag/documentation/blob/master/{{ currentFile }}">
+                        Edit this page on GitHub
+                    </a>
                 </small>
             </a>
             <a href="{{ baseUrl }}/en">EN</a> - <a href="{{ baseUrl }}/fr">FR</a> - <a href="{{ baseUrl }}/de">DE</a> - <a href="{{ baseUrl }}/ru">RU</a>
@@ -71,15 +74,6 @@
 
             </div>
         </main>
-        <footer>
-            <div class="container">
-                <p>
-                    <a href="https://github.com/wallabag/documentation/blob/master/{{ currentFile }}">
-                        Edit this page on GitHub
-                    </a>
-                </p>
-            </div>
-        </footer>
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
