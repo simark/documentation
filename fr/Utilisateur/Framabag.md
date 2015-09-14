@@ -2,7 +2,6 @@
 language: Français
 currentMenu: framabag
 subTitle: Se créer un compte sur Framabag
-currentFile: fr/Utilisateur/Framabag.md
 ---
 
 # Se créer un compte sur Framabag
