@@ -19,9 +19,6 @@
                 {{ title|default('The title') }}
                 <small class="hidden-xs hidden-sm">
                     {{ subTitle|default('This is the default subtitle!') }}
-                    <a href="https://github.com/wallabag/documentation/blob/master/{{ currentFile }}">
-                        Edit this page on GitHub
-                    </a>
                 </small>
             </a>
             <a href="{{ baseUrl }}/en">EN</a> - <a href="{{ baseUrl }}/fr">FR</a> - <a href="{{ baseUrl }}/de">DE</a> - <a href="{{ baseUrl }}/ru">RU</a>
@@ -69,6 +66,9 @@
                 {% endif %}
 
                 <section class="{{ menu ? 'col-lg-10' : 'col-sm-12' }}">
+                    <a href="https://github.com/wallabag/documentation/blob/master/{{ currentFile }}">
+                        Edit this page on GitHub
+                    </a>
                     {{ content|raw }}
                 </section>
 
