@@ -34,7 +34,7 @@ De ahora en adelante, cuando quieras guardar la página que estas leyendo, sólo
 
 ### Primero de todo
 
-Para usar la aplicación pará móvil, tienes primero que activar los feeds RSS desde la configuración de wallabag. Entonces cierta información será mostrada, cómo nuestro token de seguridad. Lee el capitulo sobre feeds RSS para más información.
+Para usar la aplicación para móvil, tienes primero que activar los feeds RSS desde la configuración de wallabag. Entonces cierta información será mostrada, cómo nuestro token de seguridad. Lee el capitulo sobre feeds RSS para más información.
 
 ### Android
 
@@ -42,11 +42,11 @@ Para usar la aplicación pará móvil, tienes primero que activar los feeds RSS 
 
 Puedes descargar la aplicación desde la [Google Play Store](https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche) y desde [F-droid](https://f-droid.org/app/fr.gaulupeau.apps.InThePoche). Es exactamente la misma aplicación en ambas tiendas.
 
-Una vez instalada, arranca la aplicación, ve a la **configuración** y introduce la  **URL (dirección completa de tu instalación de wallabag o tu cuenta en Framabag)** y **User ID (normalmetne, tendrás que poner 1)**. Sí has creado múltiples cuentas desde wallabag, tendrás que introducir el usuario que quieres conectar a la aplicación y tu **Token** de seguridad (introduce correctamente el token cómo se ve en la página de configuración de wallabag).
+Una vez instalada, arranca la aplicación, ve a la **configuración** y introduce la  **URL (dirección completa de tu instalación de wallabag o tu cuenta en Framabag)** y **User ID (normalmente, tendrás que poner 1)**. Sí has creado múltiples cuentas desde wallabag, tendrás que introducir el usuario que quieres conectar a la aplicación y tu **Token** de seguridad (introduce correctamente el token cómo se ve en la página de configuración de wallabag).
 
 #### Guardar un artículo
 
-Ahora que esta todo configurado, puedes compartir un artículo desde el menú de  **Compartir**: encontrarás un **¡embólselo!** que añadirá tu artículo a wallabag.
+Ahora que esta todo configurado, puedes guardar un artículo desde el menú de  **Compartir**: encontrarás un **¡embólselo!** que añadirá tu artículo a wallabag.
 
 #### Leer
 
@@ -60,60 +60,58 @@ Hasta ahora, la sincronización ocurre en una dirección (desde wallabag hacia l
 
 ### iOS
 
-#### Installation and configuration
+#### Instalación y configuración
 
-You can download the iOS application from the [AppStore](https://itunes.apple.com/app/id828331015).
+Puedes descargar la aplicación desde la [AppStore](https://itunes.apple.com/app/id828331015).
 
-Once installed, configure the app by filling following fields inside the settings: the **URL (complete address of your wallabag installation or your Framabag account)** and **User ID (in most cases, you'll have to put 1)** field. If you have created multiple accounts from wallabag, you will have to to fill the user account you want to connect to your application and your security **Token** (enter properly all the token's letters as seen in the settings part of wallabag).
+Una vez instalada, arranca la aplicación, ve a la **configuración** y introduce la  **URL (dirección completa de tu instalación de wallabag o tu cuenta en Framabag)** y **User ID (normalmente, tendrás que poner 1)**. Sí has creado múltiples cuentas desde wallabag, tendrás que introducir el usuario que quieres conectar a la aplicación y tu **Token** de seguridad (introduce correctamente el token cómo se ve en la página de configuración de wallabag).
 
-#### Usage
+#### Uso
 
-If the app is configured correctly, the app will automatically download the articles from your wallabag (use **pull-to-refresh** to trigger this update manually). Once an article is downloaded, it'll be available offline from your app.
+Si la aplicación esta correctamente configurada, descargará automáticamente los artículos desde tu wallabag (usa **pull-to-refresh** para actualizar manualmente). Una vez que un artículo es descargado, estará disponible para leer sin conexión.
 
-Unfortunately you can only locally mark an article as read (it will not synchronise to your online wallabag).
+Desafortunadamente sólo se pueden marcar los artículos cómo leídos y no se sincronizaran con la página web de wallabag.
 
-### Saving articles
+### Guardando artículos
 
-If you're browsing a website and want to add the current article to your wallabag, simply tap the **Share**-button and select **Bag it!** (if you don't find the wallabag icon, have a look in the **more**-menu). If everything is set up correctly, your article will be saved (you may have to login from time to time).
+Si estas visitando una web y quieres guardar un artículo, puedes hacerlo desde el menú de  **Compartir**: encontrarás un **¡embólselo!** (si no encuentras el logo de wallabag, tienes que buscar en el menú **more**). Si todo funciona correctamente, tu artículo será guardado (a lo mejor debes hacer login cada cierto tiempo).
 
-###Windows Phone
-####Installation and configuration
+### Windows Phone
+#### Instalación y configuración
 
-You can download the Windows Phone application from the [Windows Store](https://www.microsoft.com/en-us/store/apps/wallabag/9nblggh11646) or directly from your smartphone's Store.
+Puedes descargar la aplicación para Windows Phone desde la [Windows Store](https://www.microsoft.com/en-us/store/apps/wallabag/9nblggh11646) o directamente desde la tienda en tu smartphone.
 
-Once installed, the application will show you a notification on the first launch, asking the configuration of your wallabag server. Go to the **Settings** part of the application by pressing the three dots menu at the bottom of the screen, then fill in the **URL (complete address of your wallabag installation or your Framabag account)** and **User ID (in most cases, you'll have to put 1)** fields.
+Una vez instalado, la aplicación mostrará una notificación la primera vez que arranque, preguntadóte sobre la información de tu servidor de wallabag. Ves a la zona de **Configuración** de la aplicación pulsando menú de los tres puntos en la parte de abajo de la pantalla y introduce la **URL (dirección de tu instalación de wallabag o tu cuenta de Framabag)** y **User ID (normalmente tendrás que poner un 1)**. Sí has creado múltiples cuentas desde wallabag, tendrás que introducir el usuario que quieres conectar a la aplicación y tu **Token** de seguridad (introduce correctamente el token cómo se ve en la página de configuración de wallabag).
 
-If you have created multiple accounts from wallabag, you will have to to fill the user account you want to connect to your application and your security **Token** (enter properly all the token's letters as seen in the setting part of wallabag).
+## Desde tu navegador
 
-## From your web browser
+### Extensión para Firefox
 
-### Firefox Classic Add-on
+Descarga la extensión para Firefox desde [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/wallabag/) y instálala cómo cualquier otra extensión.
 
-Download the Firefox add-on at [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/wallabag/) and install it like any other Firefox add-on.
+En la página de configuración de la extensión introduce tus datos.
 
-In the add-on's settings, fill the complete URL of your installation of wallabag or your Framabag account.
+Personaliza la barra de herramientas de Firefox y añade el icono de wallabag (**W**). Cuando encuentres un artículo que quieras guardar, pulsa este icono: una nueva ventana se abrirá para añadir el artículo y se cerrará automáticamente.
 
-Personalize the Firefox toolbar to add wallabag (**W** icon). When you find an article you want to save, click on this icon: a new window will open to add the article and will close itself automatically.
+### API Social de Firefox
 
-### Firefox Social API Service
+*Unícamente posible en wallabag v1.9.1*
 
-*Available from wallabag v1.9.1 only*
+*Necesitarás una conexión segura (https) para usarla. Es un [requisito](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Social_API/Manifest#Manifest_Contents) de Firefox, lo sentimos*
 
-*You will need an https connection to use this. It's a Firefox [requirement](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Social_API/Manifest#Manifest_Contents), sorry*
-
-With Firefox 29+ versions, your browser comes with an integrated interface to share things to multiple social services directly from your browser. In the Firefox interface, it is shown a paper plane-like icon that you will use to share a page, which means here, save an article.
-You can add the service by going into the Config page of wallabag, then click on Mozilla Services Social API Extension. You must also accept to use Firefox Services.
+Desde la versión 29 Firefox viene con una interfaz integrada para compartir links con diferentes redes sociales desde el navegador. En la interfaz de Firefox se muestra con el icono de un avión de papel que puedes usar para guardar una página en wallabag.
+Pueedes añadir el servicio yendo a la configuración de walllabag, y pulsando  Mozilla Services Social API Extension. Debes aceptar el uso de Firefox Services.
 
 ### Chrome
 
-Download the Chrome add-on [on the dedicated website](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) and install it like any other Chrome add-on.
+Descarga [la extensión para Chrome](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) y instalala cómo cualquier otra extensión.
 
-In the add-on's settings, fill the complete URL of your installation of wallabag or your Framabag account.
+En la página de configuración de la extensión introduce tus datos.
 
-During the addon's installation, a new icon appear in Chrome toolbar (a **W** icon). When you find an article you want to save, click on this icon: a popup will appear to confirm that your article has been saved.
+Al instalar la extensión, un nuevo icono aparece en la barra de herramientas de Chrome (una **W**). Cuando encuentres un artículo que quieras guardar, pulsa este icono: un pop-up aparecera para decirte que el artículo se ha guardado correctamente.
 
 ### Opera
 
-The recent versions of Opera (15+) allow to install add-ons compatible with Chrome.
+Opera en sus últimas versiones (a partir de la n. 15) permite instalar extensiones de Chrome.
 
-First, install the add-on named [Download Chrome Extensions](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) which will allow you to install add-ons from the Chrome Web Store. Then, go [to to Google site](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) and get the Chrome add-on by clicking on *Add to Opera*. A message will invite you to confirm this action because this add-on is not coming from a certified source. The behavior will be the same as for Chrome (see above).
+Primero, instala la extensión llamada [Download Chrome Extensions](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) que te permitirá instalar extensiones de la Chrome Web Store. Luego, ve [a la página](https://chrome.google.com/webstore/detail/wallabag/bepdcjnnkglfjehplaogpoonpffbdcdj) y instala la extensión para Chrome pulsando en *Añadir a Opera*. Un mensaje te pedirá que confirmes la acción porque esta extensión no viene de una fuente certificada. Su uso es el mismo que la versión para Chrome.
