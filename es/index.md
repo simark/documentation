@@ -1,5 +1,5 @@
 ---
-language: Spanish
+language: Español
 currentMenu: getting_started
 subTitle: Documentación en español
 ---
