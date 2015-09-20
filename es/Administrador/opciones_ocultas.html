@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>wallabag - Opciones ocultas</title>
+
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/highlight.tomorrow-night.css">
+        <link rel="stylesheet" href="http://doc.wallabag.org/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://doc.wallabag.org/">
+                wallabag
+                <small class="hidden-xs hidden-sm">
+                    Opciones ocultas
+                </small>
+            </a>
+            <a href="http://doc.wallabag.org/en">EN</a> - <a href="http://doc.wallabag.org/fr">FR</a> - <a href="http://doc.wallabag.org/de">DE</a> - <a href="http://doc.wallabag.org/ru">RU</a>
+
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                                                                                                                                                                                                                                        
+                    </nav>
+
+                
+                <section class="col-lg-10">
+                    <a href="https://github.com/wallabag/documentation/blob/master/es/Administrador/Opciones_ocultas.md">
+                        Edit this page on GitHub
+                    </a>
+                    <h1 id="opciones-ocultas">Opciones ocultas</h1>
+<h2 id="peligro">Peligro</h2>
+<p><strong>Ten cuidado</strong>, esta sección esta destinada a usuarios avanzados. El archivo de configuración a modificar, <code>inc/poche/config.inc.php</code>, es muy importante. Es recomendable hacer una copia de seguridad del archivo antes de modificarlo.
+<strong>Cualquier error en la modificación de este archivo puede dar lugar a fallos de funcionamiento</strong>.</p>
+<p>Este archivo es creado durante la instalación de wallabag.
+Instala wallabag, haz una copia de seguridad del archivo y luego ya puedes modificarlo con tu editor de texto favorito.</p>
+<p>En este archivo hay algunas opciones que por ahora no están disponibles en la página <strong>configuración</strong> de wallabag.</p>
+<h2 id="modificacin-de-opciones-avanzadas">Modificación de opciones avanzadas</h2>
+<p>Cada opción esta definida de este modo:</p>
+<pre><code>@define ('OPTION_NAME', 'Valor');</code></pre>
+<p>Para cada linea, puedes modificar el campo <code>Valor</code>.</p>
+<p>Aquí esta la lista de cada opción que puedes cambiar:</p>
+<ul>
+<li><code>HTTP_PORT</code> (por defecto: <code>80</code>) : El puerto HTTP de tu servidor web. Puedes ser que lo tengas que cambiar si tu servidor esta tras un proxy. Valores posibles: Número del puerto.</li>
+<li><code>SSL_PORT</code> (por defecto: <code>443</code>) : El puerto HTTPS de tu servidor web.  Puedes ser que lo tengas que cambiar si tu servidor esta tras un proxy. Valores posibles: Número del puerto.</li>
+<li><code>MODE_DEMO</code> (por defecto : <code>FALSE)</code>: Si quieres montar un servidor de demostración... Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>DEBUG_POCHE</code> (por defecto: <code>FALSE</code>) : Si encuentras algún problema con wallabag, puede ser que te pidamos que actives el modo de debug. Valores posibles: <code>TRUE</code> o <code>FALSE</code>. Checa los logs en cache/log.txt después de activarlo.</li>
+<li><code>ERROR_REPORTING</code> (por defecto : <code>E_ALL &amp; ~E_NOTICE</code>) : Ponlo como <code>E_ALL</code> para buscar errores de PHP.</li>
+<li><code>DOWNLOAD_PICTURES</code> (por defecto: <code>FALSE</code>) : Permitir a wallabag descargar las imágenes de los artículos que guardas en tu servidor, en lugar de descargar sólo el texto. Preferimos que decidas tú si quieres activar esta característica. Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>REGENERATE_PICTURES_QUALITY</code> (por defecto : <code>75</code>) : Para evitar fallos de seguridad, las imágenes son regeneradas si activas su descarga. Esta opción controla el porcentaje de calidad con el que son guardadas. Aumenta  el número si quieres más calidad y disminúyelo si quieres mayor velocidad de regeneración.</li>
+<li><code>SHARE_TWITTER</code> (por defecto: <code>TRUE</code>) : Permitir compartir por Twitter. Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>SHARE_MAIL</code> (por defecto: <code>TRUE</code>) : Permitir compartir por email. Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>SHARE_EVERNOTE</code>(por defecto : <code>FALSE</code>) : Permitir compartir con tu cuenta de Evernote. Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>SHARE_DIASPORA</code> (por defecto : <code>FALSE</code>) : Permitir compartir por Diaspora.</li>
+<li><code>DIASPORA_URL</code> (por defecto : <code>http://diasporapod.com</code>) : La URL de tu Diaspora* pod</li>
+<li><code>CARROT</code> (por defecto : <code>FALSE</code>) : Como Flattr, es un servicio para dar pequeñas cantidades de dinero a una página web. Aprende más en <a href="http://carrot.org/">http://carrot.org/</a></li>
+<li><code>SHARE_SHAARLI</code> (por defecto: <code>FALSE</code>) : Permitir compartir mediante tu instalación de Shaarli (Shaarli es administrador de marcadores que es software libre). Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>SHAARLI_URL</code> (por defecto: <code>'http://myshaarliurl.com'</code>) : Define la URL de tu instalación de Shaarli. Valores posibles: una URL.</li>
+<li><code>FLATTR</code> (por defecto: <code>TRUE</code>) : Permitir Flatear un articulo (<a href="http://en.wikipedia.org/wiki/Flattr">Flattr es una plataforma de microdonaciones</a>). Si un articulo se puede Flattear, un icono se mostrará, permitiéndote hacer una microdonación al autor. Valores posibles: <code>TRUE</code> o <code>FALSE</code>.</li>
+<li><code>SHOW_PRINTLINK</code> (por defecto: <code>'1'</code>) : Permitir imprimir los artículos. Valores posibles: <code>'1'</code> para activar o <code>'0'</code> para desactivar.</li>
+<li><code>SHOW_READPERCENT</code> (por defecto: <code>'1'</code>) : Muestra el porcentaje de progreso del articulo que estas leyendo (funcionando en los temas <code>default</code>, <code>dark</code>, <code>dmagenta</code>, <code>solarized</code>, <code>solarized-dark</code>). Valores posibles: <code>'1'</code> para activar o <code>'0'</code> para desactivar.</li>
+<li><code>PAGINATION</code> (por defecto: <code>'12'</code>) : Define el número de articulos que se muestran en una lista. Valores posibles: número.</li>
+</ul>
+                </section>
+
+            </div>
+        </main>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
