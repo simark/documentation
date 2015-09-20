@@ -4,7 +4,7 @@ currentMenu: help_us
 subTitle: Ayuda al proyecto
 ---
 
-# Ayuda al proyectto
+# Ayuda al proyecto
 ## Reporta fallos
 ### Contacta con el soporte de wallabag
 
@@ -21,7 +21,7 @@ Sí encuentras un error durante el uso de wallabag, nos ayudaría sí lo reporta
 **Primero**, lee por favor [consejos para reportar un error nuevo](https://github.com/wallabag/wallabag/blob/master/CONTRIBUTING.md). Si el reporte es de buena calidad, nos será más fácil solucionarlo.
 
 * Si el error es en la web, [abre un nuevo reporte aquí](https://github.com/wallabag/wallabag/issues/new)
-* Si es en la aplicación para Android application, [abre un nuevo reporte aquí](https://github.com/wallabag/android-app/issues/new)
+* Si es en la aplicación para Android, [abre un nuevo reporte aquí](https://github.com/wallabag/android-app/issues/new)
 * Si es en la aplicación para Windows Phone, [abre un nuevo reporte aquí](https://github.com/wallabag/windowsphone-app)
 * Si es en la aplicación para iOS, [abre un nuevo reporte aquí](https://github.com/wallabag/ios-app/issues/new)
 * Si es en la extensión para Firefox, [abre un nuevo reporte aquí](https://github.com/wallabag/firefox-ext/issues/new)
@@ -29,7 +29,7 @@ Sí encuentras un error durante el uso de wallabag, nos ayudaría sí lo reporta
 
 ## Escribe y corrige la documentación
 
-La documentación que estás leyendo puede necesitar ampliación, estar desfasada, o requerir una traducción a tú idioma. Te invitamos a que colabores en su escritura.
+La documentación que estás leyendo puede necesitar ampliación, estar desfasada, o requerir una traducción a tu idioma. Te invitamos a que colabores en su escritura.
 
 El repositorio en Github está aquí: [https://github.com/wallabag/documentation](https://github.com/wallabag/documentation).
 
@@ -45,7 +45,7 @@ Puedes sugerir cambios al código de wallabag. Mira las [recomendaciones para co
 
 ## Danos a conocer
 
-No es complicado: sólo habla sobre wallabag! Usa el hastag #wallabag en todas las redes sociales: twitter, Facebook, Diaspora*, Google+, etc.
+No es complicado: sólo habla sobre wallabag! Usa el hashtag #wallabag en todas las redes sociales: twitter, Facebook, Diaspora*, Google+, etc.
 
 Estas son nuestras cuentas en las redes sociales:
 
