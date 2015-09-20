@@ -244,3 +244,30 @@ menu:
                         configure:
                             text: Настроите wallabag
                             relativeUrl: ru/пользователя/06_Настройте_wallabag.html
+        es:
+            name: Enpañol
+            items:
+                general:
+                    name: ~
+                    subItems:
+                        getting_started:
+                            text: Para comenzar
+                            relativeUrl: es/index.html
+                        help_us:
+                            text: Ayuda al proyecto
+                            relativeUrl: es/Ayuda_al_proyecto.html
+                admin:
+                    name: Administrador
+                    subItems:
+                        hidden:
+                            text: Opciones ocultas
+                            relativeUrl: es/Administrador/Opciones_ocultas.html
+                user:
+                    name: Usuario
+                    subItems:
+                        save_article:
+                            text: Guarda tu primer artículo
+                            relativeUrl: es/Usuario/guarda_tu_primer_articulo.html
+                        read_article:
+                            text: Lee un artículo
+                            relativeUrl: es/Usuario/Lee_un_articulo.html
