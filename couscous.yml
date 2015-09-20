@@ -245,7 +245,7 @@ menu:
                             text: Настроите wallabag
                             relativeUrl: ru/пользователя/06_Настройте_wallabag.html
         es:
-            name: Enpañol
+            name: Español
             items:
                 general:
                     name: ~
