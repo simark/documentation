@@ -255,13 +255,13 @@ menu:
                             relativeUrl: es/index.html
                         help_us:
                             text: Ayuda al proyecto
-                            relativeUrl: es/Ayuda_al_proyecto.html
+                            relativeUrl: es/ayuda_al_proyecto.html
                 admin:
                     name: Administrador
                     subItems:
                         hidden:
                             text: Opciones ocultas
-                            relativeUrl: es/Administrador/Opciones_ocultas.html
+                            relativeUrl: es/Administrador/opciones_ocultas.html
                 user:
                     name: Usuario
                     subItems:
@@ -270,4 +270,4 @@ menu:
                             relativeUrl: es/Usuario/guarda_tu_primer_articulo.html
                         read_article:
                             text: Lee un artículo
-                            relativeUrl: es/Usuario/Lee_un_articulo.html
+                            relativeUrl: es/Usuario/lee_un_articulo.html
