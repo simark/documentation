@@ -1,6 +1,5 @@
 site_name: wallabag documentation
 theme: readthedocs
-docs_dir: sources
 repo_url: http://github.com/wallabag/documentation
 site_url: http://doc.wallabag.org/
 
