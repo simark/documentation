@@ -295,7 +295,7 @@ html_theme_options = {
 
     # Specify a base_url used to generate sitemap.xml links. If not
     # specified, then no sitemap will be built.
-    "base_url": "http://guzzlephp.org"
+    #"base_url": "http://guzzlephp.org"
 
     # Allow the "Table of Contents" page to be defined separately from "master_doc"
     # tocpage = Contents
