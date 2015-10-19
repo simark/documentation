@@ -51,11 +51,4 @@ The main documentation for the site is organized into a couple sections:
    Developer/create_new_theme
    Developer/git_repo
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 .. |wallabag| image:: ../img/wallabag.png
