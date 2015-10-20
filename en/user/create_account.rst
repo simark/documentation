@@ -32,7 +32,7 @@ Make sure that all fields are well filled:
 * valid email address
 * same passwords in two fields
 
-I don't receive activation email
+I don't receive my activation email
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Are you sure your email address was correct? Did you check your spams folder?

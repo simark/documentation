@@ -23,17 +23,16 @@ The main documentation for the site is organized into a couple sections:
    user/create_account
    user/login
    user/configuration
-   user/first_article
-   user/organize
-   user/filters
 
-
-   User/read_an_article
-   User/search
-   User/epub_conversion
-   User/issue_with_article
-   User/rss_feed
-   User/import_export
+user/first_article
+user/organize
+user/filters
+User/read_an_article
+User/search
+User/epub_conversion
+User/issue_with_article
+User/rss_feed
+User/import_export
 
 .. _admin-docs:
 
