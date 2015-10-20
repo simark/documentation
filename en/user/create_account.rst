@@ -3,13 +3,13 @@ Create an account
 
 On the login page, click on ``Register`` button.
 
-.. image:: ../img/user/registration_form.png
+.. image:: ../../img/user/registration_form.png
    :alt: Registration form
    :align: center
 
 You have to fill the form. Please sure to type a valid email address, we'll send you an activation email.
 
-.. image:: ../img/user/sent_email.png
+.. image:: ../../img/user/sent_email.png
    :alt: Email was sent to activate account
    :align: center
 
@@ -17,7 +17,7 @@ Check your inbox, you now have a new mail with a link like this ``http://wallaba
 
 Your account is now activated.
 
-.. image:: ../img/user/activated_account.png
+.. image:: ../../img/user/activated_account.png
    :alt: Welcome on board!
    :align: center
 
