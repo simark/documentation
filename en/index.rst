@@ -20,16 +20,20 @@ The main documentation for the site is organized into a couple sections:
    :maxdepth: 2
    :caption: User Documentation
 
-   User/save_your_first_article
+   user/create_account
+   user/login
+   user/configuration
+   user/first_article
+   user/organize
+   user/filters
+
+
    User/read_an_article
-   User/organize_articles
-   User/configure_wallabag
    User/search
    User/epub_conversion
    User/issue_with_article
    User/rss_feed
    User/import_export
-   User/framabag_account_creation
 
 .. _admin-docs:
 
