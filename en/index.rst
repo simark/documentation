@@ -1,6 +1,15 @@
 wallabag documentation
 ======================
 
+.. sidebar:: You will learn to:
+
+    - create custom content-types Through-The-Web
+    - create and apply custom workflows
+    - create custom listings
+    - dump your changes into a filesytem package to future-proof them
+    - write tests for your filesystem package
+
+
 .. image:: ../img/wallabag.png
    :alt: wallabag logo
    :align: center
