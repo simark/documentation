@@ -23,8 +23,8 @@ The main documentation for the site is organized into a couple sections:
    user/create_account
    user/login
    user/configuration
+   user/first_article
 
-user/first_article
 user/organize
 user/filters
 User/read_an_article

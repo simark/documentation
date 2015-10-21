@@ -11,7 +11,7 @@ Settings
 Theme
 ~~~~~
 
-wallabag is customizable. You can choose your prefered theme here. You can also create a new one, a chapter is dedicated for this.
+wallabag is customizable. You can choose your prefered theme here. You can also create a new one, a chapter is dedicated for this. The default theme is ``Material``, it's the theme used in the documentation screenshots. 
 
 Items per page
 ~~~~~~~~~~~~~~
@@ -58,4 +58,4 @@ If you don't want to receive a code each time you want to login, you can check t
 Password
 --------
 
-You can change your password here. 
+You can change your password here.
