@@ -21,8 +21,7 @@ Ces deux actions ne peuvent pas être effectuées simultanément, car nous vous 
 ### Depuis Pocket
 #### Exporter ses données depuis Pocket
 
-Depuis votre compte Pocket, rendez-vous dans vos options.
-TODO
+Depuis votre compte Pocket, rendez-vous dans vos options. Depuis là, allez sur la page d'export et cliquez sur le lien *Export HTML file*.
 
 #### Importer ses données Pocket
 
@@ -31,27 +30,23 @@ wallabag ne fait qu'insérer les liens dans sa base de données. Il faut mainten
 
 Pour cela, cliquez sur `Click to finish import` : wallabag récupèrera alors le contenu de 10 articles à la fois.
 
-TODO
-
-TODO nouveau ticket : pourquoi quand on clique une fois, ça ne charge pas en boucle ? Il me semblait que ça faisait ça ping @mariroz
-
 ### Depuis Instapaper
 #### Exporter ses données depuis Instapaper
 
-TODO
+Depuis votre compte Instapaper, allez sur la page Settings. Descendez jusqu'à la section Export et exportez en tant qu'HTML. 
 
 #### Importer ses données Instapaper
 
-TODO
+Sur la page de configuration de wallabag, dans la section **Import**, sélectionnez le fichier `instapaper-export.html` généré par Instapaper, puis cliquez sur **Import**.
 
 ### Depuis Readability
 #### Exporter ses données depuis Readability
 
-TODO
+Depuis votre compte Readability, rendez-vous sur la page Tools. Cliquez sur le bouton Export Your Data. Vous recevrez rapidement un courriel à l'adresse électronique liée à votre compte Readability. Ce courriel contient un lien sur lequel vous pouvez télécharger le fichier d'export.
 
 #### Importer ses données Readability
 
-TODO
+Sur la page de configuration de wallabag, dans la section **Import**, sélectionnez le fichier généré par Readability plus tôt, puis cliquez sur **Import**.
 
 ### Depuis wallabag
 
@@ -62,9 +57,12 @@ Dans le formulaire d'import, sélectionnez votre fichier d'export wallabag (au f
 Contrairement aux imports ci-dessus, le traitement est moins long car toutes les données (titre et contenu des articles) sont déjà présentes dans le fichier, il n'est pas nécessaire pour wallabag d'accéder à chacune des URL.  
 Par contre, le fichier d'import est forcément plus conséquent.
 
+### Depuis vos favoris de navigateur web
+wallabag peut importer des données de votre gestionnaire de favoris de votre navigateur, exportées en tant que HTML (Netscape Bookmark File Format).
+
 ### Depuis un fichier HTML ou JSON
 
-TODO
+Si vous avez des entrées au format HTML ou JSON, wallabag devrait être capable de les importer.
 
 ## Exporter
 Il est possible d'exporter ses données depuis la page **Configuration** de wallabag. Plusieurs raisons possibles :
