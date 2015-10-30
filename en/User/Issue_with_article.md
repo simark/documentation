@@ -30,4 +30,4 @@ Do not forget to send us the information listed above.
 
 ## Solve this display problem
 
-TODO
+To solve display problems, you can [write config files](http://doc.wallabag.org/en/Developer/write_config_files.html)

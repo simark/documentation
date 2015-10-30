@@ -15,8 +15,8 @@ To manage the different versions of wallabag, we use Git.
 There are multiple branches for the source code of wallabag web app:
 
 * `master` branch : this is the stable branch, downloaded by those who wish to install wallabag for their own use.
-* `dev` branch : before being added on `master` branch, all bug fixes and new features must go on that branch. This branch is not recommended for production use.
-* `v2-symfony` branch : this is the branch for a revamp of wallabag. A whole chapter is to be focused on it.
+* `dev` branch : before being added on `master` branch, all bug fixes and new features must go on that branch (i.e : This is where you must send your PRs). This branch is not recommended for production use.
+* `v2` branch : this is the branch for a revamp of wallabag. As of mid-2015, all work is now done here.
 
 ## Workflow
 

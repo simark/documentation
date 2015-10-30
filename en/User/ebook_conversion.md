@@ -1,18 +1,26 @@
 ---
 language: English
-currentMenu: epub
-subTitle: ePub conversion
+currentMenu: ebook
+subTitle: Ebook conversion
 ---
 
-# ePub conversion
+# Ebook conversion
 
-To enable you to read your articles on a e-reader, wallabag can convert them to the ePub format, and hence create an eBook for your long winter evenings.
+To enable you to read your articles on a e-reader, wallabag can convert them to multiple formats, and hence create an eBook for your long winter evenings.
+
+The formats currently supported are :
+
+* epub 3.0
+* mobi
+* pdf
+
+  
 
 ## A word of caution
 
-Be careful, the creation of ePub files can be very resource demanding for the server on which wallabag is installed.
+Be careful, the creation of ebook files can be very resource demanding for the server on which wallabag is installed.
 It depends on the number of articles and on their length.
-Do not create a really big eBook if this is not necessary.
+Do not create a really big ebook if this is not necessary.
 
 ## Where to convert the articles
 
@@ -23,4 +31,4 @@ You can convert your articles at various places in wallabag:
 * from a search: the link is at the bottom of the page
 * from the configuration page: you can convert all your articles, whatever the category to which they belong
 
-TODO talk about calibre
+
