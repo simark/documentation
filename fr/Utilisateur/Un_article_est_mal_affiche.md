@@ -29,4 +29,4 @@ N'oubliez pas de nous envoyer les informations ci-dessus.
 
 ## Résoudre ce problème d'affichage
 
-TODO
+Si un article s'affiche mal, vous pouvez [écrire des fichiers de configuration](http://doc.wallabag.org/fr/Developpeur/ecrire_fichier_configuration.html).
