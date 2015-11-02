@@ -6,11 +6,9 @@ subTitle: Créer un nouveau thème
 
 # Créer un nouveau thème
 
-Themes are created using the [Twig](http://twig.sensiolabs.org/) template engine. Files are located in two different places depending on whether you're using v1 or v2 :
+Les thèmes sont créés en utilisant le moteur de templates [Twig](http://twig.sensiolabs.org/). Les fichiers se trouvent dass des répertoires différents selon que vous utilisiez la version 1 ou la version 2 :
 
-* With v1, you can find them in the `themes/` folder.
-* Starting from v2, you'll need to go to the `src/Wallabag/CoreBundle/Resources/views/themes/` folder to find the template files. There are grouped by category.
+* Dans la version 1, vous les trouverez dans le répertoire `themes/`.
+* A partir de la version 2, ils sont dans `src/Wallabag/CoreBundle/Resources/views/themes/`. Ils y sont groupés par catégorie. Les composants de base (imgs, js, css, fonts) sont dans le sous-répertoire `public/`.
 
-Assets (imgs, js, css, fonts) can be found in the `public/` sub-folder.
-
-All template files extend an unique file named `layout.html.twig`.
+Tous les fichiers de templates prolongent un fichier unique nommé `layout.html.twig`.
