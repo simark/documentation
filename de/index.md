@@ -4,7 +4,7 @@ currentMenu: getting_started
 subTitle: Dokumentation (deutsch)
 ---
 
-# Deutsch dokumentation
+# Dokumentation in Deutsch
 
 **wallabag** ist eine Read-it-later-Anwendung: sie speichert Webseiten, indem sie lediglich die Inhalte behält. Elemente wie Navigations-Links und Werbung werden entfernt.
 
