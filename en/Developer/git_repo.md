@@ -20,4 +20,4 @@ There are multiple branches for the source code of wallabag web app:
 
 ## Workflow
 
-All the rules for contributing to the git repository are in the [CONTRIBUTING.md file of wallabag](https://github.com/wallabag/wallabag/blob/master/CONTRIBUTING.md). Please read carefully this file before you make any change.
+All the rules for contributing to the git repository are in the CONTRIBUTING.md file of wallabag. Please read carefully this file before you make any change.
