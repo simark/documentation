@@ -42,7 +42,7 @@ All is downloaded into the current folder.
 
 Wallabag requires that several components to be installed on your web server.
 To make sure your server has all the prerequisites, open in your browser the page
-`http://monserveur.com/wallabag/install/index.php`.
+`http://monserveur.com/wallabag/index.php`.
 
 The components are:   
  
@@ -69,7 +69,7 @@ Note : if you're using IIS as a webserver, you have to disable *Anonymous Authen
 
 #### Twig installation
 wallabag is build with Twig, a template library. You have to download it for wallabag to work. 
-If you cannot install `composer` (for example in the case of shared hosting), we offer you to download a file which includes `Twig`. This file can be downloaed from the page `http://myservur.com/wallabag/install/index.php` (section TWIG INSTALLATION) or directly at [http://wllbg.org/vendor](http://wllbg.org/vendor). Uncompress it in your wallabag directory.
+If you cannot install `composer` (for example in the case of shared hosting), we offer you to download a file which includes `Twig`. This file can be downloaed from the page `http://monserveur.com/wallabag/index.php` (section TWIG INSTALLATION) or directly at [http://wllbg.org/vendor](http://wllbg.org/vendor). Uncompress it in your wallabag directory.
 
 Otherwise, you can use Composer to install `Twig` by launching `composer` from your wallabag directory (in the case of Ubuntu/Debian too: <code>/var/www/html/wallabag/</code>) by following the commands written on screen:
 
@@ -101,7 +101,7 @@ Your web server needs a writing access to the `assets`, `cache` and `db` directo
 
 ### Installation of wallabag. At last.
 
-Access to wallabag from your web browser: `http://votreserveur.com/wallabag`. If your server is correctly configured, you directly reach the setup screen. 
+Access to wallabag from your web browser: `http://monserveur.com/wallabag`. If your server is correctly configured, you directly reach the setup screen. 
 
 Select the type of database (`sqlite`, `mysql` or `postgresql`) and fill the information about your database. 
 In the case of the databse MySQL created before, the standard configuration will be:
